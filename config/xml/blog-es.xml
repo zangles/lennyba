@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ES - Blog Ecommerce de PrestaShop</title>
+	<atom:link href="http://www.prestashop.com/blog/es/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.prestashop.com/blog/es</link>
+	<description></description>
+	<lastBuildDate>Mon, 19 Oct 2015 15:38:23 +0000</lastBuildDate>
+	<language>es-ES</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Glennys Castro: una artista poco tradicional</title>
+		<link>https://www.prestashop.com/blog/es/glennys-castro-una-artista-poco-tradicional/</link>
+		<comments>https://www.prestashop.com/blog/es/glennys-castro-una-artista-poco-tradicional/#comments</comments>
+		<pubDate>Mon, 19 Oct 2015 15:38:23 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Sucess Story]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13339</guid>
+		<description><![CDATA[<p>Los aspirantes a artista saben que el primer síntoma del triunfo es que una galería de arte se fije en tu trabajo. Es el equivalente al momento en el que un estudiante de medicina se pone la bata blanca o un abogado es reconocido oficialmente. El camino hasta este punto consiste fundamentalmente en crear un [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/glennys-castro-una-artista-poco-tradicional/">Glennys Castro: una artista poco tradicional</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Los aspirantes a artista saben que el primer síntoma del triunfo es que una galería de arte se fije en tu trabajo. Es el equivalente al momento en el que un estudiante de medicina se pone la bata blanca o un abogado es reconocido oficialmente. El camino hasta este punto consiste fundamentalmente en crear un diseño único y preguntarse si la carrera profesional que elegimos es sostenible. No obstante, firmar un contrato con una galería no es la única manera de triunfar. En la historia de éxito de hoy, mostramos cómo Glennys, una vendedora de PrestaShop se fraguó una carrera de éxito como artista convertida en emprendedora.<br />
+<span id="more-13339"></span></p>
+<p>Glennys lleva desarrollando su estilo y cultivando una perspectiva única sobre la creación artística desde que empezó a pintar, en los años noventa. Inspirada por su entorno, Glennys crea obras que evocan gratos recuerdos de sus vacaciones e interpretaciones abstractas de la belleza que percibe en la naturaleza. Presentó un porfolio de su obra, pero fue el blanco de las críticas por su estilo único y ecléctico.</p>
+<p>Encaró una difícil batalla que acabó siendo una bendición. Las galerías piden una comisión del 50 % sobre todas las ventas, lo que habría obligado a Glennys a inflar el precio de sus obras para poder vivir del arte. Glennys pronto se dio cuenta que vender a través de la galería no era la opción más conveniente para todo el mundo, especialmente para ella. </p>
+<p><img src="https://www.prestashop.com/blog/es/files/2015/10/GlennysGallery3.png" alt="GlennysGallery3" width="767" height="519" class="aligncenter size-full wp-image-20784" /></p>
+<p><strong><a href="http://glennyscastro.gallery/index.php?id_product=161&amp;controller=product&amp;id_lang=1" target="_blank" style="font-style:italic">Surf and Turf</a> aprox. 100 X 150 cm; Técnica mixta sobre lienzo 2160 dólares</strong></p>
+<h2 style="color:#3f4d67">Sus primeros pasos como emprendedora</h2>
+<p>Sin una galería que exhibiera sus obras, Glennys debía encargarse sola de la promoción. Buscó contactos en los colegios de sus hijos, en las clases de deporte, e incluso en restaurantes. Al tomar la iniciativa en su entorno social, Glennys fue capaz de hacerse un nombre en su isla natal, Puerto Rico. Gracias a sus contactos, tuvo la oportunidad de diseñar camisetas y joyería, además de colaborar en proyectos de moda. Glennys se dio cuenta de que era una emprendedora nata. Fue esta toma de conciencia la que la llevó a exhibir sus obras: después de todo, ya asumía sola toda la promoción. No obstante, pronto se dio cuenta de que le resultaría demasiado caro mantener una galería de arte tradicional, pero ¿y una galería digital? </p>
+<p><img src="https://www.prestashop.com/blog/es/files/2015/10/GlennysGallery2.png" alt="GlennysGallery2" width="800" height="250" class="aligncenter size-full wp-image-20783" /></p>
+<h2 style="color:#3f4d67">Lanzamiento de la tienda <em>online</em></h2>
+<p>Glennys pidió ayuda a un amigo que ya tenía una tienda online en la plataforma PrestaShop. “Su falta de conocimientos técnicos me convenció de que yo también sería capaz de usar la plataforma—bromea Glennys—. Una vez que me decanté por la plataforma, trabajé con un autónomo local, Rey Castillo, para diseñar la página web. Me ayudó durante todo el proceso de creación de la web y se aseguró de responder a todas mis preguntas, por básicas que fueran. Me recomendó especialmente los módulos: Google Analytics, PayPal USA y el panel de visitas y visitantes. Una vez que la tienda básica estaba lista, fue fácil ir añadiendo productos y mejorar el SEO rellenando la metainformación”. </p>
+<h2 style="color:#3f4d67">La primera venta</h2>
+<p>Una vez que la galería digital estaba funcionando, Glennys promocionó la “exposición” a través de todos sus canales físicos. Posteriormente, inició una campaña de promoción online con la creación de una página en Facebook y, posteriormente, un blog. Su blog le permitió expresar con palabras su viaje personal y la historia de su obra. Sus sinceras entradas aumentaron su público <em>online</em>, tanto a nivel local como internacional. Más miembros de la comunidad empezaron a conocer a Glennys y su obra. La gente empezó a pasar por su estudio para elegir las obras y los lienzos de Glennys por fin encontraron un hogar. Hizo su primera venta <em>online</em> tan sólo tres meses después del lanzamiento de su web. Nos comenta: “Fue increíble sentir que la galería online por fin funcionaba no sólo como tienda online, sino también como galería para compradores locales”.</p>
+<h2 style="color:#3f4d67">Planes de futuro</h2>
+<p>Aunque parece que las cosas han empezado a encajar, Glennys no pierde el ritmo. Regularmente añade otras obras al inventario y crea nuevas colecciones para mantenerlo todo actualizado. Asimismo, publica regularmente en su <em>blog</em> y en las redes sociales para mantener el interés de sus clientes y asegurarse de que estén al tanto de sus últimos proyectos. </p>
+<p>Cuando le preguntamos qué era lo mejor de lanzar una tienda <em>online</em>, Glennys comentó: “El lanzamiento de mi tienda <em>online</em> me ha permitido ser mi propia jefa, una vendedora, una emprendedora, una profesora, una madre, una esposa y, por supuesto, la artista que está detrás de cada una de las obras de la galería”. </p>
+<p>¿Deseas ser emprendedor? Lánzate hoy mismo abriendo tu propia <a href="https://www.prestashop.com/es/crear-tienda-online">tienda <strong>online</strong> gratuita</a>. ¿Necesitas inspiración? Echa un vistazo a nuestras <a href="https://www.prestashop.com/blog/es/category/sucess-story/">historias de éxito</a>. </p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/glennys-castro-una-artista-poco-tradicional/">Glennys Castro: una artista poco tradicional</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/glennys-castro-una-artista-poco-tradicional/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>¿Tienes lo que hace falta para presentarte al programa de nuestro fondo de integración y conseguir parte del millón de dólares con el que está dotado?</title>
+		<link>https://www.prestashop.com/blog/es/tienes-lo-que-hace-falta-para-presentarte-al-programa-de-nuestro-fondo-de-integracion-y-conseguir-parte-del-millon-de-dolares-con-el-que-esta-dotado/</link>
+		<comments>https://www.prestashop.com/blog/es/tienes-lo-que-hace-falta-para-presentarte-al-programa-de-nuestro-fondo-de-integracion-y-conseguir-parte-del-millon-de-dolares-con-el-que-esta-dotado/#comments</comments>
+		<pubDate>Wed, 14 Oct 2015 08:30:43 +0000</pubDate>
+		<dc:creator><![CDATA[Margaux Choplin]]></dc:creator>
+				<category><![CDATA[Actualidad PrestaShop]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13324</guid>
+		<description><![CDATA[<p>¿Aún vives con tus padres? ¡Ya es hora de hacer las maletas y presentar tu propuesta para el fondo de integración! El lanzamiento del fondo de integración de un millón de dólares fue el punto de partida de una iniciativa muy especial: la de ofrecer módulos locales a los vendedores PrestaShop en la tienda virtual [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/tienes-lo-que-hace-falta-para-presentarte-al-programa-de-nuestro-fondo-de-integracion-y-conseguir-parte-del-millon-de-dolares-con-el-que-esta-dotado/">¿Tienes lo que hace falta para presentarte al programa de nuestro fondo de integración y conseguir parte del millón de dólares con el que está dotado?</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>¿Aún vives con tus padres? ¡Ya es hora de hacer las maletas y presentar tu propuesta para el fondo de integración!</p>
+<p>El <a href="https://www.prestashop.com/blog/en/prestashop-launches-1000000-integration-fund-community/">lanzamiento</a> del <strong>fondo de integración de un millón de dólares</strong> fue el punto de partida de una iniciativa muy especial: la de ofrecer módulos locales a los vendedores PrestaShop en la tienda virtual Addons.</p>
+<p>En solo unas semanas, hemos recibido <strong>más de 300</strong> aplicaciones y ya tenemos <strong>más de 40</strong> módulos en el horno&#8230; ¡para que las tiendas online de todo el mundo puedan adaptar su oferta a las necesidades de sus clientes!</p>
+<p>Aunque es una magnífica noticia, esperamos contar con <strong>muchos módulos locales más</strong> para ofertar un catálogo completo a nuestros vendedores en PrestaShop Addons.</p>
+<p><span id="more-13324"></span></p>
+<h2 style="color: #cc4357">Inspírate con algunos de los módulos seleccionados por el fondo de integración</h2>
+<p><img class="aligncenter size-large wp-image-13335" alt="ES-Ex" src="https://www.prestashop.com/blog/es/files/2015/10/ES-Ex-1024x488.png" width="700" height="333" /></p>
+<p><strong>¿Te gustaría diseñar uno? ¿Además se trata de una pasarela de pago, un sistema de envío o un conector para puntos de venta a escala regional?</strong></p>
+<p><a href="https://addons.prestashop.com/es/integration-fund" target="_blank">¡Preséntate y convéncenos para que escojamos tu idea!</a></p>
+<p>Estaremos encantados de darte ayuda financiera, tanto si ya has desarrollado el módulo como si es solo una idea. Si te seleccionamos, tu proyecto recibirá financiación y le daremos la máxima visibilidad en los países a los que se dirija.</p>
+<p>El fondo de integración busca desarrolladores apasionados por el e-commerce, que conozcan muy bien su entorno local y que deseen compartir sus conocimientos a través del desarrollo de módulos para <span style="text-decoration: underline">proporcionar a los vendedores las mejores soluciones de comercio electrónico de su región</span>.</p>
+<h2 style="color: #cc4357">Tres trucos para ayudarte a presentar tu módulo al fondo de integración como un profesional</h2>
+<p>Estos tres consejos incrementarán tus posibilidades de estar entre los seleccionados para el fondo de integración.</p>
+<h4 style="color: #79c6e4">1. Céntrate en los países pertinentes</h4>
+<p>Estamos hablando de módulos locales: su público objetivo no puede ser el mundo entero. Cuéntanos a qué país o países concretos se dirigirá el módulo.</p>
+<h4 style="color: #79c6e4">2. Selecciona la categoría adecuada</h4>
+<p>Si tu módulo está pensado para un número limitado de países quiere decir que se centra en un aspecto concreto del comercio local, que pertenecerá a una de estas categorías:</p>
+<p><img class="aligncenter size-large wp-image-13334" alt="ES-Cat" src="https://www.prestashop.com/blog/es/files/2015/10/ES-Cat-1024x293.png" width="700" height="200" /></p>
+<h4 style="color: #79c6e4">3. Explícanos tu idea</h4>
+<p>¡Vamos a hablar y a decidir qué módulos locales merece la pena desarrollar! Para facilitar las cosas, rellena tu <a href="https://addons.prestashop.com/es/integration-fund" target="_blank">formulario</a> en inglés o francés&#8230; o no nos entenderemos <img src="https://www.prestashop.com/blog/es/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p><img class="aligncenter size-large wp-image-19434" alt="star_wars" src="https://www.prestashop.com/blog/es/files/2015/10/star_wars.png" width="481" height="309" /></p>
+<p>No olvides que la comunidad PrestaShop cuenta con más de 800.000 miembros activos y muy motivados ¡y sigue creciendo día a día! Puede que alguien esté a punto de presentar esa misma idea que tú tienes…</p>
+<p>¡Esperamos tu propuesta!</p>
+<p>#1million4devs</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/tienes-lo-que-hace-falta-para-presentarte-al-programa-de-nuestro-fondo-de-integracion-y-conseguir-parte-del-millon-de-dolares-con-el-que-esta-dotado/">¿Tienes lo que hace falta para presentarte al programa de nuestro fondo de integración y conseguir parte del millón de dólares con el que está dotado?</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/tienes-lo-que-hace-falta-para-presentarte-al-programa-de-nuestro-fondo-de-integracion-y-conseguir-parte-del-millon-de-dolares-con-el-que-esta-dotado/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Cómo crear emails marketing que te consigan clientes</title>
+		<link>https://www.prestashop.com/blog/es/como-crear-emails-marketing-que-te-consigan-clientes/</link>
+		<comments>https://www.prestashop.com/blog/es/como-crear-emails-marketing-que-te-consigan-clientes/#comments</comments>
+		<pubDate>Mon, 12 Oct 2015 08:30:03 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13320</guid>
+		<description><![CDATA[<p>A todos nos llegan boletines por correo. Tanto si te encantan por los descuentos como si los odias porque te llenan el buzón de basura, recibes tu ración. La mayoría de la gente no se para a pensar cómo se crean estos correos pero&#8230; cuando te toca diseñar tus propios boletines, descubres que tienen miga. [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/como-crear-emails-marketing-que-te-consigan-clientes/">Cómo crear emails marketing que te consigan clientes</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>A todos nos llegan boletines por correo. Tanto si te encantan por los descuentos como si los odias porque te llenan el buzón de basura, recibes tu ración. La mayoría de la gente no se para a pensar cómo se crean estos correos pero&#8230; cuando te toca diseñar tus <em>propios</em> boletines, descubres que tienen miga. ¿Necesitas ayuda para el lanzamiento de tu campaña de email marketing? Te enseñamos a diseñar correos perfectos para conseguir clientes.<br />
+<span id="more-13320"></span> </p>
+<h2 style="color:#319ea5">Contenido del boletín</h2>
+<p>Lo primero antes de empezar a redactar, ya sea código o contenido de marketing, es saber qué se quiere decir. Plantéate esta pregunta: &#8220;¿Qué mensaje quiero transmitir a mis clientes?&#8221; Por ejemplo: </p>
+<ul style="padding-left: 30px">
+<li>¡Estamos de rebajas!</li>
+<li>Descubre nuestras ofertas de hoy</li>
+<li>Presentamos los nuevos productos para esta temporada o campaña</li>
+<li>Lanzamos nuevos productos</li>
+<li>Estaremos en esta feria / en el próximo evento</li>
+<li>Tenemos nuevos socios</li>
+<li>Las novedades del sector</li>
+</ul>
+<p>Sea cual sea el mensaje, tienes que tener claro qué quieres decir antes de hacer nada. Cuando lo sepas, puedes empezar a redactar el contenido del correo. Asegúrate de usar el tono adecuado para tu <a href="https://www.prestashop.com/blog/es/como-desarrollar-personajes-de-compradores-para-las-iniciativas-de-marketing-relacionadas-con-el-comercio-electronico-b2c/">comprador prototipo</a>&#8230; y sé breve para no perder el interés del cliente. Será el diseño del correo el que defina la longitud exacta del contenido, como veremos más adelante.</p>
+<h2 style="color:#319ea5">Llamadas a la acción (CTA)</h2>
+<p>Ya sabes qué quieres contarle al cliente, piensa ahora en qué esperas que haga después de leerlo. Por ejemplo, si vas a anunciar tu próximo evento: ¿es para que los clientes compren entradas, respondan a la invitación o simplemente compartan la noticia?<br />
+Cuanto más claro tengas tu objetivo, más fácil te será conseguir que el cliente haga lo que tú quieras. ¡Y no olvides indicar cuál es la página de aterrizaje en la que el comprador podrá completar la acción! Sigamos con el ejemplo anterior: si deseas que tus clientes confirmen asistencia a tu próximo evento, dales un enlace para hacerlo.<br />
+Por último, crea un botón de acción que lleve al enlace&#8230; ¡e incluya un texto sugerente que anime al lector a pinchar! <a href="https://www.prestashop.com/blog/es/30-verbos-de-accion-para-tu-tienda-online/">Los verbos son una opción estupenda: lee este artículo</a> para encontrar inspiración.</p>
+<h2 style="color:#319ea5">Asunto del correo</h2>
+<p>Ya tienes el contenido del mensaje y sabes qué quieres que haga el cliente: ahora toca trabajar para conseguir que abra el correo. El asunto es la parte del texto más importante de un mensaje y también la más breve. ¿Su función? Animar a los lectores a abrir el correo al tiempo que describen su contenido. </p>
+<p>Mantén un registro de los asuntos que usas y revísalo de vez en cuando para asegurarte de que están optimizados para las conversiones. </p>
+<h2 style="color:#319ea5">Diseño del boletín</h2>
+<p>Como ya hemos comentado, un boletín debe tener un diseño de primera. Para empezar crea una plantilla básica que puedas reutilizar. Debe incluir: tu logo en el encabezado, un pie de página con tu información de contacto, los botones de las redes sociales y, lo más importante, un enlace para cancelar la suscripción. ¡Recuerda que el diseño de la plantilla, además de adaptarse al mensaje, debe transmitir tu imagen de marca! Decide qué paleta de color, qué encabezados y qué fuentes vas a usar y sé coherente. </p>
+<p>El cuerpo del mensaje incluirá los elementos que ya hemos visto: el contenido y el botón de llamada a la acción. Por supuesto, también tienes que añadir las mejores fotos de tus productos para llamar la atención del cliente e invitarle a pinchar. Puedes optar entre enviar un único mensaje o complementar el tema principal con artículos adicionales. Si vas a usar más de un apartado, destaca cada uno con un título en negrita. </p>
+<p>¿Quieres ver ejemplos de lo que hacen otros vendedores PrestaShop? Échale un vistazo a nuestros <a href="https://www.prestashop.com/blog/es/los-10-mejores-emails-comerciales-del-2014/">boletines favoritos de 2014</a>.</p>
+<h2 style="color:#319ea5">Compatible con móvil</h2>
+<p>Otro factor clave que hay que tener en cuenta: los clientes que usan dispositivos móviles. ¡Asegúrate de que el contenido del correo se adapte a la pantalla de un teléfono móvil! La mayoría de las <a href="http://addons.prestashop.com/es/buscar?search_query=newsletter" target="_blank">herramientas de email marketing</a> actuales ya incorporan esta funcionalidad. ¿Necesitas una lista completa de las soluciones disponibles en tu zona? Consulta nuestra <a href="https://www.prestashop.com/es/asociados-de-industria">página de socios</a>. </p>
+<p>Usa imágenes de un tamaño adecuado para reducir el tiempo de carga. Y no olvides ponerles un título descriptivo por si no aparecen en pantalla&#8230; o tus clientes acabarán preguntándose que habrá en 2356450x.jpg. </p>
+<h2 style="color:#319ea5">Próximos pasos</h2>
+<p>Si buscas inspiración, fíjate en los correos de tus competidores o proveedores. ¿No estás suscrito a sus boletines? <a href="http://milled.com/" target="_blank">Milled</a> dispone de una magnífica colección de correos que puedes filtrar por marca y categoría. Si quieres lanzarte y empezar, aquí tienes una recapitulación de los pasos: </p>
+<ol>
+<li>Decidir cuál es el mensaje</li>
+<li>Redactar el contenido</li>
+<li>Pensar en los siguientes pasos que va a dar el cliente</li>
+<li>Crear una llamada a la acción</li>
+<li>Idear un asunto atractivo</li>
+<li>Seleccionar una herramienta de email marketing</li>
+<ol style="margin-top:0">
+<li><a href="http://addons.prestashop.com/es/buscar?search_query=newsletter" target="_blank">a través de un módulo</a></li>
+<li><a href="https://www.prestashop.com/es/asociados-de-industria">con una herramienta de un tercero</a></li>
+</ol>
+<li>Diseñar un boletín con una estética de primera</li>
+<li>¡Enviar!</li>
+</ol>
+<hr width="20%" align="left">
+¿Ya has puesto en marcha tu campaña de email marketing? Cuéntanos qué te ha resultado más difícil. ¿Aún no tienes una base de datos para campañas de marketing por correo? Consulta este artículo de nuestro bloguero invitado Steve Chou: &#8220;<a href="https://www.prestashop.com/blog/es/como-reunir-mas-correos-para-tu-tienda-online/">Cómo reunir más correos para tu tienda online.</a>&#8220;</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/como-crear-emails-marketing-que-te-consigan-clientes/">Cómo crear emails marketing que te consigan clientes</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/como-crear-emails-marketing-que-te-consigan-clientes/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Tres pasos para acelerar los procesos de embalaje y envío</title>
+		<link>https://www.prestashop.com/blog/es/tres-pasos-para-acelerar-los-procesos-de-embalaje-y-envio/</link>
+		<comments>https://www.prestashop.com/blog/es/tres-pasos-para-acelerar-los-procesos-de-embalaje-y-envio/#comments</comments>
+		<pubDate>Mon, 05 Oct 2015 08:30:24 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13313</guid>
+		<description><![CDATA[<p>Como dueño de una tienda online de éxito, seguro que siempre te falta tiempo para hacerlo todo. Siempre hay algo que hacer: cambiar la estética de tu web, atender a los clientes o encontrar un rato para ti. Hoy te ayudamos a conseguir algo más de tiempo libre enseñándote a agilizar los procesos de embalaje [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/tres-pasos-para-acelerar-los-procesos-de-embalaje-y-envio/">Tres pasos para acelerar los procesos de embalaje y envío</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Como dueño de una tienda online de éxito, seguro que siempre te falta tiempo para hacerlo todo. Siempre hay algo que hacer: cambiar la estética de tu web, atender a los clientes o encontrar un rato para ti. Hoy te ayudamos a conseguir algo más de tiempo libre enseñándote a agilizar los procesos de embalaje y envío.<br />
+<span id="more-13313"></span></p>
+<h2 style="color:#eba32b">1. Identifica cuellos de botella </h2>
+<p>El primer paso para mejorar un proceso es siempre identificar los cuellos de botella. ¿A qué nos referimos? A cualquier actividad que ralentice los demás pasos de la operación. Es fácil detectar estos tapones en el almacén porque se produce una evidente acumulación de pedidos. En función de la complejidad de tu negocio, puede que no tengas ningún punto débil… ¡o que tengas muchos! </p>
+<p>Aunque ahora no veas ningún cuello de botella, haz un seguimiento durante varios días para comprobar cómo se procesan los pedidos. Así podrás encontrar cualquier inconsistencia en el proceso para mejorarla. ¿Sigues sin encontrar puntos en los que se formen embudo? Entonces, estudia formas de mejorar toda la operación. </p>
+<h2 style="color:#eba32b">2. Refine the process</h2>
+<p>Si detectas múltiples cuellos de botella, establece prioridades. Puedes hacerlo en función del coste o del tiempo invertido. ¡Y no olvides que la organización debe adaptarse específicamente a tu negocio! Gestiona siempre los problemas más importantes en primer lugar: su resolución puede suponer la eliminación de problemas menores.</p>
+<p>Encuentra la forma de suprimir el primer cuello de botella reduciendo el tiempo necesario para llevar a cabo la acción asociada o limitando el número de errores. Plantéate estas preguntas: </p>
+<ul style="padding-left: 30px">
+<li>¿Qué parte de este paso no es necesaria? ¿Qué puedo eliminar?</li>
+<li>¿Qué parte de este paso se puede realizar más tarde?</li>
+<li>¿Qué parte de este paso se puede realizar antes?</li>
+<li>¿Qué parte de este paso se puede combinar con otra tarea?</li>
+<li>¿Hay alguna forma más rápida de completar esta tarea?</li>
+<li>¿Qué recursos adicionales pueden acelerar el proceso?</li>
+</ul>
+<p>Vamos a partir de este esquema básico para ver algunos ejemplos de cómo mejorar los procesos de envío. </p>
+<p><em>(1) Imprimir listas de embalaje → (2) seleccionar productos de pedidos → (3) imprimir pedidos → (4) embalar pedidos → (5) pesar paquetes → (6) imprimir etiquetas de envío → (7) entregar al transportista</em></p>
+<h4 style="color:#eba32b">Eliminar un paso</h4>
+<p>Si llevas mucho tiempo con la empresa, esta puede ser la solución más difícil. Hay que evaluar todas las tareas, incluso las que te parezcan obvias. Para conseguir una perspectiva diferente puedes pedirle sugerencias a un nuevo empleado. </p>
+<p>La primera tarea del esquema que hemos planteado es imprimir las listas de embalaje. ¿Tu empresa no lo necesita? Imprime los formularios de los pedidos y empaqueta los productos solicitados usando ese documento. Así te ahorras el tiempo y el dinero destinados a imprimir las listas de embalaje. </p>
+<h4 style="color:#eba32b">Desplazar partes de un paso</h4>
+<p>Seguro que puedes agrupar varias partes del proceso con otras tareas para maximizar la eficiencia. Evalúa cualquier operación que reste fluidez al proceso. Por ejemplo: si te quedas sin stock de un producto cuando estás embalando pedidos, ¿vas al almacén a coger más? Es una solución perfecta para casos puntuales&#8230; pero si te quedas sin stock varias veces al día, interrumpe el flujo del proceso. Cada vez que algo se acaba, el proceso queda en pausa mientras se repone. </p>
+<p>Para darle fluidez al embalado de pedidos, crea una operación de reabastecimiento de stock y prográmala al principio del día. Parece que estás añadiendo un nuevo paso al proceso&#8230; ¡pero solo estás trasladando un sub-paso! Así el proceso resulta más claro y eficiente. </p>
+<h4 style="color:#eba32b">Afinar un paso</h4>
+<p>A veces solo tienes que mejorar un proceso que ya usas. Tienes que tomar perspectiva para averiguar cómo pulirlo. Fijémonos en el paso &#8220;pesar paquetes&#8221; de nuestro ejemplo. Si ya tienes los productos, puedes pesarlos con antelación e introducir su peso en tu tienda PrestaShop&#8230; ¡así las etiquetas se generarán automáticamente con el peso correspondiente! No eliminas el paso &#8220;pesar paquetes&#8221; porque sigues pasando por la báscula cada producto, pero agilizas el proceso de embalaje de pedidos. </p>
+<h4 style="color:#eba32b">Recursos adicionales</h4>
+<p>La última opción es conseguir recursos adicionales. No solo es la última por ser la más cara, sino porque además es un poco como tomar un atajo. Pero si ya has agotado todas las alternativas, es la única mejora que te queda por hacer. Si todos los pasos del proceso son totalmente eficientes y sigues sin poder preparar los pedidos a tiempo&#8230; contempla la posibilidad de contratar a otra persona. También puedes comprar nuevas herramientas para agilizar tareas concretas: mejores impresoras para acelerar la impresión o nuevos carritos para facilitar la selección de productos. </p>
+<h2 style="color:#eba32b">3. Evalúa</h2>
+<p>Cuando ya sabes qué quieres mejorar y cómo hacerlo, es hora de ponerse manos a la obra. Y para saber si los cambios están funcionando o no, tienes que poner en marcha algún sistema de evaluación. Por ejemplo, puedes medir el tiempo necesario para completar un paso. O contar el número de pedidos procesados al día. En cualquier caso, asegúrate de tener un sistema para comparar la eficacia del nuevo proceso con respecto al antiguo. </p>
+<h2 style="color:#eba32b">En resumen</h2>
+<p>La mejora de la operatividad de tu tienda es un proceso continuo. Siempre hay nuevas tecnologías o ideas que pueden ayudarte a optimizar su funcionamiento. Solo necesitas algo de tiempo, paciencia y el deseo de mejorar. Para optimizar tu negocio: </p>
+<ul style="padding-left: 30px">
+<li>Determina cuáles son los problemas o cuellos de botella</li>
+<li>Afina esos procesos y mejóralos</li>
+<li>Evalúa los cambios</li>
+<li>Repite</li>
+</ul>
+<p>¿Qué cambios tienes previsto hacer en tu tienda antes de que empiece la locura navideña? ¡Déjanos tus comentarios aquí abajo! ¿Ya has hecho algún cambio? Cuéntanos cómo te ha ido. </p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/tres-pasos-para-acelerar-los-procesos-de-embalaje-y-envio/">Tres pasos para acelerar los procesos de embalaje y envío</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/tres-pasos-para-acelerar-los-procesos-de-embalaje-y-envio/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>¿Estás preparado para emprender?</title>
+		<link>https://www.prestashop.com/blog/es/estas-preparado-para-emprender/</link>
+		<comments>https://www.prestashop.com/blog/es/estas-preparado-para-emprender/#comments</comments>
+		<pubDate>Tue, 29 Sep 2015 14:40:57 +0000</pubDate>
+		<dc:creator><![CDATA[Kate Robinson]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13310</guid>
+		<description><![CDATA[<p>Abrir una empresa es para muchos una emocionante aventura&#8230; pero también puede ser una ocupación de alto riesgo. Te planteamos varias preguntas para que reflexiones antes de lanzarte a la piscina y montar tu propio negocio. ¿Quieres más información sobre qué supone emprender? Descarga nuestro libro electrónico Cómo diseñar un plan de negocio. 1. ¿Por [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/estas-preparado-para-emprender/">¿Estás preparado para emprender?</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Abrir una empresa es para muchos una emocionante aventura&#8230; pero también puede ser una ocupación de alto riesgo. Te planteamos varias preguntas para que reflexiones antes de lanzarte a la piscina y montar tu propio negocio. ¿Quieres más información sobre qué supone emprender? Descarga nuestro libro electrónico Cómo diseñar un plan de negocio.</p>
+<p><span id="more-13310"></span></p>
+<h2>1. ¿Por qué quieres abrir un negocio?</h2>
+<p>Si la respuesta es &#8220;Odio mi trabajo&#8221;, &#8220;Odio a mi jefe&#8221; o &#8220;Necesito un cambio&#8221;, vuelve a pensártelo. Son buenos motivos para buscar un nuevo trabajo o darle un giro a tu trayectoria profesional&#8230; pero no para asumir el riesgo y la responsabilidad de tener una empresa. En cambio, si contestas &#8220;Soy un experto en mi campo, tengo una idea para solucionar un problema y lo he investigado&#8221;, vas por el buen camino.</p>
+<h2>2. ¿Has identificado algún problema?</h2>
+<p>No puedes crear un negocio sin un problema, en concreto, un problema de los consumidores. ¿Tu idea responde a una necesidad específica? ¿De quién? Estas cuestiones fundamentales de qué hace tu producto o servicio y para quién son la base de tu empresa. No puedes emprender basándote en &#8220;ideas&#8221; o &#8220;mercados&#8221; difusos. ¡Debes ofrecer un valor único a los clientes! Asegúrate de que sabes exactamente cuál es antes de empezar.</p>
+<h2>3. ¿Te apasiona tu proyecto? </h2>
+<p>Gestionar una empresa es un esfuerzo a largo plazo, en ocasiones, de por vida. El camino no siempre es fácil&#8230; y serán la pasión y la motivación las que te ayuden a buscar soluciones y a seguir adelante cuando las cosas vayan mal. Vas a cambiar un trabajo con horario fijo por una ocupación a tiempo completo y, si te encanta lo que haces, ¡no te parecerá estar trabajando!</p>
+<h2>4. ¿Eres disciplinado?</h2>
+<p>Existe una idea bohemia del emprendedor como alguien que trabaja duro hasta bien entrada la noche y dedica su vida a su negocio. La realidad es que si no sacas tiempo para hacer ejercicio, llevar una dieta sana y, sobre todo, dormir, ¡ya puedes decirle adiós a tus sueños de éxito! Dirigir una empresa requiere una capacidad excepcional para gestionar el tiempo. La necesitarás para lograr tus objetivos sin olvidarte de reservar tiempo para disfrutar de la vida: familia, amigos, levantarte tarde un domingo&#8230;</p>
+<h2>5. ¿Sabes lo que estás haciendo?</h2>
+<p>¿Te suena el consejo &#8220;Escribe sobre lo que sabes&#8221;? Es perfectamente aplicable al mundo de los negocios. Es difícil afrontar obstáculos y buscar soluciones si no sabes qué estás haciendo. Y más aún convencer a los inversores de que crean en ti si eres un recién llegado al campo. ¡Nada más complejo que seguir motivado si te sientes perdido a cada momento! Muchos emprendedores pasan años acumulando experiencia en un sector o perfeccionando habilidades empresariales concretas antes de soltar amarras y dejar la estabilidad que da un buen trabajo fijo.</p>
+<h2>6. ¿Has investigado? </h2>
+<p>Una cosa es soñar con la empresa ideal y otra crearla en el mundo real. Lo primero es tener una idea que resuelva un problema concreto del consumidor, pero luego tienes que estudiar el mercado y los aspectos financieros. ¿Qué mercado tienen tus productos? ¿Quiénes son tus competidores? ¿Qué inversión tendrás que hacer? ¿Podrás hacerla? No dejes que estas preguntas sepulten tus sueños: son reflexiones para evitar que abandones antes incluso de empezar a tener éxito.</p>
+<hr />
+<p>¿Estás listo para dejar tu trabajo fijo y unirte a la comunidad de emprendedores de PrestaShop? ¿Aún no estás seguro de si gestionar un negocio es para ti? Nuestro libro electrónico Cómo diseñar un plan de negocio te ayudará a hacerte las preguntas adecuadas.</p>
+<p style="text-align: center;"><a style="font-size: 30px;" href="https://www.prestashop.com/en/ecommerce-business-plan"><strong>¡Descárgalo gratis!</strong></a></p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/estas-preparado-para-emprender/">¿Estás preparado para emprender?</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/estas-preparado-para-emprender/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Siete herramientas online gratuitas para editar fotos</title>
+		<link>https://www.prestashop.com/blog/es/siete-herramientas-online-gratuitas-para-editar-fotos/</link>
+		<comments>https://www.prestashop.com/blog/es/siete-herramientas-online-gratuitas-para-editar-fotos/#comments</comments>
+		<pubDate>Tue, 29 Sep 2015 08:30:22 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13279</guid>
+		<description><![CDATA[<p>En una tienda online el cliente basa sus decisiones de compra en las imágenes y el texto. Las fotos de productos, los banners de la página de inicio o el diseño del boletín: unas buenas imágenes son la clave para convencer. Hoy te presentamos siete herramientas gratuitas para conseguir unas fotos perfectas&#8230; online. Estos servicios [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/siete-herramientas-online-gratuitas-para-editar-fotos/">Siete herramientas online gratuitas para editar fotos</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>En una tienda online el cliente basa sus decisiones de compra en las imágenes y el texto. Las fotos de productos, los banners de la página de inicio o el diseño del boletín: unas buenas imágenes son la clave para convencer. Hoy te presentamos siete herramientas gratuitas para conseguir unas fotos perfectas&#8230; online. Estos servicios en línea son estupendos ya que no necesitas descargar software. Además, puedes acceder a ellos desde cualquier ordenador con conexión a Internet: ¡perfecto para emprendedores que no paran!<br />
+<span id="more-13279"></span></p>
+<h2><a href="https://www.polarr.co/" target="_blank" style="font-size: 28px;font-family: 'Roboto Condensed',Tahoma,Verdana,sans-serif;color:#02bddc">1. Polarr</a></h2>
+<p>Polarr nació en 2014, lo que la convierte en la más joven de las opciones disponibles. Sus fundadores son dos estudiantes de Stanford aficionados al arte, la fotografía y la tecnología.</p>
+<p><img src="https://www.prestashop.com/blog/es/files/2015/09/1-polarr-1024x508.png" alt="1 polarr" width="700" height="347" class="aligncenter size-large wp-image-20678" /></p>
+<p>Esto es lo que más nos gusta: </p>
+<p style="padding-left: 30px">
+	<strong>- Opciones infinitas de corrección del color.</strong> Desde características básicas como la saturación, la temperatura y el tono a funcionalidades avanzadas como curvas tonales y técnicas de virado.<br />
+	<strong>- Guía sobre las funcionalidades del software.</strong> Con tantas herramientas y funciones es fácil perderse. Por eso te ayudan con esta <a href="https://www.polarr.co/guide" target="_blank">completa guía</a> que incluye ejemplos y demos.<br />
+	<strong>- Gran cantidad de plantillas para fotos.</strong> Escoge entre sus 25 plantillas preconfiguradas que funcionan a la perfección con la mayoría de las imágenes.<br />
+	<strong>- Perfecto para editar imágenes importantes.</strong> Sus múltiples opciones de ajuste de color son ideales para editar las fotos de los banners. Y te ayudan a conseguir imágenes con un aspecto coherente que le aporten unidad gráfica a tu tienda online.
+</p>
+<h2><a href="https://pixlr.com/editor/" target="_blank" style="font-size: 28px;font-family: 'Roboto Condensed',Tahoma,Verdana,sans-serif;color:#02bddc">2. Pixlr</a></h2>
+<p>La aplicación Pixlr es obra de Autodesk, creadora de Sketchbook, 123D y Homestyler. La versión gratuita se financia mediante publicidad, que se puede eliminar pagando una cuota anual de 14,99 $ anuales o 1,99 $ mensuales. </p>
+<p><img src="https://www.prestashop.com/blog/es/files/2015/09/2-Pixlr-1024x611.png" alt="2 Pixlr" width="700" height="417" class="aligncenter size-large wp-image-20679" /></p>
+<p>Esto es lo que más nos gusta: </p>
+<p style="padding-left:30px">
+	<strong>- Las capas</strong> permiten crear imágenes complejas: puedes fusionar dos imágenes en una o poner un fondo diferente para cada producto.<br />
+	<strong>- Está disponible en varios idiomas,</strong> entre ellos español, francés, alemán e italiano. Una opción que hace la vida más fácil a los usuarios que no hablan inglés.<br />
+	<strong>- Historial para deshacer cambios.</strong> ¿No te gustan los cambios que has hecho? La pestaña del historial te permite volver atrás o avanzar entre cambios.<br />
+	<strong>- Escaparate.</strong> Pixlr organiza un concurso fotográfico semanal&#8230; ¡y publica las mejores aportaciones en su escaparate! Es una forma fantástica de practicar, aprender nuevos trucos y puede que hasta de conseguir visibilidad para tu marca.
+</p>
+<h2><a href="http://www.fotor.com/" target="_blank" style="font-size: 28px;font-family: 'Roboto Condensed',Tahoma,Verdana,sans-serif;color:#02bddc">3. Fotor</a></h2>
+<p>Este potente pack de edición fotográfica ofrece todas las funcionalidades posibles, desde cambios de tamaño a correcciones de color. El programa se divide en tres funciones principales: edición de fotos, generador de collages y diseñador. ¡Y para acceder a las plantillas y diseños premium solo tienes que crear una cuenta!</p>
+<p><img src="https://www.prestashop.com/blog/es/files/2015/09/3-fotor-1024x458.png" alt="3 fotor" width="700" height="313" class="aligncenter size-large wp-image-19385" /></p>
+<p>Esto es lo que más nos gusta: </p>
+<p style="padding-left: 30px">
+	<strong>- Sus fantásticas pantallas de introducción</strong> hacen que sea muy fácil familiarizarse con el software y aprender nuevas funcionalidades.<br />
+	<strong>- Con la función de collage</strong> se pueden hacer compilaciones de fotos rápidamente. Y por si fuera poco, puedes poner pegatinas para darle más carácter a las imágenes.<br />
+	<strong>- Las plantillas para las redes sociales</strong> te ayudarán a crear imágenes atractivas para tus redes. Lo mejor es que ya tienen el tamaño correcto para que no tengas que preocuparte por la compatibilidad con cada plataforma.<br />
+	<strong>- Su canal de YouTube</strong> dispone de tutoriales con los que aprenderás a crear imágenes para tu tienda online del modo más sencillo. Échale un vistazo a <a href="https://www.prestashop.com/blog/es/conceptos-basicos-de-la-vuelta-al-cole-lo-que-todo-vendedor-online-deberia-saber/">“Back to School”</a>, un buen <a href="https://www.youtube.com/watch?v=zajtO-LUO1Q" target="_blank">vídeo explicativo</a>.
+</p>
+<h2><a href="https://www.canva.com/" target="_blank" style="font-size: 28px;font-family: 'Roboto Condensed',Tahoma,Verdana,sans-serif;color:#02bddc">4. Canva</a></h2>
+<p>Canva nació en Australia tras recaudar 3,6 millones de dólares para lanzar su versión beta en 2012. Hoy tiene casi 5 millones de usuarios en todo el mundo. </p>
+<p><img src="https://www.prestashop.com/blog/es/files/2015/09/4-Canva-1024x510.png" alt="4 Canva" width="700" height="348" class="aligncenter size-large wp-image-20681" /></p>
+<p>Esto es lo que más nos gusta: </p>
+<p style="padding-left: 30px">
+	- Gracias a sus más de <strong>40 plantillas predefinidas</strong> podrás diseñar lo que quieras: de entradas para blog y cabeceras para redes sociales a invitaciones.<br />
+	<strong>- Su <a href="https://designschool.canva.com/" target="_blank">escuela de diseño</a></strong> repasa temas como el diseño de infografías, la composición o la teoría del color.<br />
+	<strong>- Un repositorio de imágenes de terceros</strong> que se pueden comprar directamente desde la plataforma. ¡Una solución perfecta si te falta algún detalle para completar tu diseño.<br />
+	<strong>- Sus frecuentes actualizaciones</strong> te permiten tener las últimas tendencias de diseño al alcance de la mano. Si Facebook añade un nuevo tamaño de imagen, tendrás la plantilla sin esperas.
+</p>
+<h2><a href="http://www.picmonkey.com/" target="_blank" style="font-size: 28px;font-family: 'Roboto Condensed',Tahoma,Verdana,sans-serif;color:#02bddc">5. PicMonkey</a></h2>
+<p>¿Te gustaba Picnik? Entonces te encantará PicMonkey. Después de que Google comprara y disolviera Picnik, el equipo fundador se unió para crear esta plataforma. Sus funcionalidades incluyen edición fotográfica, diseño gráfico y generación de collages. </p>
+<p><img src="https://www.prestashop.com/blog/es/files/2015/09/5-PicMonkey-1024x500.png" alt="5 PicMonkey" width="700" height="341" class="aligncenter size-large wp-image-20682" /></p>
+<p>Esto es lo que más nos gusta: </p>
+<p style="padding-left: 30px">
+	<strong>- Es ideal para principiantes.</strong> De todas las plataformas que hemos citado, esta es con diferencia la más fácil de usar.<br />
+	<strong>- Tiene montones de filtros preconfigurados</strong> para darle el mismo estilo a todas tus fotos. Solo tienes que pinchar en un filtro para aplicarlo. Luego puedes hacer retoques en una nueva ventana.<br />
+	- <strong>Multitud de temas</strong> para darle un espíritu festivo a tu tienda. Son perfectos cuando quieres decorar tu web e interactuar en las redes sociales.<br />
+	- <strong>Una opción de collage</strong> para unir imágenes. La solución ideal para compilar fotos, sobre todo si quieres mostrar múltiples imágenes similares (por ejemplo, las de un evento).
+</p>
+<p>La cuota para disfrutar de sus funcionalidades premium es de solo 4,99 $ mensuales o 33 $ anuales. </p>
+<h2><a href="https://www.ribbet.com/app/?picnik#/edit/basic" target="_blank" style="font-size: 28px;font-family: 'Roboto Condensed',Tahoma,Verdana,sans-serif;color:#02bddc">6. Ribbet</a></h2>
+<p>Cuando Google cerró Picnik en 2012, el equipo fundador decidió diseñar una solución similar. Ahora ofrecen una versión gratuita que se puede ampliar fácilmente para acceder a más funciones. </p>
+<p><img src="https://www.prestashop.com/blog/es/files/2015/09/6-Ribbet-1024x457.png" alt="6 Ribbet" width="700" height="312" class="aligncenter size-large wp-image-20683" /></p>
+<p>Esto es lo que más nos gusta: </p>
+<p style="padding-left: 30px">
+	<strong>- Añade tus funcionalidades favoritas</strong> a una pestaña para tenerlas a mano cuando edites una foto.<br />
+	<strong>- Edita fotos para tus cuentas en las redes sociales</strong> sin tener que volver a cargarlas en tu tienda.<br />
+	<strong>- Convierte fotos en productos</strong> con sitios integrados como Zazzle y MILK. Carga directamente tus diseños en esas plataformas para conseguir tazas, camisetas o álbumes de fotos personalizados.
+</p>
+<h2><a href="http://www.befunky.com/" target="_blank" style="font-size: 28px;font-family: 'Roboto Condensed',Tahoma,Verdana,sans-serif;color:#02bddc">7. BeFunky</a></h2>
+<p>Como la mayoría de las herramientas de este artículo, BeFunky tiene una versión gratuita que se puede ampliar por 4,95 $/mes o 24,95 $/año. También tiene secciones para edición de fotos, generación de collages y diseño. </p>
+<p><img src="https://www.prestashop.com/blog/es/files/2015/09/7-BeFunky-1024x510.png" alt="7 BeFunky" width="700" height="348" class="aligncenter size-large wp-image-20677" /></p>
+<p>Esto es lo que más nos gusta: </p>
+<p style="padding-left: 30px">
+	<strong>- Las herramientas específicas</strong> para cada función te ayudan a acotar las opciones que necesitas para cada tipo de edición. Por ejemplo, desde la pestaña de diseño puedes acceder a plantillas adaptadas para cada red social.<br />
+	<strong>- La ausencia de publicidad y el menú minimizado</strong> permiten tener una zona de trabajo más grande y dedicarle más espacio a la edición de las fotos.<br />
+	<strong>- Dispone de versiones móviles.</strong> No solo está disponible online, también puedes descargarlo de App Store o Google Play.
+</p>
+<hr width="20%" align="left">
+<p>¿Listo para renovar tu tienda? Carga las imágenes que acabas de crear. ¿Tienes dudas sobre los requisitos de tamaño? Consulta esta entrada sobre los <a href="https://www.prestashop.com/blog/es/tamanos-y-formatos-de-imagenes-para-la-plantilla-predeterminada-de-prestashop/">tamaños y formatos de imágenes para la plantilla</a>  predeterminada de PrestaShop. ¿Ya usas alguna de estas herramientas de edición gratuitas? ¡Déjanos un comentario y cuéntanos cuál es tu favorita!</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/siete-herramientas-online-gratuitas-para-editar-fotos/">Siete herramientas online gratuitas para editar fotos</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/siete-herramientas-online-gratuitas-para-editar-fotos/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Nueve formas y media de participar en la comunidad PrestaShop</title>
+		<link>https://www.prestashop.com/blog/es/nueve-formas-y-media-de-participar-en-la-comunidad-prestashop/</link>
+		<comments>https://www.prestashop.com/blog/es/nueve-formas-y-media-de-participar-en-la-comunidad-prestashop/#comments</comments>
+		<pubDate>Thu, 24 Sep 2015 08:30:22 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13273</guid>
+		<description><![CDATA[<p>¿Buscas el modo de participar en la comunidad PrestaShop? ¡Aquí tienes nueve ideas! Como muchos sabéis, le hemos dedicado nuestra nueva mascota, el frailecillo Preston a nuestra comunidad. No solo es un pajarillo con muchos recursos, además vive en grandes grupos. Descubre cómo usar tus habilidades para contribuir al crecimiento de la comunidad. 1. Haz [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/nueve-formas-y-media-de-participar-en-la-comunidad-prestashop/">Nueve formas y media de participar en la comunidad PrestaShop</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>¿Buscas el modo de participar en la comunidad PrestaShop? ¡Aquí tienes nueve ideas! Como muchos sabéis, le hemos dedicado nuestra <a href="http://www.prestashop.com/preston/es/" target="_blank">nueva mascota, el frailecillo Preston</a> a nuestra comunidad. No solo es un pajarillo con muchos recursos, además vive en grandes grupos. Descubre cómo usar tus habilidades para contribuir al crecimiento de la comunidad.<br />
+<span id="more-13273"></span><br />
+1. <strong><a href="https://github.com/PrestaShop/PrestaShop" target="_blank">Haz códigos en GitHub</a></strong><br />
+¿Hablas PHP? Participa en GitHub con tus códigos para añadir funciones o mejorar la experiencia de usuario. Sin vuestra ayuda, no habríamos podido tener un repertorio de más de 300 funcionalidades&#8230; ¡gratis! </p>
+<p>2. <strong><a href="https://crowdin.com/project/prestashop-official" target="_blank">Traduce con CrowdIn</a></strong><br />
+¿Sabes otro idioma? Ayúdanos a traducir PrestaShop a tu lengua materna en CrowdIn. ¿No te apetece escribir? También puedes votar las traducciones que envían otros usuarios. Hasta la fecha, los miembros de nuestra comunidad han contribuido a que PrestaShop esté disponible en: búlgaro, croata, esloveno, neerlandés, noruego y sueco. </p>
+<p>3. <strong><a href="http://forge.prestashop.com/" target="_blank">PrestaShop Forge</a></strong><br />
+¿Tienes una idea para una nueva funcionalidad de software? ¿Quieres informar sobre un error que has encontrado? Envía tu solicitud a través de Forge. Nuestro equipo revisa todas las peticiones y las resuelve por orden de prioridad. </p>
+<p>4. <strong><a href="https://www.prestashop.com/forums/" target="_blank">Foro</a></strong><br />
+El foro de PrestaShop es una de las comunidades de comercio electrónico más activas del mundo. Tiene más de 800.000 miembros y conversaciones en multitud de idiomas, como inglés, francés, español o italiano.</p>
+<p>5. <strong>Danos tu opinión sobre la documentación</strong><br />
+En la mayoría de las páginas de tu back-office PrestaShop hay una sección pensada para ayudarte a usar el sitio web. ¡Déjanos un comentario al final de ese apartado! Así sabremos qué información resulta útil y qué hemos de añadir o quitar.</p>
+<p>6. <strong>Diseñar temas</strong><br />
+Los vendedores PrestaShop están siempre buscando las últimas tendencias de diseño para su sitio web. Si quieres crear nuevos temas, pasa tu código por nuestro <a href="https://validator.prestashop.com/auth/login" target="_blank">validador de códigos</a> y empieza a venderlo en <a href="http://addons.prestashop.com/es/content/25-como-puede-vender-en-prestashop-addons" target="_blank">PrestaShop Addons</a>. ¡A hacer caja!</p>
+<p>7. <strong>Diseñar módulos</strong><br />
+Como en el caso de los temas, puedes diseñar tus propios módulos con funciones específicas. ¿Necesitas financiación para tu proyecto? Hemos creado un fondo de integración para facilitar a nuestra comunidad la tarea de innovar y crear módulos adaptados a mercados locales. Descubre qué estamos buscando y manda tu <a href="https://addons.prestashop.com/es/integration-fund" target="_blank">solicitud online</a>. </p>
+<p>8. <strong>¡Únete a nuestro <a href="http://www.prestashop.com/club/" target="_blank">club de usuarios</a>!</strong><br />
+¿Quieres compartir tu experiencia y opiniones con el equipo de producto de PrestaShop? Únete a nuestro club de usuarios. Te enviaremos todos los meses una breve encuesta sobre un tema concreto de e-commerce. A cambio, tendrás información privilegiada sobre las próximas novedades. </p>
+<p>9. <strong>Hazte <a href="http://ambassadors.prestashop.com/" target="_blank">embajador de PrestaShop</a> </strong><br />
+¿Quieres ser representante de PrestaShop en tu zona? Podrás ayudarnos a organizar reuniones locales, darnos tu opinión sobre productos, publicar entradas en el blog y mucho más. Preséntate hoy mismo para ser embajador. Si estás entre los elegidos, tendrás todo nuestro apoyo&#8230; y puede que algún regalito.<br />
+<strong>9.5</strong> ¿Estás demasiado ocupado con tu tienda online para participar activamente? A pesar de todo, sigues siendo parte de nuestra comunidad. Puedes leer nuestro blog, compartir artículos, dejarnos comentarios, suscribirte a nuestro boletín o seguirnos en las redes. No importa cómo decidas participar, ¡estamos encantados de que estés a nuestro lado!</p>
+<p>¿Ya formas parte de nuestra familia y colaboras con nosotros? ¡Gracias por tu contribución! ¿Aún no eres un miembro activo de nuestra comunidad? ¿A qué esperas? Únete hoy mismo a la comunidad de e-commerce más grande del mundo.</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/nueve-formas-y-media-de-participar-en-la-comunidad-prestashop/">Nueve formas y media de participar en la comunidad PrestaShop</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/nueve-formas-y-media-de-participar-en-la-comunidad-prestashop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Sácale el máximo partido al panel de estadísticas de tu back-office</title>
+		<link>https://www.prestashop.com/blog/es/sacale-el-maximo-partido-al-panel-de-estadisticas-de-tu-back-office/</link>
+		<comments>https://www.prestashop.com/blog/es/sacale-el-maximo-partido-al-panel-de-estadisticas-de-tu-back-office/#comments</comments>
+		<pubDate>Fri, 18 Sep 2015 07:55:32 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13265</guid>
+		<description><![CDATA[<p>Una de las mejores funcionalidades de la nueva versión 1.6 de PrestaShop es su panel de control de análisis. No solo es una de las páginas más atractivas, también será una de las más útiles para darle alas a tu negocio. Hoy vamos a ver sus estadísticas una a una y darte unos trucos para [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/sacale-el-maximo-partido-al-panel-de-estadisticas-de-tu-back-office/">Sácale el máximo partido al panel de estadísticas de tu back-office</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Una de las mejores funcionalidades de la nueva versión 1.6 de PrestaShop es su panel de control de análisis. No solo es una de las páginas más atractivas, también será una de las más útiles para darle alas a tu negocio. Hoy vamos a ver sus estadísticas una a una y darte unos trucos para sacarles todo el jugo. ¡Empecemos!<br />
+<span id="more-13265"></span> </p>
+<p>Las primeras estadísticas suelen agruparse bajo la denominación KPI o indicadores clave de rendimiento. ¿Cuál es su utilidad? Normalmente se usan para evaluar el rendimiento global de la tienda en comparación con los estándares del sector o con resultados anteriores. </p>
+<h2 style="color:#86acc0">Panel de control</h2>
+<p>El primer gráfico que ves al abrir tu tienda es tu panel de control. Veamos como se calcula cada estadística, qué información aporta sobre tu tienda y cómo modificar los resultados. </p>
+<p><img class="aligncenter size-full wp-image-20664" alt="Bo" src="https://www.prestashop.com/blog/es/files/2015/09/Bo.gif" width="972" height="497" /></p>
+<ul style="padding-left:30px">
+<li><strong>Ventas</strong> <span style="font-style:italic">(Suma del importe de todos los pedidos)</span></li>
+</ul>
+<p>Este indicador es bastante claro: se refiere al dinero que entra en la caja de tu tienda. Lo ideal es encontrar una tendencia al alza, es decir, que la facturación de un mes sea superior a la del anterior. ¿Por qué? Porque significa que tu tienda está creciendo y convirtiendo a más clientes, mientras que una tendencia a la baja&#8230; revela que los clientes compran cada vez menos. </p>
+<p>Sin embargo, lo normal es tener altibajos entre un mes y otro. Las Navidades son el ejemplo perfecto: a una temporada de muchas ventas suele seguirle una época de muchas devoluciones.</p>
+<ul style="padding-left:30px">
+<li><strong>Pedidos</strong> <span style="font-style:italic">(Número de pedidos recibidos)</span></li>
+</ul>
+<p>Saber el número de pedidos que consigues es importante porque indica el número de clientes convertidos. Aquí lo ideal también es la tendencia alcista. Pero no es raro que la cifra baje en los meses de menos actividad. Compara los resultados de cada mes con los del año anterior para hacer una evaluación continua del rendimiento de tu tienda.</p>
+<ul style="padding-left:30px">
+<li><strong>Valor del carrito</strong> <span style="font-style:italic">(Ventas / Pedidos)</span></li>
+</ul>
+<p>El valor medio del carrito es el importe medio que se gasta un cliente en una visita. <span style="text-decoration:underline">Las funcionalidades de venta cruzada y venta de artículos complementarios son muy eficaces para incrementar esta cifra</span>. Pero centrase solo en este aspecto puede ser contraproducente. Aunque intentes mejorar este aspecto, no olvides intentar conseguir un mayor número de pedidos. El objetivo final es lograr más pedidos y de más valor.</p>
+<ul style="padding-left:30px">
+<li><strong>Visitas</strong> <span style="font-style:italic">(Suma de todo el tráfico a tu sitio web)</span></li>
+</ul>
+<p>No hay duda: cuanta más gente visite tu web, más posibilidades de hacer una venta. Incluso aunque no cierres la venta, las posibilidades de convertir a ese visitante en cliente en algún momento aumentan. Los <a href="https://www.prestashop.com/blog/es/diseno-de-imanes-de-contactos-para-principiantes/">imanes de contactos</a> bien diseñados son una forma perfecta de captar clientes, incluso antes de que compren. Sin embargo, una cifra muy alta de visitas puede deberse a &#8220;robots&#8221; que estén escaneando tu sitio. Un número de visitas inflado puede reducir otras estadísticas como las tasas de conversión</p>
+<ul style="padding-left:30px">
+<li><strong>Tasa de conversión</strong> <span style="font-style:italic">(Total de pedidos / total de visitantes)</span></li>
+</ul>
+<p>La tasa de conversión te da una idea muy aproximada de cuántos visitantes han completado sus compras. Este punto resulta especialmente útil cuando estás intentando optimizar el diseño de tu sitio web. Si estás haciendo pruebas A/B, esta tasa te ayudará a decidir qué diseño usar.</p>
+<ul style="padding-left:30px">
+<li><strong>Margen neto de beneficios</strong> <span style="font-style:italic">(Total de ingresos &#8211; total de gastos)</span></li>
+</ul>
+<p>Es uno de los parámetros más importantes y algo que todo vendedor debe analizar. Es obvio que refleja cuánto dinero ha ganado o perdido tu negocio. PrestaShop incluye campos como el precio al por mayor, las tasas bancarias y los gastos del envío para ofrecerte una estimación actualizada del estado de tus cuentas. </p>
+<h2 style="color:#86acc0">Productos y ventas</h2>
+<p>Al final de la página del panel de control encontrarás una tabla de productos y ventas. Es un resumen rápido de la información que ofrece tu pestaña de estadísticas. Vamos a repasar los datos que aporta cada pestaña y a descubrir para qué sirve esa información. </p>
+<p><img class="aligncenter size-full wp-image-20665" alt="product_sales" src="https://www.prestashop.com/blog/es/files/2015/09/product_sales.gif" width="835" height="437" /></p>
+<ul style="padding-left:30px">
+<li><strong>Pedidos recientes</strong></li>
+</ul>
+<p>Esta pestaña muestra los últimos pedidos hechos en tu sitio web. También detalla quién ha hecho la compra, el importe y la cantidad de artículos del pedido.  Te dará una buena perspectiva de lo activo que está el negocio. Si tienes a personal a tu cargo, te ayudará a decidir cómo organizar el equipo y las responsabilidades de cada uno. </p>
+<ul style="padding-left:30px">
+<li><strong>Más vendidos</strong></li>
+</ul>
+<p>Esta pestaña simplemente muestra cuáles son los productos más vendidos durante un periodo concreto. Sirve para saber si un producto de un color o una categoría específica se vende más que otro. Puedes usar tus imágenes para destacar los productos más vendidos u ofertar más artículos de la categoría más popular.</p>
+<ul style="padding-left:30px">
+<li><strong>Más vistos</strong></li>
+</ul>
+<p>Esta sección enumera los productos que más han visto los clientes. Asegúrate de configurar tu back-office para que muestre los números adecuados. Cuando tengas esta lista, compárala con la de los artículos más vendidos: deberían ser muy parecidas&#8230; Al fin y al cabo, es más probable que los clientes compren lo que han visto. Si las dos listas no coinciden, considera la posibilidad de ajustar los precios para mejorar las conversiones. Y no lo olvides: la publicidad de un producto también afecta a su imagen. Por ejemplo, ¿el artículo aparece en la página de inicio? </p>
+<ul style="padding-left:30px">
+<li><strong>Búsquedas más habituales</strong></li>
+</ul>
+<p>Esta tabla muestra lo que más buscan los clientes en tu tienda. Es esencial para entender qué desean encontrar tus clientes cuando acuden a tu web. Primero, busca tú mismo esos términos para comprobar que los resultados son correctos. Si los términos de búsqueda no son los que estás usando, añádelos como &#8220;etiquetas&#8221; para ayudar a los clientes a encontrar el producto. Aquí tienes <a href="https://www.prestashop.com/blog/es/4-trucos-fundamentales-para-mejorar-el-buscador-de-tu-tienda-online/">Cuatro trucos fundamentales para mejorar el buscador de tu tienda online</a>.</p>
+<hr width="20%" align="left">
+¿Ya estás usando el panel de control de tu back-office PrestaShop? ¿Qué estadísticas consultas más a menudo? ¿Te gustaría conocer el panel de control de primera mano? Échale un vistazo a la <a href="http://demo.prestashop.com/es/?view=back">demo de PrestaShop</a>, y abre tu propia <a href="https://www.prestashop.com/es/crear-tienda-online">tienda PrestaShop gratis</a>. </p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/sacale-el-maximo-partido-al-panel-de-estadisticas-de-tu-back-office/">Sácale el máximo partido al panel de estadísticas de tu back-office</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/sacale-el-maximo-partido-al-panel-de-estadisticas-de-tu-back-office/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Cinco ideas fáciles para envolver regalos</title>
+		<link>https://www.prestashop.com/blog/es/cinco-ideas-faciles-para-envolver-regalos/</link>
+		<comments>https://www.prestashop.com/blog/es/cinco-ideas-faciles-para-envolver-regalos/#comments</comments>
+		<pubDate>Thu, 10 Sep 2015 08:30:56 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13260</guid>
+		<description><![CDATA[<p>Con las Navidades a la vuelta de la esquina, probablemente estés intentando dar con unas cuantas ideas sencillas para aumentar el valor promedio de tus carritos y atraer más ventas durante las fiestas. A veces, la solución puede ser tan sencilla como mejorar la apariencia de los paquetes de los regalos. Hoy queremos compartir contigo [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/cinco-ideas-faciles-para-envolver-regalos/">Cinco ideas fáciles para envolver regalos</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Con las Navidades a la vuelta de la esquina, probablemente estés intentando dar con unas cuantas ideas sencillas para aumentar el valor promedio de tus carritos y atraer más ventas durante las fiestas. A veces, la solución puede ser tan sencilla como mejorar la apariencia de los paquetes de los regalos. Hoy queremos compartir contigo cinco ideas para envolver regalos que harán que tus ventas se disparen.<br />
+<span id="more-13260"></span><br />
+La <a href="http://www.theatlantic.com/technology/archive/2012/12/wrappers-delight-a-brief-history-of-wrapping-paper/266599/" target="_blank">historia del papel de regalo</a> se extiende por todo el mundo; desde Japón, donde el furoshiki –telas reutilizables para envolver– se lleva utilizando desde el siglo XVII, hasta la época victoriana del Reino Unido, en donde los regalos se escondían bajo papel decorativo, cintas y lazos. Envolver regalos es una práctica común en todo el mundo y las tiendas online pueden incorporarla fácilmente para mejorar la experiencia del cliente y aumentar los beneficios. Los clientes que compran regalos para enviar directamente al destinatario valoran mucho esta opción.</p>
+<p>A continuación te dejamos algunas propuestas para que tus paquetes de regalo sean de lo más originales. </p>
+<h2 style="color:#5e338c">1) Tarjeta personalizada</h2>
+<p>La primera forma de personalizar un pedido es incluyendo una tarjeta donde los compradores puedan escribir un breve mensaje. Considera <a href="http://www.moo.com/us/products/greeting-cards.html" target="_blank">la posibilidad de imprimir tarjetas de felicitación personalizadas</a> la posibilidad de imprimir tarjetas de felicitación personalizadas con el logotipo y la marca de tu empresa. Ten en cuenta que puede que los clientes no celebren las mismas fiestas que tú, por lo que el diseño de la tarjeta deberá ser festivo pero neutro. Son fáciles de incluir en el proceso de empaquetado del pedido. ¡Lo único que tienes que hacer es no olvidarte de introducir la tarjeta en la caja! Aunque se puede optar por escribir las notas a mano, el texto impreso es más fácil de leer y contiene menos errores.</p>
+<p>Es una muy buena opción si es la primera vez que piensas en añadir papel de regalo. Es relativamente fácil de aplicar, ya que no se necesitan demasiados suministros. Para mantener los costes bajos, elige una tarjeta sencilla sin sobre. </p>
+<h2 style="color:#5e338c">2) Caja con cinta</h2>
+<p>Una caja con una cinta es una manera habitual de envolver un regalo. Todos recordamos la emblemática caja azul con un lazo blanco de <a href="http://www.tiffany.com/WorldOfTiffany/TiffanyStory/Legacy/BlueBox.aspx" target="_blank">Tiffany’s</a>. Para incluir esta opción de empaquetado, elige un tamaño de caja que se ajuste a un pedido normal. El contenido debe quedar ajustado para que no se mueva durante el transporte. Si tus productos vienen en varios tamaños, considera la posibilidad de tener a mano unas cuantas cajas diferentes. Para un diseño bonito y personalizado, <a href="http://us.selfpackaging.com/91-gift-boxes" target="_blank">la tienda de PrestaShop SelfPackaging</a> ofrece una amplia variedad de empaquetado de regalos para todo tipo de artículos.</p>
+<p>Otro aspecto clave que se debe tener en cuenta es cómo se añadirá el papel de regalo en tu proceso de empaquetado. Considera la opción de medir la cinta con antelación o de incluir a una persona en el proceso de envoltura de los regalos para que tus pedidos regulares se lleven a cabo sin interrupciones. Ten en cuenta que estas cajas de regalo con un bonito lazo deben caber en tu caja de transporte regular, lo que hará que esta opción sea algo más cara de aplicar. </p>
+<h2 style="color:#5e338c">3) Cajas de regalos impresas</h2>
+<p>Una caja impresa es algo muy parecido a una caja con una cinta, pero con una notable diferencia: ¡no es necesario enviarla dentro de otra caja! <a href="http://www.uline.com/BL_5603/Apparel-Boxes" target="_blank">Uline ofrece una amplia variedad de cajas de regalo preimpresas</a>. Esta opción tan asequible simplifica el proceso del empaquetado, ya que lo único que necesitas hacer es sustituir la caja original por la nueva caja decorada. Y al igual que con la tarjeta, el diseño de la caja de regalo deberá ser neutro para que se adapte a una amplia variedad de celebraciones. </p>
+<h2 style="color:#5e338c">4) Sobres decorativos</h2>
+<p>Si embalar de nuevo tu pedido en otras cajas está fuera de tu presupuesto, puedes optar por enviar los regalos en sobres con bonitos diseños. Encontramos dos tipos diferentes: <a href="http://www.scotchbrand.com/wps/portal/3M/en_US/ScotchBrand/Scotch/Products/Catalog/~/Scotch-Plastic-Bubble-Mailer?N=4335+5584761+3294580325&amp;rt=rud" target="_blank">sobres acolchados con burbujas</a>, perfectos para artículos que se pueden dañar con facilidad durante el transporte, y bolsas de polietileno con cierre hermético. En comparación con los sobres normales, estos sobres decorativos son mucho más divertidos y festivos. Los sobres son incluso más fáciles de utilizar e implementar que las cajas de regalo y cintas.</p>
+<p>Este mismo concepto se puede aplicar también a aquellos productos enviados en sobres grandes o fundas. Hay infinidad de vendedores que ofrecen versiones decorativas de estos materiales de envío. </p>
+<h2 style="color:#5e338c">5) Papel de seda personalizado</h2>
+<p>Otra manera rápida de envolver regalos es añadiendo <a href="http://www.uline.com/CustomStaticTissuePaper.htm" target="_blank">papel de seda personalizado</a>, que puedes pedir a granel y solicitar que lo personalicen con un color y tu logotipo. No tendrás que hacer ningún cambio en la caja de envío; tan sólo incluirás papel de seda en tu caja de envío normal. Si quieres darle un toque más profesional al papel de seda, séllalo con una pegatina que incluya tu logotipo. </p>
+<p>Ofrezcas las opciones que ofrezcas, es importante que incluyas una lista de embalaje (un documento que detalle el pedido pero sin incluir los precios). Esto hará que para el destinatario resulte sencillo hacer cambios o devoluciones, y a ti te ayudará a procesar los pedidos.  </p>
+<hr width="20%" align="left">
+<p>¿Propones actualmente opciones de papel de regalo en tu web? Cuéntanos lo que mejor ha funcionado en tu tienda. ¿Aún no propones opciones de papel de regalo? Comparte con nosotros las opciones que empezarás a proponer.</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/cinco-ideas-faciles-para-envolver-regalos/">Cinco ideas fáciles para envolver regalos</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/cinco-ideas-faciles-para-envolver-regalos/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Cuenta atrás para fin de año</title>
+		<link>https://www.prestashop.com/blog/es/cuenta-atras-para-fin-de-ano/</link>
+		<comments>https://www.prestashop.com/blog/es/cuenta-atras-para-fin-de-ano/#comments</comments>
+		<pubDate>Thu, 03 Sep 2015 10:02:52 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=13250</guid>
+		<description><![CDATA[<p>El verano ya está a punto de terminar y las Navidades se acercan sembrando otras fiestas por el camino&#8230; Para los comerciantes, comienza el período de ventas más ajetreado de todo el año. Muchos vendedores ya están metidos hasta el cuello en la &#8220;vuelta al cole&#8221;. Si todavía te estás recuperando de las vacaciones, no [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/cuenta-atras-para-fin-de-ano/">Cuenta atrás para fin de año</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>El verano ya está a punto de terminar y las Navidades se acercan sembrando otras fiestas por el camino&#8230; Para los comerciantes, comienza el período de ventas más ajetreado de todo el año. Muchos vendedores ya están metidos hasta el cuello en la &#8220;vuelta al cole&#8221;. Si todavía te estás recuperando de las vacaciones, no te preocupes: nuestra cuenta atrás hasta final de año te ayudará a estar a punto para la última temporada de 2015.<br />
+<span id="more-13250"></span><br />
+Puedes promocionar una oferta durante cada una de las festividades que mencionamos a continuación o solo aquellas que celebres personalmente. Sea como sea, ¡no olvides planificarlo todo con tiempo para que las ventas vayan como la seda y sin contratiempos! </p>
+<p><img src="https://www.prestashop.com/blog/es/files/2015/09/calendar_october-1024x876.jpg" alt="calendar_october" width="700" height="598" class="aligncenter size-large wp-image-19341" /></p>
+<h2 style="color:#df0067">Octubre</h2>
+<p><strong>Halloween</strong> &#8211; (31 de octubre) Esta escalofriante fiesta puede parecer apta solo para los más atrevidos. Sin embargo, los vendedores también pueden aprovechar el momento incluyendo en sus catálogos disfraces, golosinas y terroríficos elementos decorativos.</p>
+<p><img src="https://www.prestashop.com/blog/es/files/2015/09/calendar_november-1024x876.jpg" alt="calendar_november" width="700" height="598" class="aligncenter size-large wp-image-19340" /></p>
+<h2 style="color:#df0067">Noviembre</h2>
+<p><strong>Día de Acción de Gracias</strong> &#8211; (26 de noviembre) Pavo, jugo de carne y pastel de batata: Acción de Gracias es sinónimo de atiborrarse de comida junto a los seres queridos. Una vez despachada la comida, las familias se dejan llevar por el espíritu festivo decorando sus hogares para Navidad.</p>
+<p><strong>Black Friday</strong> &#8211; (27 de noviembre) Un día de ofertas que suele comenzar la mañana del viernes posterior a Acción de Gracias. Sin embargo, debido a que los vendedores de mayor envergadura se han vuelto más y más competitivos, cada año las ventas del Black Friday parecen comenzar antes. <a href="http://www.businessinsider.com/black-friday-store-hours-2014-2014-11" target="_blank">En 2014, algunas ventas comenzaron a las 5 de la tarde</a> el mismo Día de Acción de Gracias. </p>
+<p><strong>Cyber Monday</strong> &#8211; (30 de noviembre) El Cyber Monday es para los comerciantes online lo que el Black Friday para las tiendas físicas. Es el día en el que las páginas web muestran sus mejores ofertas para conseguir que los clientes compren sus productos. Los comerciantes más pequeños pueden elegir realizar una gran oferta Black Friday + Cyber Monday que sea efectiva durante todo el fin de semana, o bien lanzar ofertas que animen a los clientes a comprar en horas concretas.</p>
+<p><img src="https://www.prestashop.com/blog/es/files/2015/09/calendar_december-1024x876.jpg" alt="calendar_december" width="700" height="598" class="aligncenter size-large wp-image-19339" /></p>
+<h2 style="color:#df0067">Diciembre</h2>
+<p><strong>Navidad</strong> &#8211; (25 de diciembre) Para cristianos y no cristianos, la Navidad se ha convertido en la celebración familiar por excelencia. Es un momento para intercambiar regalos con amigos y familiares.<br />
+Los regalos se entregan también el 24 por la noche para la Nochebuena </p>
+<p><strong>Nochevieja</strong> &#8211; (31 de diciembre) Cada familia da la bienvenida al año nuevo a su manera. Algunos lo celebran hasta la madrugada mientras otros prefieren una cena tranquila con toda la familia. En Año Nuevo no se suele hacer ningún regalo, pero puede ser una gran oportunidad para promocionar productos que celebren un nuevo comienzo.</p>
+<p><strong>Reyes Magos</strong> &#8211; (5-6 de enero) Aunque no es en Diciembre,  en España es tradicional que los niños (y adultos) reciban sus regalos de Navidad la noche de Reyes (del 5 al 6 de enero). Así que espérate a tener muchas ventas entre navidad y Reyes Magos, y organiza tu logística para que los regalos pueden llegar a tiempo!<br />
+Puedes advertir a tus clientes de la fecha límite para que los regalos no lleguen tarde para los reyes, así  les dará seguridad al momento de comprar.</p>
+<h2 style="color:#df0067">Preparando las celebraciones</h2>
+<p>Ahora que sabes qué festividades quieres planear, decide los tipos de ventas que vas a poner en marcha y selecciona los productos que desees presentar. Algunas tácticas habituales son optar por los objetos típicos de la temporada, los más vendidos, los regalos característicos de una fiesta o incluso los productos con mayor margen de ganancia. </p>
+<p>En cuanto hayas decidido los productos, es importante tener en cuenta la manera en la que quieres promocionarlos. Por ejemplo, ¿utilizarías <a href="https://www.prestashop.com/blog/es/pop-ups-en-tu-sitio-web-ejemplos-y-metodo-para-2015/">ventanas emergentes o incrustadas para animar a tus clientes a comprar</a>? ¿O enviarías <a href="https://www.prestashop.com/blog/en/examples-of-ecommerce-marketing-emails-that-work/">boletines al correo electrónico</a> para promocionar tus ofertas? Sea cual sea el método que selecciones, asegúrate de contar con tiempo suficiente para establecer tu panel de administración. </p>
+<p>¿No sabes qué opción es la mejor para tu tienda? Ponte en contacto con cualquiera de nuestros asesores de módulos en <a href="http://addons.prestashop.com/" target="_blank">Addons.PrestaShop.com</a>. ¿Ya eres todo un profesional? ¡Comparte tus consejos aquí!</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/cuenta-atras-para-fin-de-ano/">Cuenta atrás para fin de año</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/cuenta-atras-para-fin-de-ano/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>

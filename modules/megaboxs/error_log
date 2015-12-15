@@ -1,0 +1,8 @@
+[05-Sep-2015 04:43:42 Europe/Paris] PHP Fatal error:  Call to undefined method MegaBoxsAjax::getOrder() in /home/dev03ovi/public_html/sonnc/granada/option1/modules/megaboxs/megaboxsAjax.php on line 45
+[05-Sep-2015 04:49:43 Europe/Paris] PHP Fatal error:  Call to undefined method MegaBoxsAjax::getOrder() in /home/dev03ovi/public_html/sonnc/granada/option1/modules/megaboxs/megaboxsAjax.php on line 45
+[05-Sep-2015 04:50:19 Europe/Paris] PHP Notice:  Undefined variable: file_attachment in /home/dev03ovi/public_html/sonnc/granada/option1/modules/megaboxs/megaboxsAjax.php on line 197
+[05-Sep-2015 04:50:20 Europe/Paris] PHP Notice:  Undefined variable: file_attachment in /home/dev03ovi/public_html/sonnc/granada/option1/modules/megaboxs/megaboxsAjax.php on line 198
+[05-Sep-2015 04:51:11 Europe/Paris] PHP Notice:  Undefined variable: file_attachment in /home/dev03ovi/public_html/sonnc/granada/option1/modules/megaboxs/megaboxsAjax.php on line 188
+[05-Sep-2015 04:55:35 Europe/Paris] PHP Notice:  Undefined variable: file_attachment in /home/dev03ovi/public_html/sonnc/granada/option1/modules/megaboxs/megaboxsAjax.php on line 193
+[05-Sep-2015 04:55:36 Europe/Paris] PHP Notice:  Undefined variable: file_attachment in /home/dev03ovi/public_html/sonnc/granada/option1/modules/megaboxs/megaboxsAjax.php on line 194
+[13-Sep-2015 09:01:04 Europe/Paris] PHP Warning:  Creating default object from empty value in /home/swthemes/public_html/prestashop/granada/option1/modules/megaboxs/megaboxsAjax.php on line 8

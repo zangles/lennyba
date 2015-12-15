@@ -1,0 +1,185 @@
+.modal-footer{
+	position: relative;
+}
+p.ajax-loader{width: 100%;height: 100%;position: absolute;top: 0px;left: 0px;z-index: 1000; text-align:center;background-color:rgba(0, 0, 0, 0.1)}
+p.ajax-loader i{
+	font-size: 32px;
+	margin-top: 20%;
+	color: #009AFD;
+}
+.modal-footer p.ajax-loader i{
+	margin-top: 15px;
+	font-size: 24px;
+} 
+.fa {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.fa-spinner:before {
+  content: "\f110";
+}
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+  
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+.tr-selected td{
+    background: #D7DBE3 !important;
+}
+.lik-menu-item-status, 
+.lik-module-status, 
+.lik-menu-status, 
+.lik-group-status{
+    cursor: pointer;
+}
+.panel-sup-title{
+	color: #8BC954;
+}
+.c-red{
+	color: red !important;
+}
+.panel-sup-title.disable{
+	color: red;
+}
+.panel-sup{
+	border: 1px solid #8BC954 !important;
+	-webkit-box-shadow:rgba(113,178,56,0.1) 0 2px 0,#fff 0 0 0 3px inset !important;
+	box-shadow:rgba(113,178,56,0.1) 0 2px 0,#fff 0 0 0 3px inset !important;
+}
+.process-icon-square-o:before,
+.icon-square-o:before{
+	content: "\f096";
+}
+.icon-addnew:before{
+	content: "\f0fe";
+}
+
+.process-icon-check-square-o:before,
+.icon-check-square-o:before{
+	content: "\f046";
+}
+.panel-item-group .list-toolbar-btn{
+	text-align: center;
+}
+
+.group-item .panel{
+	
+}
+.menu-item{
+	border: 1px solid #ccc;	
+	margin-top: 10px;
+
+}
+.menu-item:first-child{
+	margin-top: 0;
+}
+.menu-item a.dropdown-toggle{
+	height: 28px;
+	width: 24px;
+	display: block;
+	border-left: 1px solid #ccc;
+	padding-left: 10px;
+}
+.menu-item a .icon-caret-down{
+	color: #ccc;
+}
+.menu-item a:hover .icon-caret-down{
+	color: #00AFF0;
+}
+.menu-item .menu-item-name{
+	height: 28px;
+}
+.group-item.col-sm-1 .menu-item .menu-item-name{
+	max-width: 85%;
+	overflow: hidden;
+}
+.group-item.col-sm-2 .menu-item .menu-item-name{
+	max-width: 70%;
+	overflow: hidden;
+}
+
+.group-item.col-sm-3 .menu-item .menu-item-name{
+	max-width: 85%;
+	overflow: hidden;
+}
+.group-item.col-sm-4 .menu-item .menu-item-name{
+	max-width: 90%;
+	overflow: hidden;
+}
+.group-item.col-sm-5 .menu-item .menu-item-name{
+	max-width: 92%;
+	overflow: hidden;
+}
+.group-item.col-sm-6 .menu-item .menu-item-name{
+	max-width: 94%;
+	overflow: hidden;
+}
+.group-item.col-sm-7 .menu-item .menu-item-name{
+	max-width: 95%;
+	overflow: hidden;
+}
+.group-item.col-sm-8 .menu-item .menu-item-name{
+	max-width: 95%;
+	overflow: hidden;
+}
+.group-item.col-sm-9 .menu-item .menu-item-name{
+	max-width: 96%;
+	overflow: hidden;
+}
+.group-item.col-sm-10 .menu-item .menu-item-name{
+	max-width: 96%;
+	overflow: hidden;
+}
+.group-item.col-sm-11 .menu-item .menu-item-name{
+	max-width: 96%;
+	overflow: hidden;
+}
+.group-item.col-sm-12 .menu-item .menu-item-name{
+	max-width: 97%;
+	overflow: hidden;
+}
+
+#module-content .panel-heading-action{
+	padding: 6px 10px 0 0;
+}
+a.lik-action{
+	margin-left: 10px;
+	font-weight: normal;
+	font-size: 12px;
+}
+.banner-item{
+	border-bottom: 1px solid #ccc;
+	padding: 8px 10px 0px 10px;	
+}
+.banner-img img{
+	padding: 10px;
+}
+a.status-0{
+	color: #FF9933;
+}

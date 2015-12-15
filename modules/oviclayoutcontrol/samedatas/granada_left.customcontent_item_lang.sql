@@ -1,0 +1,5 @@
+INSERT INTO PREFIX_customcontent_item_lang VALUES("1","id_lang","DEVELOPMENT","","<p>Quisque ac quam id quam ullam. lorem corper dignissim ullamcorper utnisi. Cras ullamcorper ullamcorper. Integer aliquam malesuada mi.</p>","<div class=\"row\">","");
+INSERT INTO PREFIX_customcontent_item_lang VALUES("2","id_lang","MARKETING","","<p>Praesent gravida malesuada faucibus. Etiam vehicula massa eget nisl ante, posuere vel bibendum nisl elementum Sed vel erat interdum volutpat.</p>","","</div>");
+INSERT INTO PREFIX_customcontent_item_lang VALUES("3","id_lang","DESIGN","","<p>Proin eget sodales magna. Proin ac est convallis, interdum odio, luctus nibh. Fusce iaculis sollicitudin metus sed. Vivamus quis pharetra, viverra.</p>","<div class=\"row\">","");
+INSERT INTO PREFIX_customcontent_item_lang VALUES("4","id_lang","WEB HOSTING","","<p>Proin eget sodales magna. Proin ac est convallis, interdum odio vel, luctus nibh. Fusce iaculis sollicitudin metus sed. Cras vel augue eu augue.</p>","","</div>");
+

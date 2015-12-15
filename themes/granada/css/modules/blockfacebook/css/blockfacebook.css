@@ -1,0 +1,8 @@
+.facebook-fanbox {
+	overflow-x : hidden;
+}
+#footer #facebook_block{
+    width: 100%;
+    padding: 0;
+    background: transparent;
+}

@@ -1,0 +1,361 @@
+<div class="panel">    
+    <div class="panel-heading">
+        {l s='List Modules' mod='flexgroupmenus'}
+        <span class="panel-heading-action">            
+            <a href="javascript:void(0)" onclick="showModal('modalModule')" class="list-toolbar-btn link-add" title="{l s='Add new module'}"><i class="process-icon-new"></i></a>
+        </span>
+    </div>
+    <div class="panel-body" style="padding:0">
+        <div class="table-responsive">
+            <table class="table" id="moduleList">
+                <thead>
+                    <tr class="nodrag nodrop">
+                        <th width="50" class="center">{l s='ID' mod='flexgroupmenus'}</th>
+                        <th>{l s='Name' mod='verticalmegamenus'}</th>
+                        <th width="150" class="center">{l s='Position' mod='flexgroupmenus'}</th>
+                        <th width="150" class="center">{l s='Layout' mod='flexgroupmenus'}</th>
+                        <th width="100" class="center">{l s='Ordering' mod='flexgroupmenus'}</th>
+                        <th width="50" class="center">{l s='Status' mod='flexgroupmenus'}</th>
+                        <th class="center" width="50">#</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {if $items|@count >0}
+                    {foreach from=$items item=item}
+                    <tr id="mo_{$item.id}">
+                        <td class="center">{$item.id}</td>
+                        <td><a href="javascript:void(0)" class="lik-module" title="{l s='Load menu content'}" data-item-id="{$item.id}">{$item.name}</a></td>                
+                        <td class="center">{$item.position_name}</td>                    
+                        <td class="center">{$item.layout_value}</td>
+                        <td class="pointer dragHandle center" ><div class="dragGroup"><div class="positions">{$item.ordering}</div></div></td>
+                        <td class="center">
+                            {if $item.status == '1'}
+                                <a title="Enabled" class="list-action-enable action-enabled lik-module-status" item-id="{$item.id}" value="{$item.status}"><i class="icon-check"></i></a>
+                            {else}
+                                <a title="Disabled" class="list-action-enable action-disabled lik-module-status" item-id="{$item.id}" value="{$item.status}"><i class="icon-check"></i></a>
+                            {/if}
+                        </td>
+                        <td class="center"><a href="javascript:void(0)" item-id="{$item.id}" class="lik-module-edit"><i class="icon-edit"></i></a>&nbsp;<a href="javascript:void(0)" item-id="{$item.id}" class="lik-module-delete"><i class="icon-trash" ></i></a></td>
+                    </tr>
+                    {/foreach}
+                    {/if}    
+                </tbody>    
+           </table>            
+        </div>        
+    </div> 
+</div>
+<div class="panel">    
+    <div class="panel-heading">
+        {l s=' rows of module ' mod='flexgroupmenus'}<span id="header-module-name"></span>
+        <span class="panel-heading-action">            
+            <a href="javascript:void(0)" onclick="showModal('modalModule')" class="list-toolbar-btn link-add" title="{l s='Add new module'}"><i class="process-icon-new"></i></a>            
+        </span>
+    </div>
+    <div class="panel-body" style="padding:0">
+        <div class="row-sortable" data-module-id="1">
+            
+          <div class="panel panel-sup module-1" data-id="1">    
+                <div class="panel-heading">
+                    <span class="panel-sup-title">Row 1</span>
+                    <span class="panel-heading-action panel-item-group pull-right"> 
+                        <a data-toggle="dropdown" class="list-toolbar-btn dropdown-toggle" href="javascript:void(0)"><i class="icon-caret-down"></i></a>           
+                        <ul class="dropdown-menu">
+                            <li><a onclick="" title="Duplicate" href="#"><i class="icon-square-o"></i> Disable</a></li>                                        
+                            <li><a onclick="" title="Duplicate" href="#"><i class="icon-edit"></i> Edit</a></li>                                        
+                            <li><a class="delete" title="Delete" onclick=""><i class="icon-trash"></i> Delete</a></li>
+                            <li class="divider"></li>
+                            <li><a class="delete" title="Delete" onclick=""><i class="icon-addnew"></i> Add new group</a></li>
+                        </ul>
+                    </span>
+                </div>
+                <div class="panel-body" style="padding:0" id="row-1-contents">                              
+                    <div class="group-sortable" data-row-id="1">
+                        <!-- group item -->
+                        <div class="group-item col-sm-3 row-1" data-group-id="1">
+                            <div class="panel">    
+                                <div class="panel-heading clearfix">
+                                    Group 1
+                                    <span class="panel-heading-action panel-item-group pull-right"> 
+                                        <a data-toggle="dropdown" class="list-toolbar-btn dropdown-toggle" href="javascript:void(0)"><i class="icon-caret-down"></i></a>           
+                                        <ul class="dropdown-menu">
+                                            <li><a onclick="" title="Duplicate" href="#"><i class="icon-square-o"></i> Disable</a></li>                                        
+                                            <li><a onclick="" title="Duplicate" href="#"><i class="icon-edit"></i> Edit</a></li>                                        
+                                            <li><a class="delete" title="Delete" onclick=""><i class="icon-trash"></i> Delete</a></li>
+                                            <li class="divider"></li>
+                                            <li><a class="delete" title="Delete" onclick=""><i class="icon-addnew"></i> Add new item</a></li>
+                                        </ul>
+                                    </span>
+                                    
+                                </div>
+                                <div class="panel-body" style="padding:0">
+                                    <div class="menuitem-sortable" data-group-id="1">
+                                        <!-- item menu -->
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="1">
+                                            <div class="menu-item-name pull-left">item 1 as dsa d sa dsa d as das d as d sad sa d sad sa d sad sa d sad sa d sad sa</div>
+                                            <span class="pull-right"> 
+                                                <a data-toggle="dropdown" class="list-toolbar-btn dropdown-toggle" href="javascript:void(0)"><i class="icon-caret-down"></i></a>           
+                                                <ul class="dropdown-menu">
+                                                    <li><a onclick="" title="Duplicate" href="#"><i class="icon-square-o"></i> Disable</a></li>                                        
+                                                    <li><a onclick="" title="Duplicate" href="#"><i class="icon-edit"></i> Edit</a></li>                                        
+                                                    <li><a class="delete" title="Delete" onclick=""><i class="icon-trash"></i> Delete</a></li>
+                                                </ul>
+                                            </span>
+                                        </div>
+                                        <!-- end -->
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="2">item 2</div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="3">item 3</div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="4">item 4</div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="5">item 5</div>
+                                                        
+                                    </div>
+                                </div> 
+                            </div>
+            
+                        </div>
+                        <!-- end group item -->
+                        <!-- group item -->
+                        <div class="group-item col-md-3 row-1" data-group-id="1">
+                            <div class="panel">    
+                                <div class="panel-heading clearfix">
+                                    Group 2
+                                    <span class="panel-heading-action panel-item-group pull-right"> 
+                                        <a data-toggle="dropdown" class="list-toolbar-btn dropdown-toggle" href="javascript:void(0)"><i class="icon-caret-down"></i></a>           
+                                        <ul class="dropdown-menu">
+                                            <li><a onclick="" title="Duplicate" href="#"><i class="icon-square-o"></i> Disable</a></li>                                        
+                                            <li><a onclick="" title="Duplicate" href="#"><i class="icon-edit"></i> Edit</a></li>                                        
+                                            <li><a class="delete" title="Delete" onclick=""><i class="icon-trash"></i> Delete</a></li>
+                                            <li class="divider"></li>
+                                            <li><a class="delete" title="Delete" onclick=""><i class="icon-addnew"></i> Add new item</a></li>
+                                        </ul>
+                                    </span>
+                                    
+                                </div>
+                                <div class="panel-body" style="padding:0">
+                                    <div class="menuitem-sortable" data-group-id="1">
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="1">
+                                            <span class="menu-item-name">item 1</span>
+                                            <span class="pull-right"> 
+                                                <a data-toggle="dropdown" class="list-toolbar-btn dropdown-toggle" href="javascript:void(0)"><i class="icon-caret-down"></i></a>           
+                                                <ul class="dropdown-menu">
+                                                    <li><a onclick="" title="Duplicate" href="#"><i class="icon-square-o"></i> Disable</a></li>                                        
+                                                    <li><a onclick="" title="Duplicate" href="#"><i class="icon-edit"></i> Edit</a></li>                                        
+                                                    <li><a class="delete" title="Delete" onclick=""><i class="icon-trash"></i> Delete</a></li>
+                                                </ul>
+                                            </span>
+                                        </div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="2">item 2</div>
+                                        
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="5">item 5</div>
+                                                        
+                                    </div>
+                                </div> 
+                            </div>
+            
+                        </div>
+                        <!-- end group item -->
+                        <!-- group item -->
+                        <div class="group-item col-md-6 row-1" data-group-id="1">
+                            <div class="panel">    
+                                <div class="panel-heading clearfix">
+                                    Group 3
+                                    <span class="panel-heading-action panel-item-group pull-right"> 
+                                        <a data-toggle="dropdown" class="list-toolbar-btn dropdown-toggle" href="javascript:void(0)"><i class="icon-caret-down"></i></a>           
+                                        <ul class="dropdown-menu">
+                                            <li><a onclick="" title="Duplicate" href="#"><i class="icon-square-o"></i> Disable</a></li>                                        
+                                            <li><a onclick="" title="Duplicate" href="#"><i class="icon-edit"></i> Edit</a></li>                                        
+                                            <li><a class="delete" title="Delete" onclick=""><i class="icon-trash"></i> Delete</a></li>
+                                            <li class="divider"></li>
+                                            <li><a class="delete" title="Delete" onclick=""><i class="icon-addnew"></i> Add new item</a></li>
+                                        </ul>
+                                    </span>
+                                    
+                                </div>
+                                <div class="panel-body" style="padding:0">
+                                    <div class="menuitem-sortable" data-group-id="1">
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="1">
+                                            <span class="menu-item-name">item 1</span>
+                                            <span class="pull-right"> 
+                                                <a data-toggle="dropdown" class="list-toolbar-btn dropdown-toggle" href="javascript:void(0)"><i class="icon-caret-down"></i></a>           
+                                                <ul class="dropdown-menu">
+                                                    <li><a onclick="" title="Duplicate" href="#"><i class="icon-square-o"></i> Disable</a></li>                                        
+                                                    <li><a onclick="" title="Duplicate" href="#"><i class="icon-edit"></i> Edit</a></li>                                        
+                                                    <li><a class="delete" title="Delete" onclick=""><i class="icon-trash"></i> Delete</a></li>
+                                                </ul>
+                                            </span>
+                                        </div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="2">item 2</div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="3">item 3</div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="4">item 4</div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="5">item 5</div>
+                                                        
+                                    </div>
+                                </div> 
+                            </div>
+            
+                        </div>
+                        <!-- end group item -->
+                        <div class="clearfix"></div>
+                        <!-- group item -->
+                        <div class="group-item col-md-6 row-1" data-group-id="1">
+                            <div class="panel">    
+                                <div class="panel-heading clearfix">
+                                    Group 3
+                                    <span class="panel-heading-action panel-item-group pull-right"> 
+                                        <a data-toggle="dropdown" class="list-toolbar-btn dropdown-toggle" href="javascript:void(0)"><i class="icon-caret-down"></i></a>           
+                                        <ul class="dropdown-menu">
+                                            <li><a onclick="" title="Duplicate" href="#"><i class="icon-square-o"></i> Disable</a></li>                                        
+                                            <li><a onclick="" title="Duplicate" href="#"><i class="icon-edit"></i> Edit</a></li>                                        
+                                            <li><a class="delete" title="Delete" onclick=""><i class="icon-trash"></i> Delete</a></li>
+                                            <li class="divider"></li>
+                                            <li><a class="delete" title="Delete" onclick=""><i class="icon-addnew"></i> Add new item</a></li>
+                                        </ul>
+                                    </span>
+                                    
+                                </div>
+                                <div class="panel-body" style="padding:0">
+                                    <div class="menuitem-sortable" data-group-id="1">
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="1">
+                                            <span class="menu-item-name">item 1</span>
+                                            <span class="pull-right"> 
+                                                <a data-toggle="dropdown" class="list-toolbar-btn dropdown-toggle" href="javascript:void(0)"><i class="icon-caret-down"></i></a>           
+                                                <ul class="dropdown-menu">
+                                                    <li><a onclick="" title="Duplicate" href="#"><i class="icon-square-o"></i> Disable</a></li>                                        
+                                                    <li><a onclick="" title="Duplicate" href="#"><i class="icon-edit"></i> Edit</a></li>                                        
+                                                    <li><a class="delete" title="Delete" onclick=""><i class="icon-trash"></i> Delete</a></li>
+                                                </ul>
+                                            </span>
+                                        </div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="2">item 2</div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="3">item 3</div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="4">item 4</div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="5">item 5</div>
+                                                        
+                                    </div>
+                                </div> 
+                            </div>
+            
+                        </div>
+                        <!-- end group item -->
+                        <!-- group item -->
+                        <div class="group-item col-md-6 row-1" data-group-id="1">
+                            <div class="panel">    
+                                <div class="panel-heading clearfix">
+                                    Group 3
+                                    <span class="panel-heading-action panel-item-group pull-right"> 
+                                        <a data-toggle="dropdown" class="list-toolbar-btn dropdown-toggle" href="javascript:void(0)"><i class="icon-caret-down"></i></a>           
+                                        <ul class="dropdown-menu">
+                                            <li><a onclick="" title="Duplicate" href="#"><i class="icon-square-o"></i> Disable</a></li>                                        
+                                            <li><a onclick="" title="Duplicate" href="#"><i class="icon-edit"></i> Edit</a></li>                                        
+                                            <li><a class="delete" title="Delete" onclick=""><i class="icon-trash"></i> Delete</a></li>
+                                            <li class="divider"></li>
+                                            <li><a class="delete" title="Delete" onclick=""><i class="icon-addnew"></i> Add new item</a></li>
+                                        </ul>
+                                    </span>
+                                    
+                                </div>
+                                <div class="panel-body" style="padding:0">
+                                    <div class="menuitem-sortable" data-group-id="1">
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="1">
+                                            <span class="menu-item-name">item 1</span>
+                                            <span class="pull-right"> 
+                                                <a data-toggle="dropdown" class="list-toolbar-btn dropdown-toggle" href="javascript:void(0)"><i class="icon-caret-down"></i></a>           
+                                                <ul class="dropdown-menu">
+                                                    <li><a onclick="" title="Duplicate" href="#"><i class="icon-square-o"></i> Disable</a></li>                                        
+                                                    <li><a onclick="" title="Duplicate" href="#"><i class="icon-edit"></i> Edit</a></li>                                        
+                                                    <li><a class="delete" title="Delete" onclick=""><i class="icon-trash"></i> Delete</a></li>
+                                                </ul>
+                                            </span>
+                                        </div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="2">item 2</div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="3">item 3</div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="4">item 4</div>
+                                        <div class="menu-item col-md-12 group-1" data-menu-item-id="5">item 5</div>
+                                                        
+                                    </div>
+                                </div> 
+                            </div>
+            
+                        </div>
+                        <!-- end group item -->
+                    </div>
+                    
+                    
+                </div> 
+            </div>  
+            
+            
+            <div class="panel panel-sup module-1 col-sm-6" data-id="2">   
+                <div class="panel-heading">
+                    Row 2
+                    <span class="panel-heading-action">            
+                        <a href="javascript:void(0)" onclick="showModal('modalModule')" class="list-toolbar-btn link-add" title="{l s='Add new module'}"><i class="process-icon-new"></i></a>
+                    </span>
+                </div>
+                <div class="panel-body" style="padding:0">
+                    <div class="form-group">
+                        <a class="btn btn-default btn-lg button-new-item" href="javascript:void(0)" onclick="showModal('modalRow')"><i class="icon-plus-sign"></i> Add new column</a>    
+                    </div>      
+                    
+                    
+                    
+                </div> 
+            </div> 
+        </div>
+    </div> 
+</div>
+
+
+
+
+<div id="modalModule" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <span class="modal-title"><i class="icon-cloud"></i>{l s=' Add or edit module' mod='flexgroupmenus'}</span>
+            </div>
+            <div class="modal-body form-horizontal" id="forgotBody">
+                <form id="frmModule">{$moduleForm}</form>           
+            </div>
+            <div class="modal-footer">                
+                <button type="button" class="btn btn-primary btnForgot" onclick="saveModule()"><i class="icon-save"></i> {l s='Save' mod='flexgroupmenus'}</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modalRow" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <span class="modal-title"><i class="icon-cloud"></i>{l s=' Add or edit row' mod='flexgroupmenus'}</span>
+            </div>
+            <div class="modal-body form-horizontal" id="forgotBody">
+                <form id="frmRow"></form>           
+            </div>
+            <div class="modal-footer">                
+                <button type="button" class="btn btn-primary btnForgot" onclick="saveModule()"><i class="icon-save"></i> {l s='Save' mod='flexgroupmenus'}</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	$(document).on('focusin', function(e) {
+        if ($(e.target).closest(".mce-window").length) {
+    		e.stopImmediatePropagation();
+    	}
+    });
+    var secure_key = "{$secure_key}";
+    var baseModuleUrl = "{$baseModuleUrl}";
+    var currentUrl = "{$currentUrl}";
+    var moduleId = '0';
+    var verticalMenuId = '0';
+    var verticalGroupId = '0';
+    var verticalGroupType = '';
+    var iso = '{$iso}';    
+    var ad = "{$ad}";
+    var moduleFormNew = '';
+    var menuFormNew = '';
+    var menuGroupFormNew = '';
+    var menuItemFormNew = '';
+</script>

@@ -1,0 +1,10 @@
+.socialsharing_product button {
+	margin-bottom: 8px;
+	margin-right: 5PX;
+}
+.socialsharing_product button i:before{
+    font-family: "FontAwesome";
+}
+.socialsharing_product button i.icon-twitter:before {
+  font-family: "granada-font";
+}

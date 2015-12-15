@@ -1,0 +1,14 @@
+.tags_block .block_content {
+  overflow: hidden; }
+  .tags_block .block_content a {
+    display: inline-block;
+    font-size: 15px;
+    font-family: Judson;
+    line-height: 16px;
+    padding: 4px 10px 5px 10px;
+    border: 1px solid #d6d4d4;
+    float: left;
+    margin: 0 10px 13px 0; }
+    .tags_block .block_content a:hover {
+      color: #333333;
+      background: #f6f6f6; }

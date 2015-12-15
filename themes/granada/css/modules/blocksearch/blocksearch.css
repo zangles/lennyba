@@ -1,0 +1,37 @@
+#search_block_top{padding-top:50px;}
+.granada_home2 header#header #search_block_top{  padding: 0;
+  width: 80px;
+  margin-right: 0;}
+#search_block_top #searchbox{float:left;width:100%;}
+#search_block_top .btn.button-search{background:#999;display:block;position:absolute;top:0;right:0;border:none;color:white;width:40px;text-align:center;padding:0;height:40px;}
+#search_block_top .btn.button-search span{display:none;}
+#search_block_top .btn.button-search:before{content: "\f002";display:block;font-family: "FontAwesome";font-size:17px;width:100%;text-align:center;}
+#search_block_top .btn.button-search:hover{color:#6f6f6f;}
+#search_block_top #search_query_top{display:block;padding:0 10px;height:38px;line-height:40px;background:#fbfbfb;margin-right:40px;float:right;}
+.granada_home2 #search_block_top .btn.button-search{
+    width: auto;
+    background: transparent;
+    color: #7e786b;
+      padding: 10px;
+}
+.granada_home2 #search_block_top .btn.button-search span{display: inline-block;font-family: 'open sans';  line-height: 13px;
+  vertical-align: top;}
+.granada_home2 #search_block_top #searchbox #search_query_top{margin-right: 85px;}
+#search_block_top .btn.button-search:before{
+  font-family: granada-font;
+  content: '\e826';
+  font-size: 13px;
+  display: inline-block;
+  width: 13px;
+  line-height: 13px;
+  vertical-align: top;}
+
+.ac_results{background:white;border:1px solid #d6d4d4;width:271px;margin-top:-1px;}
+.ac_results li{padding:0 10px;font-weight:normal;color:#666;font-size:13px;line-height:22px;}
+.ac_results li.ac_odd{background:white;}
+.ac_results li:hover,.ac_results li.ac_over{background:#fbfbfb;}
+form#searchbox{position:relative;}
+form#searchbox label{color:#333333;}
+form#searchbox input#search_query_block{margin-right:10px;max-width:222px;margin-bottom:10px;display:inline-block;float:left;}
+form#searchbox .button.button-small{float:left;}
+form#searchbox .button.button-small i{margin-right:0;}

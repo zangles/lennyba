@@ -1,0 +1,211 @@
+/* ************************************************************************************************
+		Categories Page Styles
+************************************************************************************************ */
+#category #columns {
+    padding-bottom: 40px;}
+#category #top-category {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 20px 30px;
+    margin-bottom: 30px;}
+#category #top-category.no_slider {
+    min-height: 100px;
+    }
+
+#category #responsive_slides {
+    margin-bottom: 1.5em;}
+h1.page-heading.product-listing {
+    background: url(../img/ovic/breadcrumb_bg.png) 0 0 repeat-x;
+    /* position: absolute; */
+    /* top: 30px; */
+    /* left: 30px; */
+    z-index: 100;
+    line-height: 40px;
+    padding: 0 20px!important;
+    color: #00a7cd;
+    font-size: 30px;}
+#category #top-category.no_slider h1.page-heading.product-listing,
+#category #top-category.no_slider h1.page-heading.product-listing span {
+    padding-left: 0!important;} 
+.content_scene_cat {
+    border-top: 5px solid #333333;
+    color: #d7d7d7;
+    line-height: 19px;
+    margin: 0 0 26px 0; }
+.content_scene_cat .content_scene_cat_bg {
+    padding: 18px 10px 10px 42px;
+    background-color: #464646 !important; }
+@media (max-width: 1199px) {
+    .content_scene_cat .content_scene_cat_bg {
+        padding: 10px 10px 10px 15px; } 
+}
+.content_scene_cat span.category-name {}
+@media (max-width: 1199px) {
+.content_scene_cat span.category-name {
+    font-size: 25px;
+        line-height: 30px; } 
+}
+@media (max-width: 767px) {
+    h1.page-heading.product-listing {
+        font-size: 18px;}
+}
+.content_scene_cat p {
+    margin-bottom: 0; }
+.content_scene_cat a {
+    color: white; }
+.content_scene_cat a:hover {
+    text-decoration: underline; }
+.content_scene_cat .content_scene {
+    color: #666; }
+.content_scene_cat .content_scene .cat_desc {
+padding-top: 20px; }
+.content_scene_cat .content_scene .cat_desc a {
+    color: #666; }
+.content_scene_cat .content_scene .cat_desc a:hover {
+    color: #d7d7d7; }
+@media (min-width: 992px) and (max-width: 1199px) {
+    h1.page-heading.product-listing {
+        font-size: 26px;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    h1.page-heading.product-listing {
+        font-size: 20px;}
+}
+/* ************************************************************************************************
+			Sub Categories Styles
+************************************************************************************************ */
+#subcategories {
+    margin: 20px 0 0 0;
+    padding: 0;}
+#subcategories p.subcategory-heading {
+font-weight: bold;
+color: #333333;
+margin: 0 0 15px 0; }
+#subcategories ul {
+margin: 0; }
+#subcategories ul li {
+    float: left;
+    position: relative;
+    margin: 0 0 10px -1px;
+    padding: 5px 10px 5px 17px;
+    border: 1px solid #eee;
+    border-width: 1px 0 1px 1px;}
+#subcategories ul li:first-child {
+    padding-left: 10px;}
+#subcategories ul li span {
+    position: absolute;
+    right: -7px;
+    top: 0;
+    display: inline-block;
+    content: '';
+    font-family: FontAwesome;
+    width: 8px;
+    height: 100%;
+    z-index: 10;
+    background: url('../img/ovic/subcate-bg.jpg') right center no-repeat;}
+#subcategories ul li .subcategory-image {
+    padding: 0 0 8px 0; }
+#subcategories ul li .subcategory-image a {
+display: block;
+padding: 9px;
+border: 1px solid #d6d4d4; }
+#subcategories ul li .subcategory-image a img {
+max-width: 100%;
+vertical-align: top; }
+#subcategories ul li .subcategory-name {}
+#subcategories ul li .subcategory-name:hover {
+    color: #00a7cd; }
+#subcategories ul li .cat_desc {
+    display: none; }
+#subcategories ul li:hover .subcategory-image a {
+    border: 5px solid #333333;
+    padding: 5px; }
+
+/****************************
+** sortPagiBar Fix ** 
+****************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+#category .content_sortPagiBar .sortPagiBar .nbrItemPage .clearfix > span {
+display: none;
+}
+#category .content_sortPagiBar.full-width .sortPagiBar .nbrItemPage .clearfix > span {
+display: block;
+}
+#category .full-width #productsSortForm {
+display: block;
+}   
+}
+@media (min-width: 768px) and (max-width: 991px) {
+#category #productsSortForm {
+display: none;
+}    
+#category .content_sortPagiBar .sortPagiBar .nbrItemPage .clearfix > span {
+display: none;
+}
+#category .content_sortPagiBar.full-width .sortPagiBar .nbrItemPage .clearfix > span {
+display: block;
+}
+}
+
+.granada_left.cms-index-index #left_column .block-title strong {
+    color: #fff;
+}
+.sale-slider-owl .owl-controls{
+    position: absolute;
+    top: -42px;
+    right: 0;
+}
+
+#category #left_column .owl-controls .owl-nav div:before{
+    content: "";
+}
+#category #left_column .owl-controls .owl-nav div{
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-image: url("../img/sprite.png");
+    transition:all .25s;
+    -webkit-transition:all .25s;
+    -moz-transition:all .25s;
+    -ms-transition:all .25s;
+    -o-transition:all .25s;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;        
+}
+
+.arrows-container .arrows-left:before,
+.arrows-container .arrows-right:before{
+    content: "" !important;
+}
+#category #left_column .owl-controls .owl-nav .owl-prev{
+    background-position: -178px -1256px;
+    right: 45px;
+    left: auto;
+}
+#category #left_column .owl-controls .owl-nav .owl-prev:hover{
+    background-position: -212px -1256px;
+}
+#category #left_column .owl-controls .owl-nav .owl-next{
+    background-position: -214px -1283px;
+    right: 10px;
+}
+#category #left_column .owl-controls .owl-nav .owl-next:hover{
+    background-position: -178px -1283px
+}
+
+/* RTL Categories */
+.rtl #category #top-category.no_slider h1.page-heading.product-listing, 
+.rtl #category #top-category.no_slider h1.page-heading.product-listing span {
+    padding-right: 0;}
+.rtl #subcategories ul li {
+    float: right;
+    margin: 0 -1px 10px 0;
+    padding: 5px 17px 5px 10px;
+    border: 1px solid #eee;
+    border-width: 1px 1px 1px 0;}
+.rtl #subcategories ul li span {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    left: -7px;} 
+

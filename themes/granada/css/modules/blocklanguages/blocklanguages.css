@@ -1,0 +1,56 @@
+/* Module: blocklanguages */
+/*
+#languages-block-top {
+	float: left;    
+	border-left-style: double;
+	border-left-width: 3px;
+	border-left-color: #eee;
+	padding-left: 15px;
+	margin-left: 15px;
+  	position: relative; 
+  }
+  #languages-block-top span.firstWord {
+    display: none; }
+  #languages-block-top div.current {
+    font-weight: bold;
+    
+    cursor: pointer; }
+    #languages-block-top div.current strong {
+      color: #777777; }
+    #languages-block-top div.current:after {
+      content: "\f0d7";
+      font-family: "FontAwesome";
+      font-size: 18px;
+      line-height: 18px;
+      color: #686666;
+      vertical-align: -2px;
+      padding-left: 12px; }
+  #languages-block-top ul {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: -1px;
+    width: 168px;
+    background: #FFF;
+    z-index: 100000; 
+    border: 1px solid #eee;
+    padding: 5px 0;
+}
+    #languages-block-top ul li {
+      color: white;
+      line-height: 24px;
+      font-size: 14px; }
+      #languages-block-top ul li a,
+      #languages-block-top ul li > span {
+        padding: 0 10px 0 15px;
+        display: block;
+        color: #666; 
+        background: #FFF;
+    }
+    #languages-block-top ul li > span img {
+        margin-top: -2px;
+    }
+      #languages-block-top ul li.selected, #languages-block-top ul li:hover a {
+        background: #FFF; }
+*/
+.granada_home2 header #languages-block-top, .granada_home2 #languages-block-top div.current{border: 0;}

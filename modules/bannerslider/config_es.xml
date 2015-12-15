@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>bannerslider</name>
+	<displayName><![CDATA[Ovic - Banner Slider Module]]></displayName>
+	<version><![CDATA[2.0]]></version>
+	<description><![CDATA[Ovic - Banner Slider Module]]></description>
+	<author><![CDATA[OVIC-SOFT]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,298 @@
+.flex-banners {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    clear: both;
+    
+}
+#index .flex-banners{
+	display: inline-block;
+}
+#right_column .flex-banners, #left_column .flex-banners {
+    margin: 0 0 30px 0;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(200, 200, 200, 0.45);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(200, 200, 200, 0.45);
+    box-shadow: 0px 1px 3px 0px rgba(200, 200, 200, 0.45);
+} 
+
+.home-banner{
+	position: relative;
+}
+.home-banner .description-box-1, 
+.home-banner .description-box-2,
+.home-banner .description-box-3{
+	position: absolute;
+	color: #282727;
+	text-transform: uppercase;
+}
+.home-banner a{
+	color: #282727;
+}
+.home-banner a:hover{
+	color: #00a7cd;
+}
+.home-banner .description-box-1{
+    bottom: 50px;	
+    left: 490px;
+    width: 330px;
+    
+}
+.home-banner .description-box-1 .text-1{
+    font-size: 65px;
+	
+    line-height: 60px;
+}
+.home-banner .description-box-1 .text-2{
+    font-size: 19px;	
+    margin-top: 30px;
+}
+.home-banner .description-box-1 .text-3{
+    font-size: 32px;
+	
+    line-height: 32px;
+    margin-top: 10px;
+}
+.home-banner .description-box-1 .text-4{
+    font-size: 19px;
+	
+    line-height: 19px;
+    margin-top: 3px;
+}
+.home-banner .description-box-1 .text-5{
+    font-size: 16px;	
+    margin-top: 35px;
+}
+.home-banner .description-box-1 .text-5 a{
+    border: 1px solid #ccc;	
+    padding: 10px 20px;
+    background: #fff;
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(204, 204, 204, 0.75);
+	-moz-box-shadow:    0px 1px 3px 0px rgba(204, 204, 204, 0.75);
+	box-shadow:         0px 1px 3px 0px rgba(204, 204, 204, 0.75);
+    -moz-transition: all 0.45s ease;
+	-webkit-transition: all 0.45s ease;
+	-o-transition: all 0.45s ease;
+	-ms-transition: all 0.45s ease;
+	transition: all 0.45s ease;
+	position: relative;
+}
+.home-banner .description-box-1 .text-5 a:after{
+	display: inline-block;
+	  font-family: FontAwesome;
+	  font-style: normal;
+	  font-weight: normal;
+	  line-height: 1;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	  content: "\f0da";
+	  color: #00a7cd;
+	  margin-left: 10px;	  
+}
+.home-banner .description-box-1 .text-5 a:hover{
+	background: #f3f3f3;
+}
+.home-banner .description-box-2{
+    top: 50px;	
+    left: 150px;
+    width: 210px;
+}
+.home-banner .description-box-2 .text-1{
+    font-size: 48px;	    
+    line-height: 40px;
+    color: #00a7cd;
+}
+.home-banner .description-box-2 .text-2{
+    font-size: 24px;
+	
+    line-height: 24px;
+    margin-top: 8px;
+}
+.home-banner .description-box-2 .text-3{
+    margin-top: 12px;
+	
+    font-weight: 500;
+    font-size: 16px;
+}
+.home-banner .description-box-2 .text-3 a:after{
+	display: inline-block;
+	  font-family: FontAwesome;
+	  font-style: normal;
+	  font-weight: normal;
+	  line-height: 1;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	  content: "\f0da";
+	  color: #00a7cd;
+	  margin-left: 10px;
+}
+.home-banner .description-box-3{
+	bottom: 40px;	
+    left: 110px;
+}
+.home-banner .description-box-3 .text-1 a:after{
+	display: inline-block;
+	  font-family: FontAwesome;
+	  font-style: normal;
+	  font-weight: normal;
+	  line-height: 1;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	  content: "\f0da";
+	  color: #00a7cd;
+	  margin-left: 10px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {        
+    .home-banner .description-box-1{
+	    bottom: 50px;	
+	    left: 380px;
+	    width: 330px;
+	    
+	}
+	.home-banner .description-box-1 .text-1{
+	    font-size: 48px;		
+	    line-height: 42px;
+	}
+	.home-banner .description-box-1 .text-2{
+	    margin-top: 20px;
+	}
+	.home-banner .description-box-1 .text-3{
+	    font-size: 26px;		
+	    line-height: 26px;
+	}
+	.home-banner .description-box-2{
+	    top: 30px;	
+	    left: 120px;
+	    width: 180px;	    
+	}
+	.home-banner .description-box-2 .text-1{
+	    font-size: 40px;		    
+	    line-height: 36px;
+	}
+	.home-banner .description-box-2 .text-2{
+	    font-size: 20px;		
+	    line-height: 20px;
+	    margin-top: 5px;
+	}
+	.home-banner .description-box-2 .text-3{
+	    font-size: 14px;
+	}
+	
+	.home-banner .description-box-3{
+		bottom: 30px;	
+	    left: 85px;
+	}	
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {        
+    .home-banner .description-box-1{
+	    bottom: 50px;	
+	    left: 300px;
+	    width: 330px;
+	    
+	}
+	.home-banner .description-box-1 .text-1{
+	    font-size: 48px;		
+	    line-height: 42px;
+	}
+	.home-banner .description-box-1 .text-2{
+	    margin-top: 20px;
+	}
+	.home-banner .description-box-1 .text-3{
+	    font-size: 26px;		
+	    line-height: 26px;
+	}
+	.home-banner .description-box-2{
+	    top: 30px;	
+	    left: 100px;
+	    width: 130px;	    
+	}
+	.home-banner .description-box-2 .text-1{
+	    font-size: 26px;		    
+	    line-height: 26px;
+	}
+	.home-banner .description-box-2 .text-2{
+	    font-size: 16px;		
+	    line-height: 16px;
+	    margin-top: 5px;
+	}
+	.home-banner .description-box-2 .text-3{
+	    font-size: 14px;
+	}
+	
+	.home-banner .description-box-3{
+		bottom: 20px;	
+	    left: 55px;
+	}	
+    
+}
+
+@media (min-width: 480px) and (max-width: 767px) {        
+    .home-banner .description-box-1{
+	    bottom: 30px;	
+	    left: 40%;
+	    width: 210px;
+	    
+	}
+	.home-banner .description-box-1 .text-1{
+	    font-size: 28px;		
+	    line-height: 24px;
+	}
+	.home-banner .description-box-1 .text-2{
+	    margin-top: 6px;
+	    font-size: 14px;
+	}
+	.home-banner .description-box-1 .text-3{
+	    font-size: 20px;		
+	    line-height: 20px;
+	    margin-top: 3px;
+	}
+	.home-banner .description-box-1 .text-4{
+		font-size: 14px;		
+	    line-height: 14px;
+	    margin-top: 6px;
+	}
+	.home-banner .description-box-1 .text-5{
+		font-size: 12px;
+	}
+	.home-banner .description-box-1 .text-5 a{
+		padding: 10px;
+	}
+	.home-banner .description-box-2{
+	      top: 30px;
+          left: 12.5%;
+          width: 86px;	    
+	}
+	.home-banner .description-box-2 .text-1{
+	    font-size: 18px;		    
+	    line-height: 16px;
+	}
+	.home-banner .description-box-2 .text-2{
+	    font-size: 10px;		
+	    line-height: 10px;
+	    margin-top: 5px;
+	}
+	.home-banner .description-box-2 .text-3{
+	    font-size: 10px;
+	    margin-top: 5px;
+	}
+	
+	.home-banner .description-box-3{
+		bottom: 10px;	
+	    left: 28px;
+	    font-size: 10px;
+	}	
+    
+}
+@media (max-width: 479px){
+	.flex-banner-description{
+		display: none;
+	}
+    .flex-banners {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

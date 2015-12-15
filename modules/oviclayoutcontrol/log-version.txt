@@ -1,0 +1,5 @@
+============================
+   * v1.4 - (6-5-2015) *
+============================
+Fixed bugs:
+[-] Delete module:  if this module is uninstalled before it is removed inside "Layout builder" then an error will occur  and can not remove this module in "Layout builder".

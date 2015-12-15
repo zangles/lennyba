@@ -1,0 +1,249 @@
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home-top-banner{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.flexgroupbanners-group .party-occasions,
+.flexgroupbanners-group .handbags, 
+.flexgroupbanners-group .new-arrivals{
+	position: relative;
+}
+.flexgroupbanners-group .party-occasions .flex-banner-description,
+.flexgroupbanners-group .handbags .flex-banner-description, 
+.flexgroupbanners-group .new-arrivals .flex-banner-description{
+	position: absolute;
+	text-transform: uppercase;
+	color: #fff;
+	
+}
+.flexgroupbanners-group .party-occasions .flex-banner-description{
+	top: 0;
+	right: 0;
+	padding: 20px 0;		
+}
+.flexgroupbanners-group .handbags .flex-banner-description, 
+.flexgroupbanners-group .new-arrivals .flex-banner-description{
+	bottom: 0;
+	left: 0;
+	padding: 30px 20px;
+	
+}
+.party-occasions .description > div{
+	width: 270px;
+	text-align: right;
+}
+.flexgroupbanners-group .new-arrivals{
+	margin-top: 30px;
+}
+.home-top-banner{
+	margin-bottom: 30px;
+}
+
+.flexgroupbanners-group .party-occasions .text-1{
+	font-size: 25px;
+	line-height: 24px;
+	color: #898989;
+	padding-right: 15px;
+}
+.flexgroupbanners-group .party-occasions .text-2{
+    background: #19afd0;	
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 6px 15px;
+    margin-top: 10px;
+}
+.flexgroupbanners-group .party-occasions .text-3{
+    background: #19afd0;	
+    font-size: 105px;
+    line-height: 80px;
+    padding: 0px 15px 12px 15px;
+    font-weight: bold;
+    margin-top: -1px;
+}
+.flexgroupbanners-group .party-occasions .text-4{
+    color: #19afd0;
+	
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+.flexgroupbanners-group .party-occasions .text-5{
+    color: #898989;
+	
+    padding: 0 15px;
+    font-size: 24px;
+}
+.flexgroupbanners-group .handbags .text-1{
+	font-size: 35px;
+	padding: 10px 0;
+	font-weight: bold;
+}
+.flexgroupbanners-group .handbags .text-2{
+	
+}
+
+.flexgroupbanners-group .new-arrivals .text-1{
+	font-size: 35px;
+	padding: 10px 0;
+	font-weight: bold;
+	color: #282727;
+}
+.flexgroupbanners-group .new-arrivals .text-2{
+	color: #282727;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {    
+    .flexgroupbanners-group .party-occasions .flex-banner-description{
+		padding: 40px 0;
+	}
+	.flexgroupbanners-group .handbags .flex-banner-description, 
+	.flexgroupbanners-group .new-arrivals .flex-banner-description{
+		bottom: 0;
+		left: 0;
+		padding: 30px 20px;		
+	}
+	.party-occasions .description > div{
+		width: 240px;
+		text-align: right;
+	}
+	.flexgroupbanners-group .new-arrivals{
+		margin-top: 30px;
+	}
+	.home-top-banner{
+		margin-bottom: 30px;
+	}	
+	.flexgroupbanners-group .party-occasions .text-1{
+		font-size: 22px;		
+	}
+	.flexgroupbanners-group .party-occasions .text-2{
+	    font-size: 28px;
+	    line-height: 28px;
+	}
+	.flexgroupbanners-group .party-occasions .text-3{		
+	    font-size: 90px;
+	    line-height: 60px;	    	    
+	}
+	.flexgroupbanners-group .party-occasions .text-4{
+	    font-size: 26px;	    
+	    line-height: 26px;	    
+	}
+	.flexgroupbanners-group .party-occasions .text-5{	    
+	    font-size: 20px;
+	}	
+	.flexgroupbanners-group .handbags .text-1{
+		font-size: 24px;		
+	}
+	.flexgroupbanners-group .new-arrivals .text-1{
+		font-size: 26px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {    
+    .flexgroupbanners-group .party-occasions .flex-banner-description{
+		padding: 20px 0;
+	}
+	.flexgroupbanners-group .handbags .flex-banner-description, 
+	.flexgroupbanners-group .new-arrivals .flex-banner-description{
+		bottom: 0;
+		left: 0;
+		padding: 30px 20px;		
+	}
+	.party-occasions .description > div{
+		width: 180px;
+		text-align: right;
+	}
+	.flexgroupbanners-group .new-arrivals{
+		margin-top: 30px;
+	}
+	.home-top-banner{
+		margin-bottom: 30px;
+	}	
+	.flexgroupbanners-group .party-occasions .text-1{
+		font-size: 16px;		
+	}
+	.flexgroupbanners-group .party-occasions .text-2{
+	    font-size: 20px;
+	    line-height: 20px;
+	}
+	.flexgroupbanners-group .party-occasions .text-3{		
+	    font-size: 65px;
+	    line-height: 45px;	    	    
+	}
+	.flexgroupbanners-group .party-occasions .text-4{
+	    font-size: 18px;	    
+	    line-height: 18px;	    
+	}
+	.flexgroupbanners-group .party-occasions .text-5{	    
+	    font-size: 18px;
+	}	
+	.flexgroupbanners-group .handbags .text-1{
+		font-size: 24px;		
+	}
+	.flexgroupbanners-group .new-arrivals .text-1{
+		font-size: 26px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px) { 
+	   
+    .flexgroupbanners-group .party-occasions .flex-banner-description{
+		padding: 20px 0;
+	}
+	.home-top-banner .flexgroupbanners-banners{
+		margin-right: 0px;
+	}
+	.flexgroupbanners-group .handbags .flex-banner-description, 
+	.flexgroupbanners-group .new-arrivals .flex-banner-description{
+		bottom: 0;
+		left: 0;
+		padding: 30px 20px;		
+	}
+	.party-occasions .description > div{
+		width: 180px;
+		text-align: right;
+	}
+	.flexgroupbanners-group .new-arrivals{
+		margin-top: 30px;
+	}
+	.home-top-banner{
+		margin-bottom: 30px;
+	}	
+	.flexgroupbanners-group .party-occasions .text-1{
+		font-size: 16px;
+		line-height: 16px;		
+	}
+	.flexgroupbanners-group .party-occasions .text-2{
+	    font-size: 20px;
+	    line-height: 20px;
+	}
+	.flexgroupbanners-group .party-occasions .text-3{		
+	    font-size: 65px;
+	    line-height: 45px;	    	    
+	}
+	.flexgroupbanners-group .party-occasions .text-4{
+	    font-size: 18px;	    
+	    line-height: 16px;	    
+	}
+	.flexgroupbanners-group .party-occasions .text-5{	    
+	    font-size: 18px;
+	}	
+	.flexgroupbanners-group .handbags .text-1{
+		font-size: 24px;		
+	}
+	.flexgroupbanners-group .new-arrivals .text-1{
+		font-size: 26px;
+	}
+}
+

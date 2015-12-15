@@ -1,0 +1,3 @@
+INSERT INTO PREFIX_customcontent_item_lang VALUES("1","id_lang","Vivamus magna justo","","<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Quisque velit nisi, pretium ut lacinia in, elementum ","Vivamus magna justo","Vivamus magna justo");
+INSERT INTO PREFIX_customcontent_item_lang VALUES("2","id_lang","Quisque velit nisi, pretium ut lacinia in","","<p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec rutrum congue leo eget malesuada. Proin eget tortor risus","Quisque velit nisi, pretium ut lacinia in","Quisque velit nisi, pretium ut lacinia in");
+
