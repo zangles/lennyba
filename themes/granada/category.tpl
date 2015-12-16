@@ -43,6 +43,7 @@
 <section id="content" role="main">
 	<div class="col-xs-16 col-xs-offset-4">
 		{include file="$tpl_dir./breadcrumb.tpl"}
+		<img src="{$base_dir}/img/azs/banner_1170x370px.jpg" alt="">
 	</div>
 	<div class="container">
 		<div class="row">			
@@ -96,10 +97,11 @@
 				{/if}
 			{else}
 				{if $right_column == true}
-					<div class="col-md-18 col-sm-16 padding-right-md" id="center_column">
+					<div class="col-md-12 col-md-offset-4 col-sm-16 padding-right-md" id="center_column">
 						{include file="./category-center.tpl" productPerRow='3' itemWidth='4'}
 					</div>
-					<aside class="col-md-6 col-sm-8 sidebar margin-top-up" role="complementary">
+					<aside class="col-md-4 col-sm-8 sidebar margin-top-up" role="complementary">
+						{assign var='hide_right_column' value="false"}
 						{$HOOK_RIGHT_COLUMN}
 					</aside>
 				{else}

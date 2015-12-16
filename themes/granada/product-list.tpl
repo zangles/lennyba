@@ -37,7 +37,7 @@
     	{assign var='itemWidth' value=8}
 
     {if !isset($productPerRow)}
-    	{assign var='productPerRow' value=3}	
+    	{assign var='productPerRow' value=2}
     {/if}
     {assign var='group_count' value=3}    
     <div {if isset($id) && $id} id="{$id}"{/if} class="product_list category-grid" data-item-width="{$itemWidth}" data-product-per-row="{$productPerRow}" >
