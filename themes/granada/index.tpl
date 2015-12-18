@@ -9,7 +9,7 @@
 	{assign var='left_column_size' value=0}{assign var='right_column_size' value=0}
 	{if isset($HOOK_LEFT_COLUMN) && $HOOK_LEFT_COLUMN|trim && !$hide_left_column}{$left_column_size=3}{/if}
 	{if isset($HOOK_RIGHT_COLUMN) && $HOOK_RIGHT_COLUMN|trim && !$hide_right_column}{$right_column_size=3}{/if}
-	
+
 	{assign var='left_column' value=false}
 	{assign var='right_column' value=false}
 	{if isset($HOOK_LEFT_COLUMN) && $HOOK_LEFT_COLUMN|trim && !$hide_left_column}
@@ -18,7 +18,7 @@
 	{if isset($HOOK_RIGHT_COLUMN) && $HOOK_RIGHT_COLUMN|trim && !$hide_right_column}
 		{$right_column=true}
 	{/if}
-	<section id="content" role="main">    				
+	<section id="content" role="main">
 		<div id="columns" class="container">
 			<div class="row">
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -35,7 +35,7 @@
 							<img src="{$base_dir}/img/azs/slider/slide_1.jpg" alt="...">
 							<div class="carousel-caption" style="margin-bottom: 175px;">
 								<p>INTRODUCING OUR FIRST</p>
-								<h1>COLECTION</h1>
+								<h1>GITANO SS16</h1>
 								<a href="{$link->getCategoryLink(12)|escape:'html':'UTF-8'}">
 									<div class="btn-action">VER CAMPAÑA</div>
 								</a>
@@ -45,8 +45,10 @@
 							<img src="{$base_dir}/img/azs/slider/slide_2.jpg" alt="...">
 							<div class="carousel-caption" style="margin-bottom: 175px;">
 								<p>INTRODUCING OUR FIRST</p>
-								<h1>COLECTION</h1>
-								<div class="btn-action">VER CAMPAÑA</div>
+								<h1>GITANO SS16</h1>
+								<a href="{$link->getCategoryLink(12)|escape:'html':'UTF-8'}">
+									<div class="btn-action">VER CAMPAÑA</div>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -116,8 +118,8 @@
 					<div class="text-center verticalcenter" style="padding-right: 50%;color: black;">
 						<p>SPRING / SUMMER 2016</p>
 						<p><- -></p>
-						<h1 style="font-size: 65px;">LOOK BOOK</h1>
-						<p>New Beginnings, new inspirations, new LENNY Collection.</p>
+						<h1 style="font-size: 65px;">LOOKBOOK</h1>
+						<p>New beginnings, new inspirations, new LENNY Collection.</p>
 						<div class="btn-action">VER LOOK</div>
 					</div>
 				</div>
@@ -135,7 +137,7 @@
 				</div>
 			</div>
 		</div><!-- #columns -->
-		
+
 	</section><!-- .columns-container -->
 	<script>
 		$(document).ready(function(){

@@ -83,13 +83,16 @@
                   </div>
                </div>
                <div class="container header-inside">
-                  <div class="row" style="height: 100px">
+
+				   <div class="row" style="height: 100px">
 					  <div class="col-sm-2 col-sm-offset-4 menu_item">COLECCIONES</div>
 					  <div class="col-sm-2 menu_item text-right">LOOKBOOK</div>
 					  <div class="col-sm-2 menu_item text-right">VIDEO</div>
-					  <div class="col-sm-4 menu_item text-center" style="padding-top: 29px">
-						  <img src="{$base_dir}/LOGO-LENNY-NEGRO.png" style="max-width: 228px; ">
-					  </div>
+					   <a href="/">
+						  <div class="col-sm-4 menu_item text-center" style="padding-top: 29px">
+							  <img src="{$base_dir}/LOGO-LENNY-NEGRO.png" style="max-width: 228px; ">
+						  </div>
+					   </a>
 					  <div class="col-sm-2 menu_item">E-SHOP</div>
 					  <div class="col-sm-2 menu_item">ABOUT</div>
 					  <div class="col-sm-2 menu_item">CONTACTO</div>
@@ -112,15 +115,16 @@
 						   Login
 					   </div>
 					   <div class="col-sm-2">&nbsp;</div>
-					   <div class="col-sm-2">$ Pesos Arg</div>
-					   <div class="col-sm-2">
-						   <img src="{$base_dir}/img/azs/menu_icon_items.jpg" alt="">
-						   0 Item(s)
-					   </div>
-					   <div class="col-sm-2">
-						   <img src="{$base_dir}/img/azs/menu_icon_search.jpg" alt="">
-						   Search
-					   </div>
+					   {if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
+					   {*<div class="col-sm-2">$ Pesos Arg</div>*}
+					   {*<div class="col-sm-2">*}
+						   {*<img src="{$base_dir}/img/azs/menu_icon_items.jpg" alt="">*}
+						   {*<span class="ajax_cart_quantity">0</span> Item(s)*}
+					   {*</div>*}
+					   {*<div class="col-sm-2">*}
+						   {*<img src="{$base_dir}/img/azs/menu_icon_search.jpg" alt="">*}
+						   {*Search*}
+					   {*</div>*}
 				   </div>
                </div>
                <div id="nav-wrapper">
