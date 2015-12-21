@@ -1,11 +1,20 @@
 $(document).ready(function(){
+
 	map = new google.maps.Map(document.getElementById('map'), {
 		center: new google.maps.LatLng(defaultLat, defaultLong),
-		zoom: 10,
+		zoom: 1,
 		mapTypeId: 'roadmap',
-		mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU}
+		mapTypeControlOptions: {
+			style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+
+		}
+
 	});
+
+
+
 	infoWindow = new google.maps.InfoWindow();
+	google.maps.event.trigger(map, "resize");
 	initMarkers();
 });
 function initMarkers()
@@ -30,9 +39,9 @@ function initMarkers()
 			bounds.extend(latlng);
 		}
 		map.fitBounds(bounds);
-		var zoomOverride = map.getZoom();
-        if(zoomOverride > 10)
-        	zoomOverride = 10;
+        //var zoomOverride = map.getZoom();
+        //if(zoomOverride > 10)
+        	zoomOverride = 15;
 		map.setZoom(zoomOverride);
 	});
 }

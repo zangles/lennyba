@@ -85,7 +85,10 @@
                <div class="container header-inside">
 
 				   <div class="row" style="height: 100px">
-					  <div class="col-sm-2 col-sm-offset-4 menu_item">COLECCIONES</div>
+
+					  <div class="col-sm-2 col-sm-offset-4 menu_item">
+						  <a href="{$link->getCategoryLink(15)|escape:'html':'UTF-8'}" style="color: #000;">COLECCIONES</a>
+					  </div>
 					  <div class="col-sm-2 menu_item text-right">LOOKBOOK</div>
 					  <div class="col-sm-2 menu_item text-right">VIDEO</div>
 					   <a href="/">
@@ -93,27 +96,61 @@
 							  <img src="{$base_dir}/LOGO-LENNY-NEGRO.png" style="max-width: 228px; ">
 						  </div>
 					   </a>
-					  <div class="col-sm-2 menu_item">E-SHOP</div>
+					   <a href="{$link->getCategoryLink(12)|escape:'html':'UTF-8'}">
+						   <div class="col-sm-2 menu_item">E-SHOP</div>
+					   </a>
 					  <div class="col-sm-2 menu_item">ABOUT</div>
-					  <div class="col-sm-2 menu_item">CONTACTO</div>
+
+					   <a href="{$link->getPageLink('contact-form.php', true)}">
+						   <div class="col-sm-2 menu_item">
+						   	{l s='CONTACTO' mod='blockcms'}
+						   </div>
+					   </a>
                   </div>
 				   <div class="row"  style="background-color: black;color:white">
-					   <div class="col-sm-2 col-sm-offset-4">
-						   <img src="{$base_dir}/img/azs/menu_icon_mi_cuenta.jpg" alt="">
-						   Mi Cuenta
+					   <div class="col-sm-2 col-sm-offset-4 dropdown">
+						   <a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" title="{l s='View my customer account' mod='blockuserinfo'}" class="btn-top-account dropdown-toggle"  style="color: #fff;">
+							   <img src="{$base_dir}/img/azs/menu_icon_mi_cuenta.jpg" alt="">
+							   Mi Cuenta
+						   </a>
+						   <ul class="dropdown-menu">
+							   <li class="myaccount-link"><a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" title="{l s='View my customer account' mod='blockuserinfo'}" class="account" rel="nofollow">{l s='My account' mod='blockuserinfo'}</a></li>
+							   <li class="checkout-link"><a href="{$link->getPageLink('order', true)|escape:'html':'UTF-8'}" title="{l s='Checkout' mod='blockuserinfo'}">{l s='Checkout' mod='blockuserinfo'}</a></li>
+							   <li class="mywishlist-link"><a href="{$link->getModuleLink('blockwishlist', 'mywishlist', array(), true)|escape:'html':'UTF-8'}"  rel="nofollow" title="{l s='Favoritos' mod='blockuserinfo'}">{l s='My wishlists' mod='blockuserinfo'}</a></li>
+						   </ul>
+						   <script type="text/javascript">
+							   (function($){
+								   $('.top-bar-account > a').click(function(event){
+									   event.preventDefault();
+								   });
+								   $('.top-bar-account').hover(function(){
+											   $(this).addClass('open');
+										   },
+										   function(){
+											   $(this).removeClass('open');
+										   });
+							   })(jQuery);
+						   </script>
+					   </div>
+					   <div class="col-sm-2" >
+						   <a href="{$link->getPageLink('order', true)|escape:'html':'UTF-8'}" title="{l s='Checkout' mod='blockuserinfo'}"  style="color: #fff;">
+							   <img src="{$base_dir}/img/azs/menu_icon_checkout.jpg" alt="">{l s='Checkout' mod='blockuserinfo'}
+						   </a>
 					   </div>
 					   <div class="col-sm-2">
-						   <img src="{$base_dir}/img/azs/menu_icon_checkout.jpg" alt="">
-						   Checkout
+						   <a href="{$link->getModuleLink('blockwishlist', 'mywishlist', array(), true)|escape:'html':'UTF-8'}"  rel="nofollow" title="{l s='My wishlists' mod='blockuserinfo'}"  style="color: #fff;">
+							   <img src="{$base_dir}/img/azs/menu_icon_favs.jpg" alt="">
+							   {l s='Favoritos' mod='blockuserinfo'}
+						   </a>
 					   </div>
-					   <div class="col-sm-2">
-						   <img src="{$base_dir}/img/azs/menu_icon_favs.jpg" alt="">
-						   Favoritos
-					   </div>
-					   <div class="col-sm-2">
-						   <img src="{$base_dir}/img/azs/menu_icon_login.jpg" alt="">
-						   Login
-					   </div>
+						{if $logged}
+						   <div class="col-sm-2">
+							   <a href="{$base_dir}index.php?mylogout" style="color: #fff;">
+								<img src="{$base_dir}/img/azs/menu_icon_login.jpg" alt="">
+								   {l s='Log out'}
+							   </a>
+						   </div>
+							{/if}
 					   <div class="col-sm-2">&nbsp;</div>
 					   {if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
 					   {*<div class="col-sm-2">$ Pesos Arg</div>*}

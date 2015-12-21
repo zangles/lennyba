@@ -430,11 +430,11 @@
 	<div class="xs-margin half"></div>	
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-18 col-sm-offset-4">
 
 				<form action="{$link->getPageLink('authentication', true)|escape:'html':'UTF-8'}" method="post" id="account-creation_form" class="std box">
 					<div class="row">
-						<div class="col-sm-6 padding-right-md">
+						<div class="col-sm-24 padding-right-md">
                         	{$HOOK_CREATE_ACCOUNT_TOP}
 							<div class="account_creation">
 								<h2 class="color2">{l s='Your personal information'}</h2>

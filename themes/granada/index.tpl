@@ -36,7 +36,7 @@
 							<div class="carousel-caption" style="margin-bottom: 175px;">
 								<p>INTRODUCING OUR FIRST</p>
 								<h1>GITANO SS16</h1>
-								<a href="{$link->getCategoryLink(12)|escape:'html':'UTF-8'}">
+								<a href="{$link->getCMSLink('7-gitano-ss16' )|escape:'html':'UTF-8'}">
 									<div class="btn-action">VER CAMPAÑA</div>
 								</a>
 							</div>
@@ -46,7 +46,7 @@
 							<div class="carousel-caption" style="margin-bottom: 175px;">
 								<p>INTRODUCING OUR FIRST</p>
 								<h1>GITANO SS16</h1>
-								<a href="{$link->getCategoryLink(12)|escape:'html':'UTF-8'}">
+								<a href="{$link->getCMSLink('7-gitano-ss16')|escape:'html':'UTF-8'}">
 									<div class="btn-action">VER CAMPAÑA</div>
 								</a>
 							</div>
@@ -90,7 +90,9 @@
 						<div class="text-center verticalcenter">
 							<p>New</p>
 							<p style="font-size: 50px">Arrivals</p>
-							<div class="btn-action" style="background-color: white;color: black;">COMPRAR</div>
+							<a href="{$link->getCategoryLink(12)|escape:'html':'UTF-8'}">
+								<div class="btn-action" style="background-color: white;color: black;">COMPRAR</div>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -104,7 +106,9 @@
 						">
 						<div class="text-center verticalcenter">
 							<p  style="font-size: 50px">ACCESORIOS</p>
-							<div class="btn-action"  style="background-color: white;color: black;">COMPRAR</div>
+							<a href="{$link->getCategoryLink(15)|escape:'html':'UTF-8'}">
+								<div class="btn-action"  style="background-color: white;color: black;">COMPRAR</div>
+							</a>
 						</div>
 
 					</div>

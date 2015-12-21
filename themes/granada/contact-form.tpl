@@ -42,44 +42,53 @@
 
 
 <section id="content" role="main">
-	{include file="$tpl_dir./breadcrumb.tpl"}
-	<div class="xs-margin"></div>
-	<div class="container">
-		<div class="row">
-			{if $left_column == true}
-				{if $right_column == true}
-					<aside class="col-md-3 sidebar margin-top-up" role="complementary">
-						{$HOOK_LEFT_COLUMN}
-					</aside>
-					<div class="col-md-6 padding-both-larger" id="center_column">
-						{include file="./contact-form-center.tpl"}
-					</div>					
-					<aside class="col-md-3 sidebar margin-top-up">
-						{$HOOK_RIGHT_COLUMN}
-					</aside>
-				{else}
-					<div class="col-md-9 col-md-push-3 col-sm-8 col-sm-push-4 padding-left-larger">
-						{include file="./contact-form-center.tpl"}
-					</div>
-					<aside class="col-md-3 col-md-pull-9 col-sm-4 col-sm-pull-8 sidebar margin-top-up" role="complementary">
-						{$HOOK_LEFT_COLUMN}
-					</aside>
-				{/if}
-			{else}
-				{if $right_column == true}
-					<div class="col-md-9 col-sm-8 padding-right-lg" id="center_column">
-						{include file="./contact-form-center.tpl"}
-					</div>
-					<aside class="col-md-3 col-sm-4 sidebar margin-top-up" role="complementary">
-						{$HOOK_RIGHT_COLUMN}
-					</aside>
-				{else}
-					<div class="col-xs-12 articles-container" id="center_column">
-						{include file="./contact-form-center.tpl"}
-					</div>					
-				{/if}
-			{/if}					
+	<div class="row">
+		<div class="col-md-16 col-md-offset-4">
+			{include file="$tpl_dir./breadcrumb.tpl"}
 		</div>
-	</div>	
-	<div class="md-margin"></div>
+		<div class="col-md-24">
+			{include file="./contact-form-map.tpl"}
+		</div>
+		<div class="col-md-16 col-md-offset-4">
+			<div class="xs-margin"></div>
+			<div class="container">
+				<div class="row">
+					{if $left_column == true}
+						{if $right_column == true}
+							<aside class="col-md-6 sidebar margin-top-up" role="complementary">
+								{$HOOK_LEFT_COLUMN}
+							</aside>
+							<div class="col-md-12 padding-both-larger" id="center_column">
+								{include file="./contact-form-center.tpl"}
+							</div>
+							<aside class="col-md-6 sidebar margin-top-up">
+								{$HOOK_RIGHT_COLUMN}
+							</aside>
+						{else}
+							<div class="col-md-18 col-md-push-6 col-sm-16 col-sm-push-8 padding-left-larger">
+								{include file="./contact-form-center.tpl"}
+							</div>
+							<aside class="col-md-6 col-md-pull-18 col-sm-8 col-sm-pull-16 sidebar margin-top-up" role="complementary">
+								{$HOOK_LEFT_COLUMN}
+							</aside>
+						{/if}
+					{else}
+						{if $right_column == true}
+							<div class="col-md-18 col-sm-16 padding-right-lg" id="center_column">
+								{include file="./contact-form-center.tpl"}
+							</div>
+							<aside class="col-md-6 col-sm-8 sidebar margin-top-up" role="complementary">
+								{$HOOK_RIGHT_COLUMN}
+							</aside>
+						{else}
+							<div class="col-xs-24 articles-container" id="center_column">
+								{include file="./contact-form-center.tpl"}
+							</div>
+						{/if}
+					{/if}
+				</div>
+			</div>
+			<div class="md-margin"></div>
+		</div>
+	</div>
 </section>

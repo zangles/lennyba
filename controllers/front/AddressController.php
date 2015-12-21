@@ -139,8 +139,8 @@ class AddressControllerCore extends FrontController
 			if (!($country = new Country($address->id_country)) || !Validate::isLoadedObject($country))
 				throw new PrestaShopException('Country cannot be loaded with address->id_country');
 
-			if ((int)$country->contains_states && !(int)$address->id_state)
-				$this->errors[] = Tools::displayError('This country requires you to chose a State.');
+//			if ((int)$country->contains_states && !(int)$address->id_state)
+//				$this->errors[] = Tools::displayError('This country requires you to chose a State.');
 
 			if (!$country->active)
 				$this->errors[] = Tools::displayError('This country is not active.');

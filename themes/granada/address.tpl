@@ -44,7 +44,7 @@
 				{assign var="atLeastOneExists" value=false}
 				
 				
-				<div class="col-sm-6 padding-right-md">
+				<div class="col-sm-12 padding-right-md">
         			<h2 class="color2">{l s='Your Personal Details'}</h2>
         			{foreach from=$ordered_adr_fields item=field_name}
 					{if $field_name eq 'company'}
