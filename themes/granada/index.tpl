@@ -34,7 +34,7 @@
 						<div class="item active">
 							<img src="{$base_dir}/img/azs/slider/slide_1.jpg" alt="...">
 							<div class="carousel-caption" style="margin-bottom: 175px;">
-								<p>INTRODUCING OUR FIRST</p>
+								<p>INTRODUCING</p>
 								<h1>GITANO SS16</h1>
 								<a href="{$link->getCMSLink('7-gitano-ss16' )|escape:'html':'UTF-8'}">
 									<div class="btn-action">VER CAMPAÑA</div>
@@ -44,7 +44,7 @@
 						<div class="item">
 							<img src="{$base_dir}/img/azs/slider/slide_2.jpg" alt="...">
 							<div class="carousel-caption" style="margin-bottom: 175px;">
-								<p>INTRODUCING OUR FIRST</p>
+								<p>INTRODUCING</p>
 								<h1>GITANO SS16</h1>
 								<a href="{$link->getCMSLink('7-gitano-ss16')|escape:'html':'UTF-8'}">
 									<div class="btn-action">VER CAMPAÑA</div>
@@ -81,15 +81,15 @@
 			<div class="row" style="color: white;">
 				<div class="col-sm-12">
 					<div class="backgroundResponsive" style="
-						background-image: url('/img/azs/home_arrivals_700x800px.jpg');
+						background-image: url('/img/azs/shop_1.gif');
 						display: table;
 						overflow: hidden;
 						height: 500px;
 						margin-top: 80px;
 						">
 						<div class="text-center verticalcenter">
-							<p>New</p>
-							<p style="font-size: 50px">Arrivals</p>
+							<p style="margin-bottom: -12px;">New</p>
+							<p style="font-size: 50px">ARRIVALS </p>
 							<a href="{$link->getCategoryLink(12)|escape:'html':'UTF-8'}">
 								<div class="btn-action" style="background-color: white;color: black;">COMPRAR</div>
 							</a>
@@ -98,40 +98,105 @@
 				</div>
 				<div class="col-sm-12">
 					<div class="backgroundResponsive" style="
-						background-image: url('/img/azs/home_accesorios_700x800px.jpg');
+						background-image: url('/img/azs/shop_2.gif');
 						display: table;
 						overflow: hidden;
 						height: 500px;
 						margin-top: 80px;
 						">
 						<div class="text-center verticalcenter">
-							<p  style="font-size: 50px">ACCESORIOS</p>
+							<p  style="font-size: 50px;margin-top: 12px;">ACCESORIOS</p>
 							<a href="{$link->getCategoryLink(15)|escape:'html':'UTF-8'}">
 								<div class="btn-action"  style="background-color: white;color: black;">COMPRAR</div>
 							</a>
 						</div>
 
 					</div>
-			</div>
-			<div class="row">
-				<div class="backgroundResponsive" style="
-						background-image: url('/img/azs/home_lookbook_1920x900px.jpg');
-						display: table;
-						overflow: hidden;
-						height: 900px;">
-					<div class="text-center verticalcenter" style="padding-right: 50%;color: black;">
-						<p>SPRING / SUMMER 2016</p>
-						<p><- -></p>
-						<h1 style="font-size: 65px;">LOOKBOOK</h1>
-						<p>New beginnings, new inspirations, new LENNY Collection.</p>
-						<div class="btn-action">VER LOOK</div>
-					</div>
 				</div>
 			</div>
+
+			<div class="row" style="margin-top: 100px;">
+				<div class="col-md-24">
+					<iframe src="https://player.vimeo.com/video/143423491?title=0&byline=0&portrait=0" width="100%" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="row" style="margin-top: 100px;">
+				<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="/img/azs/home_lookbook_1920x900px.jpg" alt="...">
+							<div class="carousel-caption" style="left: 0%;">
+								<div class="text-center verticalcenter" style="padding-left: 27%;
+																				color: black;
+																				padding-bottom: 100px;
+																				text-shadow: none;">
+									<p>SPRING / SUMMER 2016</p>
+									<h1 style="font-size: 65px;">LOOKBOOK</h1>
+									<p>New beginnings, new inspirations, new LENNY Collection.</p>
+									<a href="{$link->getCMSLink('8-01')|escape:'html':'UTF-8'}">
+										<div class="btn-action">VER LOOKBOOK</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img src="/img/azs/home_lookbook2_1920x900.jpg" alt="...">
+							<div class="carousel-caption" style="left: 0%;">
+								<div class="text-center verticalcenter" style="padding-left: 27%;
+																				color: black;
+																				padding-bottom: 100px;
+																				text-shadow: none;">
+									<p>SPRING / SUMMER 2016</p>
+									<h1 style="font-size: 65px;">LOOKBOOK</h1>
+									<p>New beginnings, new inspirations, new LENNY Collection.</p>
+									<a href="{$link->getCMSLink('8-01')|escape:'html':'UTF-8'}">
+										<div class="btn-action">VER LOOKBOOK</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img src="/img/azs/home_lookbook3_1920x900.jpg" alt="...">
+							<div class="carousel-caption" style="left: 0%;">
+								<div class="text-center verticalcenter" style="padding-left: 27%;
+																				color: black;
+																				padding-bottom: 100px;
+																				text-shadow: none;">
+									<p>SPRING / SUMMER 2016</p>
+									<h1 style="font-size: 65px;">LOOKBOOK</h1>
+									<p>New beginnings, new inspirations, new LENNY Collection.</p>
+									<a href="{$link->getCMSLink('8-01')|escape:'html':'UTF-8'}">
+										<div class="btn-action">VER LOOKBOOK</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+
 			<div class="row" style="margin-top: 75px">
 				<div class="col-md-24 text-center">
 					<h1>NEWSLETTER</h1>
-					<p>Suscribete ahroa y estaras al dia de nuestras novedades, ultimos lookbooks y promociones exclusivas</p>
+					<p style="color: black">Suscribete ahora y estaras al dia de nuestras novedades, ultimos lookbooks y promociones exclusivas</p>
 				</div>
 				<div class="col-md-6 col-md-offset-9">
 					<div class="input-group">

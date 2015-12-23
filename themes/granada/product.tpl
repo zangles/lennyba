@@ -53,7 +53,7 @@
 		<div class="carousel-container">
 		    <div class="container">
 		        <div class="row">
-		            <div class="col-sm-6">
+		            <div class="col-sm-6 col-sm-offset-4">
 		                <div class="product-single-carousel">
 		                	{foreach from=$images item=image name=thumbnails}
 								{assign var=imageIds value="`$product->id`-`$image.id_image`"}
@@ -74,7 +74,7 @@
 		<div class="md-margin2x visible-sm visible-xs"></div>
 		<div class="product-single-meta-container ">
 		    <div class="container">		    	
-			        <div class="col-md-6 col-md-push-6 product-single-meta">
+			        <div class="col-md-10 col-md-push-10 product-single-meta">
 			            <h2 class="product-name">{$product->name|escape:'html':'UTF-8'}</h2>
 			            <div class="clearfix">
 			                <div class="product-price-container pull-left">

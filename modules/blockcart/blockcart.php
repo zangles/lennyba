@@ -48,7 +48,6 @@ class BlockCart extends Module
 	public function assignContentVars($params)
 	{
 		global $errors;
-
 		// Set currency
 		if ((int)$params['cart']->id_currency && (int)$params['cart']->id_currency != $this->context->currency->id)
 			$currency = new Currency((int)$params['cart']->id_currency);

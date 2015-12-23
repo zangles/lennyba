@@ -65,11 +65,11 @@
 			<div class="col-sm-12">{include file="$tpl_dir./errors.tpl"}</div>
 			<div class="col-sm-6 padding-right-md">
                 <form action="{$link->getPageLink('authentication', true)|escape:'html':'UTF-8'}" method="post" id="create-account_form" class="box">
-					<h2 class="color2">{l s='Create an account'}</h2>
+					<h2 class="color2">{l s='Crear cuenta'}</h2>
 					<div class="form_content clearfix">
 						<div class="alert alert-danger" id="create_account_error" style="display:none"></div>
 						<div class="form-group">
-							<label for="email_create" class="form-label">{l s='Email address'}<span class="required">*</span></label>
+							<label for="email_create" class="form-label">{l s='Correo electronico'}<span class="required">*</span></label>
 							<input type="text" class="is_required validate account_input form-control input-lg" data-validate="isEmail" id="email_create" name="email_create" value="{if isset($smarty.post.email_create)}{$smarty.post.email_create|stripslashes}{/if}" />
 						</div>
 						
@@ -77,7 +77,7 @@
 						<div class="submit">
 							{if isset($back)}<input type="hidden" class="hidden" name="back" value="{$back|escape:'html':'UTF-8'}" />{/if}
 							<input type="submit" class="btn btn-custom btn-lg min-width button_111_hover" id="SubmitCreate" name="SubmitCreate" value="{l s='Create an account'}">							
-							<input type="hidden" class="hidden" name="SubmitCreate" value="{l s='Create an account'}" />
+							<input type="hidden" class="hidden" name="SubmitCreate" value="{l s='Crear cuenta'}" />
 						</div>
 					</div>
 				</form>
@@ -85,19 +85,19 @@
 			<div class="xlg-margin visible-xs clearfix"></div>
 			<div class="col-sm-6 padding-left-md">
 				<form action="{$link->getPageLink('authentication', true)|escape:'html':'UTF-8'}" method="post" id="login_form" class="box">
-					<h2 class="color2">{l s='Already registered?'}</h2>
+					<h2 class="color2">{l s='Ya tienes una cuenta?'}</h2>
 					<div class="form_content clearfix">
 						<div class="form-group">
-							<label for="email" class="form-label">{l s='Email address'}<span class="required">*</span></label>
+							<label for="email" class="form-label">{l s='Correo electronico'}<span class="required">*</span></label>
 							<input class="is_required validate account_input form-control input-lg" data-validate="isEmail" type="text" id="email" name="email" value="{if isset($smarty.post.email)}{$smarty.post.email|stripslashes}{/if}" />
 						</div>
 						<div class="form-group">
-							<label for="passwd" class="form-label">{l s='Password'}<span class="required">*</span></label>
+							<label for="passwd" class="form-label">{l s='Contraseña'}<span class="required">*</span></label>
 							<span><input class="is_required validate account_input form-control input-lg" type="password" data-validate="isPasswd" id="passwd" name="passwd" value="{if isset($smarty.post.passwd)}{$smarty.post.passwd|stripslashes}{/if}" /></span>
 						</div>
-						<a class="help-block" href="{$link->getPageLink('password')|escape:'html':'UTF-8'}" title="{l s='Recover your forgotten password'}" rel="nofollow">{l s='Forgot your password?'}</a>
+						<a class="help-block" href="{$link->getPageLink('password')|escape:'html':'UTF-8'}" title="{l s='Recuperar contraseña'}" rel="nofollow">{l s='Recuperar contraseña'}</a>
 						<div class="xs-margin"></div>
-						<input type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-custom btn-lg min-width button_111_hover" value="{l s='Sign in'}">						
+						<input type="submit" id="SubmitLogin" name="SubmitLogin" class="btn btn-custom btn-lg min-width button_111_hover" value="{l s='Ingresar'}">
 					</div>
 				</form>
 			</div>
@@ -106,13 +106,13 @@
 			<form action="{$link->getPageLink('authentication', true, NULL, "back=$back")|escape:'html':'UTF-8'}" method="post" id="new_account_form" class="std clearfix">
 				<div class="row">
                     <div class="col-sm-6 padding-right-md">
-                        <h2 class="color2">{l s='Your Personal Details'}</h2>
+                        <h2 class="color2">{l s='Informacion personal'}</h2>
                         <div class="required form-group">
-							<label for="guest_email" class="form-label">{l s='Email address'} <sup>*</sup></label>
+							<label for="guest_email" class="form-label">{l s='Correo electronico'} <sup>*</sup></label>
 							<input required type="email" class="is_required validate form-control input-lg" data-validate="isEmail" id="guest_email" name="guest_email" value="{if isset($smarty.post.guest_email)}{$smarty.post.guest_email}{/if}" />
 						</div>
 						<div class="form-group">
-                            <label for="id_gender" class="form-label">{l s='Title'}</label>
+                            <label for="id_gender" class="form-label">{l s='Titulo'}</label>
                             <div class="large-selectbox clearfix">
                                 <select id="id_gender" name="id_gender" class="selectbox">
                                 	{foreach from=$genders key=k item=gender}
@@ -123,15 +123,15 @@
                         </div>
 						
 						<div class="required form-group">
-							<label for="firstname" class="form-label">{l s='First name'} <sup>*</sup></label>
+							<label for="firstname" class="form-label">{l s='Nombre'} <sup>*</sup></label>
 							<input type="text" required class="is_required validate form-control input-lg" data-validate="isName" id="firstname" name="firstname" value="{if isset($smarty.post.firstname)}{$smarty.post.firstname}{/if}" />
 						</div>
 						<div class="required form-group">
-							<label for="lastname" class="form-label">{l s='Last name'} <sup>*</sup></label>
+							<label for="lastname" class="form-label">{l s='Apellido'} <sup>*</sup></label>
 							<input type="text" required class="is_required validate form-control input-lg" data-validate="isName" id="lastname" name="lastname" value="{if isset($smarty.post.lastname)}{$smarty.post.lastname}{/if}" />
 						</div>
 						<div class="form-group date-select">
-							<label class="form-label">{l s='Date of Birth'}</label>
+							<label class="form-label">{l s='Fecha de nacimiento'}</label>
 							<div class="row">
 								<div class="col-xs-4">
 									<div class="large-selectbox clearfix">
@@ -170,11 +170,11 @@
 							{assign var=stateExist value=false}
 							{assign var=postCodeExist value=false}
 							<div class="lg-margin2x"></div>
-							<h2 class="color2">{l s='Invoice address'}</h2>							
+							<h2 class="color2">{l s='Direccion de facturacion'}</h2>
 							{foreach from=$inv_all_fields item=field_name}
 							{if $field_name eq "company" && $b2b_enable}
 							<div class="form-group">
-								<label for="company_invoice" class="form-label">{l s='Company'}</label>
+								<label for="company_invoice" class="form-label">{l s='Compañia'}</label>
 								<input type="text" class="text form-control input-lg" id="company_invoice" name="company_invoice" value="" />
 							</div>
 							{elseif $field_name eq "vat_number"}
@@ -187,44 +187,44 @@
 							{elseif $field_name eq "dni"}
 							{assign var=dniExist value=true}
 							<div class="required form-group dni_invoice">
-								<label for="dni" class="form-label">{l s='Identification number'} <sup>*</sup></label>
+								<label for="dni" class="form-label">{l s='Identificacion'} <sup>*</sup></label>
 								<input type="text" class="text form-control input-lg" name="dni_invoice" id="dni_invoice" value="{if isset($guestInformations) && $guestInformations.dni_invoice}{$guestInformations.dni_invoice}{/if}" />
-								<span class="form_info">{l s='DNI / NIF / NIE'}</span>
+								<span class="form_info">{l s='DNI'}</span>
 							</div>
 							{elseif $field_name eq "firstname"}
 							<div class="required form-group">
-								<label for="firstname_invoice" class="form-label">{l s='First name'} <sup>*</sup></label>
+								<label for="firstname_invoice" class="form-label">{l s='Nombre'} <sup>*</sup></label>
 								<input type="text" class="form-control input-lg" id="firstname_invoice" name="firstname_invoice" value="{if isset($guestInformations) && $guestInformations.firstname_invoice}{$guestInformations.firstname_invoice}{/if}" />
 							</div>
 							{elseif $field_name eq "lastname"}
 							<div class="required form-group">
-								<label for="lastname_invoice" class="form-label">{l s='Last name'} <sup>*</sup></label>
+								<label for="lastname_invoice" class="form-label">{l s='Apellido'} <sup>*</sup></label>
 								<input type="text" class="form-control input-lg" id="lastname_invoice" name="lastname_invoice" value="{if isset($guestInformations) && $guestInformations.lastname_invoice}{$guestInformations.lastname_invoice}{/if}" />
 							</div>
 							{elseif $field_name eq "address1"}
 							<div class="required form-group">
-								<label for="address1_invoice" class="form-label">{l s='Address'} <sup>*</sup></label>
+								<label for="address1_invoice" class="form-label">{l s='Direccion'} <sup>*</sup></label>
 								<input type="text" class="form-control input-lg" name="address1_invoice" id="address1_invoice" value="{if isset($guestInformations) && $guestInformations.address1_invoice}{$guestInformations.address1_invoice}{/if}" />
 							</div>
 							{elseif $field_name eq "address2"}
 							<div class="form-group is_customer_param">
-								<label for="address2_invoice" class="form-label">{l s='Address (Line 2)'}</label>
+								<label for="address2_invoice" class="form-label">{l s='Direccion 2'}</label>
 								<input type="text" class="form-control input-lg" name="address2_invoice" id="address2_invoice" value="{if isset($guestInformations) && $guestInformations.address2_invoice}{$guestInformations.address2_invoice}{/if}" />
 							</div>
 							{elseif $field_name eq "postcode"}
 							{$postCodeExist = true}
 							<div class="required postcode_invoice form-group">
-								<label for="postcode_invoice" class="form-label">{l s='Zip/Postal Code'} <sup>*</sup></label>
+								<label for="postcode_invoice" class="form-label">{l s='Codigo Postal'} <sup>*</sup></label>
 								<input type="text" class="form-control input-lg" name="postcode_invoice" id="postcode_invoice" value="{if isset($guestInformations) && $guestInformations.postcode_invoice}{$guestInformations.postcode_invoice}{/if}" onkeyup="$('#postcode_invoice').val($('#postcode_invoice').val().toUpperCase());" />
 							</div>
 							{elseif $field_name eq "city"}
 							<div class="required form-group">
-								<label for="city_invoice" class="form-label">{l s='City'} <sup>*</sup></label>
+								<label for="city_invoice" class="form-label">{l s='Ciudad'} <sup>*</sup></label>
 								<input type="text" class="form-control input-lg" name="city_invoice" id="city_invoice" value="{if isset($guestInformations) && $guestInformations.city_invoice}{$guestInformations.city_invoice}{/if}" />
 							</div>
 							{elseif $field_name eq "country" || $field_name eq "Country:name"}
 							<div class="form-group">
-	                            <label for="id_country_invoice" class="form-label">{l s='Country'}</label>
+	                            <label for="id_country_invoice" class="form-label">{l s='Pais'}</label>
 	                            <div class="large-selectbox clearfix">
 	                                <select name="id_country_invoice" id="id_country_invoice" class="selectbox">
 	                                	<option value="">-</option>
@@ -237,7 +237,7 @@
 							{elseif $field_name eq "state" || $field_name eq 'State:name'}
 							{$stateExist = true}
 							<div class="form-group">
-	                            <label for="id_state_invoice" class="form-label">{l s='State'}</label>
+	                            <label for="id_state_invoice" class="form-label">{l s='Provincia'}</label>
 	                            <div class="large-selectbox clearfix">
 	                                <select name="id_state_invoice" id="id_state_invoice" class="selectbox">
 	                                	<option value="">-</option>														                                   
@@ -248,13 +248,13 @@
 							{/foreach}
 							{if !$postCodeExist}
 							<div class="required postcode_invoice form-group unvisible">
-								<label for="postcode_invoice" class="form-label">{l s='Zip/Postal Code'} <sup>*</sup></label>
+								<label for="postcode_invoice" class="form-label">{l s='Codigo Postal'} <sup>*</sup></label>
 								<input type="text" class="form-control input-lg" name="postcode_invoice" id="postcode_invoice" value="" onkeyup="$('#postcode').val($('#postcode').val().toUpperCase());" />
 							</div>
 							{/if}					
 							{if !$stateExist}
 							<div class="form-group">
-	                            <label for="id_state_invoice" class="form-label">{l s='State'}</label>
+	                            <label for="id_state_invoice" class="form-label">{l s='Provincia'}</label>
 	                            <div class="large-selectbox clearfix">
 	                                <select name="id_state_invoice" id="id_state_invoice" class="selectbox">
 	                                	<option value="">-</option>														                                   
@@ -264,30 +264,30 @@
 							
 							{/if}
 							<div class="form-group is_customer_param">
-								<label for="other_invoice" class="form-label">{l s='Additional information'}</label>
+								<label for="other_invoice" class="form-label">{l s='Informacion adicional'}</label>
 								<textarea class="form-control input-lg" name="other_invoice" id="other_invoice" cols="26" rows="3"></textarea>
 							</div>
 							{if isset($one_phone_at_least) && $one_phone_at_least}
 								<p class="inline-infos required is_customer_param">{l s='You must register at least one phone number.'}</p>
 							{/if}					
 							<div class="form-group is_customer_param">
-								<label for="phone_invoice" class="form-label">{l s='Home phone'}</label>
+								<label for="phone_invoice" class="form-label">{l s='Telefono'}</label>
 								<input type="text" class="form-control input-lg" name="phone_invoice" id="phone_invoice" value="{if isset($guestInformations) && $guestInformations.phone_invoice}{$guestInformations.phone_invoice}{/if}" />
 							</div>
 							<div class="{if isset($one_phone_at_least) && $one_phone_at_least}required {/if}form-group">
-								<label for="phone_mobile_invoice" class="form-label">{l s='Mobile phone'}{if isset($one_phone_at_least) && $one_phone_at_least} <sup>*</sup>{/if}</label>
+								<label for="phone_mobile_invoice" class="form-label">{l s='Celular'}{if isset($one_phone_at_least) && $one_phone_at_least} <sup>*</sup>{/if}</label>
 								<input type="text" class="form-control input-lg" name="phone_mobile_invoice" id="phone_mobile_invoice" value="{if isset($guestInformations) && $guestInformations.phone_mobile_invoice}{$guestInformations.phone_mobile_invoice}{/if}" />
 							</div>
-							<input type="hidden" name="alias_invoice" id="alias_invoice" value="{l s='My Invoice address'}" />
+							<input type="hidden" name="alias_invoice" id="alias_invoice" value="{l s='Mi direccion de facturacion'}" />
 						</div>
                     </div>
                     <div class="md-margin visible-xs clearfix"></div>
                     <div class="col-sm-6 padding-left-md">
-                        <h2 class="color2">{l s='Delivery address'}</h2>
+                        <h2 class="color2">{l s='Direccion de envio'}</h2>
 						{foreach from=$dlv_all_fields item=field_name}
 							{if $field_name eq "company" && $b2b_enable}
 								<div class="form-group">
-									<label for="company" class="form-label">{l s='Company'}</label>
+									<label for="company" class="form-label">{l s='Compañia'}</label>
 									<input type="text" class="form-control input-lg" id="company" name="company" value="{if isset($smarty.post.company)}{$smarty.post.company}{/if}" />
 								</div>
 							{elseif $field_name eq "vat_number"}
@@ -300,35 +300,35 @@
 								{elseif $field_name eq "dni"}
 								{assign var='dniExist' value=true}
 								<div class="required dni form-group">
-									<label for="dni" class="form-label">{l s='Identification number'} <sup>*</sup></label>
+									<label for="dni" class="form-label">{l s='Identificacion'} <sup>*</sup></label>
 									<input type="text" class="form-control input-lg" name="dni" id="dni" value="{if isset($smarty.post.dni)}{$smarty.post.dni}{/if}" />
-									<span class="form_info">{l s='DNI / NIF / NIE'}</span>
+									<span class="form_info">{l s='DNI'}</span>
 								</div>
 							{elseif $field_name eq "address1"}
 								<div class="required form-group">
-									<label for="address1" class="form-label">{l s='Address'} <sup>*</sup></label>
+									<label for="address1" class="form-label">{l s='Direccion'} <sup>*</sup></label>
 									<input type="text" class="form-control input-lg" name="address1" id="address1" value="{if isset($smarty.post.address1)}{$smarty.post.address1}{/if}" />
 								</div>
 							{elseif $field_name eq "address2"}
 								<div class="form-group is_customer_param">
-									<label for="address2" class="form-label">{l s='Address (Line 2)'} <sup>*</sup></label>
+									<label for="address2" class="form-label">{l s='Direccion 2'} <sup>*</sup></label>
 									<input type="text" class="form-control input-lg" name="address2" id="address2" value="{if isset($smarty.post.address2)}{$smarty.post.address2}{/if}" />
 								</div>
 							{elseif $field_name eq "postcode"}
 								{assign var='postCodeExist' value=true}
 								<div class="required postcode form-group">
-									<label for="postcode" class="form-label">{l s='Zip/Postal Code'} <sup>*</sup></label>
+									<label for="postcode" class="form-label">{l s='Codigo Postal'} <sup>*</sup></label>
 									<input type="text" class="form-control input-lg" name="postcode" id="postcode" value="{if isset($smarty.post.postcode)}{$smarty.post.postcode}{/if}" onkeyup="$('#postcode').val($('#postcode').val().toUpperCase());" />
 								</div>
 							{elseif $field_name eq "city"}
 								<div class="required form-group">
-									<label for="city" class="form-label">{l s='City'} <sup>*</sup></label>
+									<label for="city" class="form-label">{l s='Ciudad'} <sup>*</sup></label>
 									<input type="text" class="form-control input-lg" name="city" id="city" value="{if isset($smarty.post.city)}{$smarty.post.city}{/if}" />
 								</div>
 								<!-- if customer hasn't update his layout address, country has to be verified but it's deprecated -->
-							{elseif $field_name eq "Country:name" || $field_name eq "country"}
+							{elseif $field_name eq "Country:name" || $field_name eq "Pais"}
 								<div class="form-group">
-		                            <label for="id_country" class="form-label">{l s='State'}</label>
+		                            <label for="id_country" class="form-label">{l s='Provincia'}</label>
 		                            <div class="large-selectbox clearfix">
 		                                <select name="id_country" id="id_country"  class="selectbox ">
 		                                	{foreach from=$countries item=v}
@@ -341,7 +341,7 @@
 							{elseif $field_name eq "State:name"}
 								{assign var='stateExist' value=true}
 								<div class="form-group">
-		                            <label for="id_state" class="form-label">{l s='State'}</label>
+		                            <label for="id_state" class="form-label">{l s='Provincia'}</label>
 		                            <div class="large-selectbox clearfix">
 		                                <select name="id_state" id="id_state" class="selectbox">
 											<option value="">-</option>
@@ -353,7 +353,7 @@
 						{/foreach}
 						{if $stateExist eq false}
 							<div class="form-group">
-	                            <label for="id_state" class="form-label">{l s='State'}</label>
+	                            <label for="id_state" class="form-label">{l s='Provincia'}</label>
 	                            <div class="large-selectbox clearfix">
 	                                <select name="id_state" id="id_state"  class="selectbox">
 										<option value="">-</option>
@@ -364,28 +364,28 @@
 						{/if}
 						{if $postCodeExist eq false}
 							<div class="required postcode unvisible form-group">
-								<label for="postcode" class="form-label">{l s='Zip/Postal Code'} <sup>*</sup></label>
+								<label for="postcode" class="form-label">{l s='Codigo Postal'} <sup>*</sup></label>
 								<input type="text" class="form-control input-lg" name="postcode" id="postcode" value="{if isset($smarty.post.postcode)}{$smarty.post.postcode}{/if}" onkeyup="$('#postcode').val($('#postcode').val().toUpperCase());" />
 							</div>
 						{/if}
 						{if $dniExist eq false}
 							<div class="required form-group dni_invoice">
-								<label for="dni" class="form-label">{l s='Identification number'} <sup>*</sup></label>
+								<label for="dni" class="form-label">{l s='Identificacion'} <sup>*</sup></label>
 								<input type="text" class="text form-control input-lg" name="dni_invoice" id="dni_invoice" value="{if isset($guestInformations) && $guestInformations.dni_invoice}{$guestInformations.dni_invoice}{/if}" />
-								<span class="form_info">{l s='DNI / NIF / NIE'}</span>
+								<span class="form_info">{l s='DNI'}</span>
 							</div>
 						{/if}
 						<div class="{if isset($one_phone_at_least) && $one_phone_at_least}required {/if}form-group">
-							<label for="phone_mobile" class="form-label">{l s='Mobile phone'}{if isset($one_phone_at_least) && $one_phone_at_least} <sup>*</sup>{/if}</label>
+							<label for="phone_mobile" class="form-label">{l s='Celular'}{if isset($one_phone_at_least) && $one_phone_at_least} <sup>*</sup>{/if}</label>
 							<input type="text" class="form-control input-lg" name="phone_mobile" id="phone_mobile" value="{if isset($smarty.post.phone_mobile)}{$smarty.post.phone_mobile}{/if}" />
 						</div>
-						<input type="hidden" name="alias" id="alias" value="{l s='My address'}" />
+						<input type="hidden" name="alias" id="alias" value="{l s='Mi Direccion'}" />
 						<input type="hidden" name="is_new_customer" id="is_new_customer" value="0" />
 						<div class="checkbox">
 							<input type="checkbox" name="invoice_address" id="invoice_address"{if (isset($smarty.post.invoice_address) && $smarty.post.invoice_address) || (isset($guestInformations) && $guestInformations.invoice_address)} checked="checked"{/if} autocomplete="off"/>
 		                	<label for="invoice_address" class="form-label">
 								
-								{l s='Please use another address for invoice'}
+								{l s='Por favor use otra direccion de facturacion'}
 							</label>
 						</div>
 						
@@ -411,7 +411,7 @@
 						{/if}
 						
                         <div class="xs-margin"></div>
-                        <input type="submit" name="submitGuestAccount" id="submitGuestAccount" class="btn btn-custom btn-lg" value="{l s='Create Account'}">
+                        <input type="submit" name="submitGuestAccount" id="submitGuestAccount" class="btn btn-custom btn-lg" value="{l s='Crear cuenta'}">
                         <div class="lg-margin2x"></div>
                         {$HOOK_CREATE_ACCOUNT_FORM}
                     </div>

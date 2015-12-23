@@ -482,6 +482,24 @@ class CategoryCore extends ObjectModel
 		return $categories;
 	}
 
+	public static function getCollectionCategories($id = 18)
+	{
+		$result = Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS('
+			SELECT *
+			FROM `'._DB_PREFIX_.'category` c
+			'.Shop::addSqlAssociation('category', 'c').'
+			LEFT JOIN `'._DB_PREFIX_.'category_lang` cl ON c.`id_category` = cl.`id_category`'.Shop::addSqlRestrictionOnLang('cl').'
+			WHERE `active` = 1
+			AND c.`id_parent` = '. $id
+		);
+
+		$categories = array();
+		foreach ($result as $row)
+			$categories[$row['id_category']]['infos'] = $row;
+
+		return $categories;
+	}
+
 	public static function getNestedCategories($root_category = null, $id_lang = false, $active = true, $groups = null,
 		$use_shop_restriction = true, $sql_filter = '', $sql_sort = '', $sql_limit = '')
 	{

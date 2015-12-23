@@ -87,20 +87,54 @@
 				   <div class="row" style="height: 100px">
 
 					  <div class="col-sm-2 col-sm-offset-4 menu_item">
-						  <a href="{$link->getCategoryLink(15)|escape:'html':'UTF-8'}" style="color: #000;">COLECCIONES</a>
+						  <a class="dropdown-toggle colectionMenu" href="{$link->getCategoryLink(15)|escape:'html':'UTF-8'}" style="color: #000;">COLECCIONES</a>
+						  <ul class="dropdown-menu" style="top: 75px">
+							  <li><a href="{$link->getCMSLink('7-gitano-ss16')|escape:'html':'UTF-8'}" title="{l s='SS16' mod='blockuserinfo'}" class="account" rel="nofollow">{l s='SS16' mod='blockuserinfo'}</a></li>
+						  </ul>
+						  <script type="text/javascript">
+							  (function($){
+								  $('.colectionMenu, .lookbookMenu, .videoMenu').click(function(event){
+									  event.preventDefault();
+								  });
+								  $('.colectionMenu, .lookbookMenu, .videoMenu').hover(function(){
+											  $(this).addClass('open');
+										  },
+										  function(){
+											  $(this).removeClass('open');
+										  });
+							  })(jQuery);
+						  </script>
 					  </div>
-					  <div class="col-sm-2 menu_item text-right">LOOKBOOK</div>
-					  <div class="col-sm-2 menu_item text-right">VIDEO</div>
+
+					   <div class="col-sm-3 menu_item text-center" >
+						   <a href="{$link->getCMSLink('8-01' )|escape:'html':'UTF-8'}" class=" dropdown-toggle lookbookMenu" style="color: #000;">
+								LOOKBOOK
+						   </a>
+						   <ul class="dropdown-menu" style="top: 75px">
+							   <li><a href="{$link->getCMSLink('8-01')|escape:'html':'UTF-8'}" title="{l s='SS16' mod='blockuserinfo'}" class="account" rel="nofollow">{l s='SS16' mod='blockuserinfo'}</a></li>
+						   </ul>
+					   </div>
+
+					  <div class="col-sm-1 menu_item text-right dropdown-toggle videoMenu">
+						  <a href="#" class=" dropdown-toggle videoMenu" style="color: #000;">
+							  VIDEO
+						  </a>
+						  <ul class="dropdown-menu" style="top: 75px">
+							  <li><a href="{$link->getCMSLink('10-video-ss16')|escape:'html':'UTF-8'}" title="{l s='SS16' mod='blockuserinfo'}" class="account" rel="nofollow">{l s='SS16' mod='blockuserinfo'}</a></li>
+						  </ul>
+					  </div>
 					   <a href="/">
 						  <div class="col-sm-4 menu_item text-center" style="padding-top: 29px">
 							  <img src="{$base_dir}/LOGO-LENNY-NEGRO.png" style="max-width: 228px; ">
 						  </div>
+
 					   </a>
 					   <a href="{$link->getCategoryLink(12)|escape:'html':'UTF-8'}">
-						   <div class="col-sm-2 menu_item">E-SHOP</div>
+						   <div class="col-sm-2 menu_item text-center">E-SHOP</div>
 					   </a>
-					  <div class="col-sm-2 menu_item">ABOUT</div>
-
+					   <a href="{$link->getCMSLink('9-about' )|escape:'html':'UTF-8'}">
+					  		<div class="col-sm-2 menu_item text-center">ABOUT</div>
+					   </a>
 					   <a href="{$link->getPageLink('contact-form.php', true)}">
 						   <div class="col-sm-2 menu_item">
 						   	{l s='CONTACTO' mod='blockcms'}
@@ -108,15 +142,15 @@
 					   </a>
                   </div>
 				   <div class="row"  style="background-color: black;color:white">
-					   <div class="col-sm-2 col-sm-offset-4 dropdown">
+					   <div class="col-sm-3 col-sm-offset-3 dropdown" style="margin-top: 5px;">
 						   <a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" title="{l s='View my customer account' mod='blockuserinfo'}" class="btn-top-account dropdown-toggle"  style="color: #fff;">
 							   <img src="{$base_dir}/img/azs/menu_icon_mi_cuenta.jpg" alt="">
 							   Mi Cuenta
 						   </a>
 						   <ul class="dropdown-menu">
-							   <li class="myaccount-link"><a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" title="{l s='View my customer account' mod='blockuserinfo'}" class="account" rel="nofollow">{l s='My account' mod='blockuserinfo'}</a></li>
+							   <li class="myaccount-link"><a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" title="{l s='Ver mi cuenta' mod='blockuserinfo'}" class="account" rel="nofollow">{l s='Mi cuenta' mod='blockuserinfo'}</a></li>
 							   <li class="checkout-link"><a href="{$link->getPageLink('order', true)|escape:'html':'UTF-8'}" title="{l s='Checkout' mod='blockuserinfo'}">{l s='Checkout' mod='blockuserinfo'}</a></li>
-							   <li class="mywishlist-link"><a href="{$link->getModuleLink('blockwishlist', 'mywishlist', array(), true)|escape:'html':'UTF-8'}"  rel="nofollow" title="{l s='Favoritos' mod='blockuserinfo'}">{l s='My wishlists' mod='blockuserinfo'}</a></li>
+							   <li class="mywishlist-link"><a href="{$link->getModuleLink('blockwishlist', 'mywishlist', array(), true)|escape:'html':'UTF-8'}"  rel="nofollow" title="{l s='Favoritos' mod='blockuserinfo'}">{l s='Favoritos' mod='blockuserinfo'}</a></li>
 						   </ul>
 						   <script type="text/javascript">
 							   (function($){
@@ -132,27 +166,33 @@
 							   })(jQuery);
 						   </script>
 					   </div>
-					   <div class="col-sm-2" >
+					   <div class="col-sm-3" style="margin-top: 5px;">
 						   <a href="{$link->getPageLink('order', true)|escape:'html':'UTF-8'}" title="{l s='Checkout' mod='blockuserinfo'}"  style="color: #fff;">
 							   <img src="{$base_dir}/img/azs/menu_icon_checkout.jpg" alt="">{l s='Checkout' mod='blockuserinfo'}
 						   </a>
 					   </div>
-					   <div class="col-sm-2">
+					   <div class="col-sm-3" style="margin-top: 5px;">
 						   <a href="{$link->getModuleLink('blockwishlist', 'mywishlist', array(), true)|escape:'html':'UTF-8'}"  rel="nofollow" title="{l s='My wishlists' mod='blockuserinfo'}"  style="color: #fff;">
 							   <img src="{$base_dir}/img/azs/menu_icon_favs.jpg" alt="">
 							   {l s='Favoritos' mod='blockuserinfo'}
 						   </a>
 					   </div>
-						{if $logged}
-						   <div class="col-sm-2">
+
+					   <div class="col-sm-2">
+						   {if $logged}
 							   <a href="{$base_dir}index.php?mylogout" style="color: #fff;">
 								<img src="{$base_dir}/img/azs/menu_icon_login.jpg" alt="">
 								   {l s='Log out'}
 							   </a>
-						   </div>
-							{/if}
-					   <div class="col-sm-2">&nbsp;</div>
-					   {if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
+						   {else}
+							&nbsp;
+						   {/if}
+					   </div>
+
+					   <div class="col-sm-9">
+						   {if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
+					   </div>
+
 					   {*<div class="col-sm-2">$ Pesos Arg</div>*}
 					   {*<div class="col-sm-2">*}
 						   {*<img src="{$base_dir}/img/azs/menu_icon_items.jpg" alt="">*}
