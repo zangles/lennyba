@@ -45,12 +45,12 @@
 	
 {/if}
 <section id="content" role="main">
-    <div id="product-single-container" class="light" itemscope itemtype="http://schema.org/Product" >
+    <div id="product-single-container" class="light" style="height: 570px;" itemscope itemtype="http://schema.org/Product" >
     	{include file="$tpl_dir./breadcrumb.tpl" class_name="absolute"}
     	<div class="sidebg left"></div>
 		<div class="sidebg middle visible-sm"></div>
 		<div class="sidebg right"></div>		
-		<div class="carousel-container">
+		<div class="carousel-container" style="margin-top: 50px">
 		    <div class="container">
 		        <div class="row">
 		            <div class="col-sm-6 col-sm-offset-4">
@@ -72,7 +72,7 @@
 		    </div>
 		</div>
 		<div class="md-margin2x visible-sm visible-xs"></div>
-		<div class="product-single-meta-container ">
+		<div class="product-single-meta-container " style="margin-top: 50px">
 		    <div class="container">		    	
 			        <div class="col-md-10 col-md-push-10 product-single-meta">
 			            <h2 class="product-name">{$product->name|escape:'html':'UTF-8'}</h2>

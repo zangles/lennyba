@@ -86,6 +86,7 @@ class CmsControllerCore extends FrontController
 	{
 		parent::setMedia();
 
+		$this->addJS(_THEME_JS_DIR_.'carousel.js');
 		if ($this->assignCase == 1)
 			$this->addJS(_THEME_JS_DIR_.'cms.js');
 

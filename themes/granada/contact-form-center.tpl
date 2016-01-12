@@ -2,7 +2,7 @@
 
 	<div class="col-sm-24 contact-container">
         <div class="row">
-            <div class="col-sm-18">
+            <div class="col-sm-17">
                 {if isset($confirmation)}
                     <p class="alert alert-success">{l s='Your message has been successfully sent to our team.'}</p>
                     <ul class="footer_links clearfix">
@@ -31,7 +31,7 @@
                         <form action="{$request_uri|escape:'html':'UTF-8'}" method="post" class="contact-form-box" enctype="multipart/form-data">
 
                             <fieldset>
-                                <h2 class="page-subheading">{l s='Write Your Review'}</h2>
+                                <h2 class="page-subheading">{l s='Contactanos'}</h2>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
@@ -65,7 +65,7 @@
                                             <textarea class="form-control input-lg min-height" id="message" name="message">{if isset($message)}{$message|escape:'html':'UTF-8'|stripslashes}{/if}</textarea>
                                         </div>
                                         <div class="submit">
-                                            <button type="submit" name="submitMessage" id="submitMessage" class="btn btn-lg btn-custom-5"><span>{l s='Send contact'}</span></button>
+                                            <button type="submit" name="submitMessage" id="submitMessage" class="btn btn-lg btn-custom-5"><span>{l s='Enviar'}</span></button>
                                         </div>
                                     </div>
                                 </div>
@@ -74,12 +74,12 @@
                     </div>
                 {/if}
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-7">
                 <address>
-                    <strong>DETALLE DE CONTACTO</strong><br>
-                    Phone: +430 980 1479<br>
-                    Fax: +430 452 5558<br>
-                    Email: lennyba@gmail.com
+                    Teléfono:  4774-929<br>
+                    Dirección: Chenaut 1715  5ºC <br>
+                    Horario: Lun-Vie 14:00-20:00 <br>
+                    Email: info@lennyba.com.ar
                 </address>
             </div>
         </div>

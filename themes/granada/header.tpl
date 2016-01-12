@@ -57,8 +57,9 @@
 		<script type="text/javascript">
 		//<![CDATA[
 		//if (typeof EM == 'undefined') EM = {};
-		//]]	
+		//]]
 		</script>
+
 	</head>
 	<body{if isset($page_name)} id="{$page_name|escape:'html':'UTF-8'}"{/if} class="{if isset($body_classes) && $body_classes|@count} {implode value=$body_classes separator=' '}{/if}{if $hide_left_column} hide-left-column{/if}{if $hide_right_column} hide-right-column{/if}{if isset($content_only) && $content_only} content_only{/if} lang_{$lang_iso} {$current_dir} content-type wide granada-theme {if $page_name =='index'}index-page{else}orther-page{/if}">
 	{addJsDef tplUri=$tpl_uri}
