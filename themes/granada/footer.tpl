@@ -11,7 +11,7 @@
                                 <ul class="list-unstyled">
                                     <li>
                                         <a href="{$link->getCMSLink('11-envios' )|escape:'html':'UTF-8'}" style="font-size: 11px;">
-                                            Informacion de envios
+                                            Informaci&ocute;n de envios
                                         </a>
                                     </li>
                                     <li>
@@ -58,27 +58,27 @@
                                 </ul>
                             </div>
 					    	<div class="col-sm-4">
-                                FACEBOOK
+                                {*FACEBOOK*}
                                 {*<a class="facebook-like-btn" id="facebook-like-btn" href="#">Like!</a>*}
 
-                                <div id="fb-root"></div>
-                                <script>(function(d, s, id) {
-                                  var js, fjs = d.getElementsByTagName(s)[0];
-                                  if (d.getElementById(id)) return;
-                                  js = d.createElement(s); js.id = id;
-                                  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5";
-                                  fjs.parentNode.insertBefore(js, fjs);
-                                }(document, 'script', 'facebook-jssdk'));</script>
-                                <script >
-                                    $(document).ready(function(){
-                                        $("#facebook-like-btn").click(function(){
-                                              $(".fb-like").find("a.connect_widget_like_button").click();
-                                              // You can look elements in facebook like button with firebug or developer tools.
-                                              return false;
-                                        });
-                                    });
-                                </script>
-                                <div style="display:none" class="fb-like" data-href="https://www.facebook.com/lennybuenosaires/?fref=ts" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                                {*<div id="fb-root"></div>*}
+                                {*<script>(function(d, s, id) {*}
+                                  {*var js, fjs = d.getElementsByTagName(s)[0];*}
+                                  {*if (d.getElementById(id)) return;*}
+                                  {*js = d.createElement(s); js.id = id;*}
+                                  {*js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5";*}
+                                  {*fjs.parentNode.insertBefore(js, fjs);*}
+                                {*}(document, 'script', 'facebook-jssdk'));</script>*}
+                                {*<script >*}
+                                    {*$(document).ready(function(){*}
+                                        {*$("#facebook-like-btn").click(function(){*}
+                                              {*$(".fb-like").find("a.connect_widget_like_button").click();*}
+                                              {*// You can look elements in facebook like button with firebug or developer tools.*}
+                                              {*return false;*}
+                                        {*});*}
+                                    {*});*}
+                                {*</script>*}
+                                {*<div style="display:none" class="fb-like" data-href="https://www.facebook.com/lennybuenosaires/?fref=ts" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>*}
                             </div>
                         </div>
                         <div class="row">

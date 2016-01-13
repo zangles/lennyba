@@ -23,6 +23,8 @@
 *  International Registered Trademark & Property of PrestaShop SA
 */
 $(document).ready(function(){
+	$('.carousel').carousel();
+
 	if (typeof ad !== 'undefined' && ad && typeof adtoken !== 'undefined' && adtoken)
 	{
 		$(document).on('click', 'input[name=publish_button]', function(e){

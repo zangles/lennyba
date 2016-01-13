@@ -106,7 +106,7 @@
 						">
 						<div class="text-center verticalcenter">
 							<p  style="font-size: 50px;margin-top: 12px;">ACCESORIOS</p>
-							<a href="{$link->getCategoryLink(15)|escape:'html':'UTF-8'}">
+							<a href="{$link->getCategoryLink(71)|escape:'html':'UTF-8'}">
 								<div class="btn-action"  style="background-color: white;color: black;">COMPRAR</div>
 							</a>
 						</div>

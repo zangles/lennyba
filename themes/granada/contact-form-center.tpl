@@ -75,7 +75,7 @@
                 {/if}
             </div>
             <div class="col-sm-7">
-                <address>
+                <address style="margin-top: 84px;">
                     Teléfono:  4774-929<br>
                     Dirección: Chenaut 1715  5ºC <br>
                     Horario: Lun-Vie 14:00-20:00 <br>
