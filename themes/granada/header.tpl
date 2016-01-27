@@ -87,7 +87,7 @@
 
 				   <div class="row" style="height: 100px">
 
-					  <div class="col-sm-2 col-sm-offset-4 menu_item">
+					  <div class="col-sm-2 col-sm-offset-3 menu_item">
 						  <a class="dropdown-toggle colectionMenu" href="{$link->getCategoryLink(15)|escape:'html':'UTF-8'}" style="color: #000;">COLECCIONES</a>
 						  <ul class="dropdown-menu" style="top: 75px">
 							  <li><a href="{$link->getCMSLink('7-gitano-ss16')|escape:'html':'UTF-8'}" title="{l s='SS16' mod='blockuserinfo'}" class="account" rel="nofollow">{l s='SS16' mod='blockuserinfo'}</a></li>
@@ -108,7 +108,7 @@
 					  </div>
 
 					   <div class="col-sm-3 menu_item text-center" >
-						   <a href="{$link->getCMSLink('8-01' )|escape:'html':'UTF-8'}" class=" dropdown-toggle lookbookMenu" style="color: #000;">
+						   <a href="{$link->getCMSLink('8-01' )|escape:'html':'UTF-8'}" style="margin-left: 20px;" class=" dropdown-toggle lookbookMenu" style="color: #000;">
 								LOOKBOOK
 						   </a>
 						   <ul class="dropdown-menu" style="top: 75px">
@@ -116,7 +116,7 @@
 						   </ul>
 					   </div>
 
-					  <div class="col-sm-1 menu_item text-right dropdown-toggle videoMenu">
+					  <div class="col-sm-2 menu_item text-center dropdown-toggle videoMenu">
 						  <a href="#" class=" dropdown-toggle videoMenu" style="color: #000;">
 							  VIDEO
 						  </a>
@@ -126,7 +126,7 @@
 					  </div>
 					   <a href="/">
 						  <div class="col-sm-4 menu_item text-center" style="padding-top: 29px">
-							  <img src="{$base_dir}/LOGO-LENNY-NEGRO.png" style="max-width: 228px; ">
+							  <img class="img-responsive" src="{$base_dir}/LOGO-LENNY-NEGRO.png" style="max-width: 228px; ">
 						  </div>
 
 					   </a>

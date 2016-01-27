@@ -196,7 +196,7 @@
 			<div class="row" style="margin-top: 75px">
 				<div class="col-md-24 text-center">
 					<h1>NEWSLETTER</h1>
-					<p style="color: black">Suscribete ahora y estaras al dia de nuestras novedades, ultimos lookbooks y promociones exclusivas</p>
+					<p style="color: black"> Suscribite ahora y estarás al día de nuestras novedades, últimos lookbooks y promociones exclusivas</p>
 				</div>
 				<div class="col-md-6 col-md-offset-9">
 					<div class="input-group">

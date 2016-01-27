@@ -7,11 +7,11 @@
 					<footer id="footer" class="footer5">
 					    <div class="row">
 					    	<div class="col-sm-4 col-sm-offset-4">
-                                <p style="font-size: 14px;">ATENCION AL CLIENTE</p>
+                                <p style="font-size: 14px;">ATENCIÓN AL CLIENTE</p>
                                 <ul class="list-unstyled">
                                     <li>
                                         <a href="{$link->getCMSLink('11-envios' )|escape:'html':'UTF-8'}" style="font-size: 11px;">
-                                            Informaci&ocute;n de envios
+                                            Informaci&oacute;n de envios
                                         </a>
                                     </li>
                                     <li>

@@ -207,9 +207,9 @@
 
     {counter name=active_overlay assign=active_overlay}
     {if !$PS_CATALOG_MODE && $active_overlay == 1}
-    	<div id="layer_cart" class="layer_cart layer_cart_content">
+    	<div id="layer_cart" class="layer_cart layer_cart_content" style="position: fixed;top: 0px; ">
     		<div class="clearfix">
-    			<div class="layer_cart_product col-xs-12 col-md-6">
+    			<div class="layer_cart_product col-xs-24 col-md-12">
     				<span class="cross delete-btn" title="{l s='Close window' mod='blockcart'}"></span>
     				<h2>
     					{l s='Product successfully added to your shopping cart' mod='blockcart'}
@@ -229,7 +229,7 @@
     					</div>
     				</div>
     			</div>
-    			<div class="layer_cart_cart col-xs-12 col-md-6">
+    			<div class="layer_cart_cart col-xs-24 col-md-12">
     				<h2>
     					<!-- Plural Case [both cases are needed because page may be updated in Javascript] -->
     					<span class="ajax_cart_product_txt_s {if $cart_qties < 2} unvisible{/if}">

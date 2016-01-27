@@ -7890,13 +7890,13 @@ fieldset[disabled] .btn-custom-5:hover{background-color:transparent;border-color
 .btn-custom-6:active,
 .btn-custom-6:focus,
 .btn-custom-6:hover,
-.open .dropdown-toggle.btn-custom-6{color:#fff;background-color:#e61446;border-color:transparent}
+.open .dropdown-toggle.btn-custom-6{color:#fff;background-color:#000;border-color:transparent}
 .btn-custom-7{color:#686660;background-color:transparent;border-color:#95938c;text-transform:uppercase}
 .btn-custom-7.active,
 .btn-custom-7:active,
 .btn-custom-7:focus,
 .btn-custom-7:hover,
-.open .dropdown-toggle.btn-custom-7{color:#fff;background-color:#e61446;border-color:#e61446}
+.open .dropdown-toggle.btn-custom-7{color:#fff;background-color:#000;border-color:#000}
 .btn-custom-8{color:#949188;background-color:transparent;border-color:#d7d5cb;text-transform:uppercase}
 .btn-custom-8.active,
 .btn-custom-8:active,
@@ -7908,7 +7908,7 @@ fieldset[disabled] .btn-custom-5:hover{background-color:transparent;border-color
 .btn-custom-9:active,
 .btn-custom-9:focus,
 .btn-custom-9:hover,
-.open .dropdown-toggle.btn-custom-9{color:#fff;background-color:#e61446;border-color:#e61446}
+.open .dropdown-toggle.btn-custom-9{color:#fff;background-color:#000;border-color:#000}
 .btn-custom-10{color:#675f56;background-color:transparent;border-color:#675f56;text-transform:uppercase}
 .btn-custom-10.active,
 .btn-custom-10:active,
@@ -12956,7 +12956,7 @@ html.fsvs #index #header{background:transparent;border-bottom-color:#888888}
 
 .granada_home10 .button
 {background:#cbc6b2;display:inline-block;padding:7px 15px;border:0;color:#FFFFFF;font-size:14px;font-weight:normal;font-family:"Open Sans",Arial,Helvetica,sans-serif;line-height:20px;text-align:center;text-transform:uppercase;vertical-align:middle;white-space:nowrap;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}
-.button:hover{background:#e61446;cursor:pointer;color:#FFFFFF;outline:none;}
+.button:hover{background:#000;cursor:pointer;color:#FFFFFF;outline:none;}
 .button.btn-lg{padding:12px 18px;font-size:16px;line-height:22px;border-radius:0;min-width:160px; display: inline-block; text-transform: uppercase}
 @media only screen and (max-width:767px){.button.btn-lg{font-size:15px;padding:8px 14px;}}
 

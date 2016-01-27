@@ -45,7 +45,7 @@
 	
 {/if}
 <section id="content" role="main">
-    <div id="product-single-container" class="light" style="height: 570px;" itemscope itemtype="http://schema.org/Product" >
+    <div id="product-single-container" class="light" style="height: 685px;" itemscope itemtype="http://schema.org/Product" >
     	{include file="$tpl_dir./breadcrumb.tpl" class_name="absolute"}
     	<div class="sidebg left"></div>
 		<div class="sidebg middle visible-sm"></div>
@@ -116,11 +116,11 @@
 					                	<meta itemprop="reviewCount" content="{$rate.review}">
 				                    </div>
 				                    <span class="separator">|</span>
-				                    <span class="ratings-amount">{$rate.review} {l s='Review(s)'}</span>				                    
+				                    <span class="ratings-amount">{$rate.review} {l s='Review(s)'}</span>
 				                    {if ($too_early == false AND ($is_logged OR $allow_guests))}
 				                    	<span class="separator">|</span>
-				                    	<a class="open-comment-form add-rating" data-elId="product-tab-contents" href="javascript:void(0)">{l s='Write a review'}</a>				                    	
-									{/if}  
+				                    	<a class="open-comment-form add-rating" data-elId="product-tab-contents" href="javascript:void(0)">{l s='Write a review'}</a>
+									{/if}
 									{*}
 				                    <div class="hidden">{if isset($HOOK_EXTRA_RIGHT) && $HOOK_EXTRA_RIGHT}{$HOOK_EXTRA_RIGHT}{/if}</div>
 				                    {*}
@@ -247,9 +247,7 @@
 				{/if}
 				
 				
-				{if $HOOK_PRODUCT_TAB}
-					{$HOOK_PRODUCT_TAB}
-				{/if}	                
+
 			</ul>	    
 			<!-- Tab panes -->
 			<div class="tab-content" id="product-tab-contents">
