@@ -1,4 +1,4 @@
-<div class="col-sm-4">
+<div class="">
 {if isset($blockcart_top) && $blockcart_top}
 	<div class="cart-dropdown dropdown pull-left shopping_cart_container{if $PS_CATALOG_MODE} header_user_catalog{/if}" >
 {/if}
@@ -40,7 +40,7 @@
 					<div class="block_content">
 						<!-- block list of products -->
 						<div class="cart_block_list{if isset($blockcart_top) && !$blockcart_top}{if isset($colapseExpandStatus) && $colapseExpandStatus eq 'expanded' || !$ajax_allowed || !isset($colapseExpandStatus)} expanded{else} collapsed unvisible{/if}{/if}">
-							<p class="cart-desc"><span class="ajax_cart_quantity">{$cart_qties}</span> {l s='item(s) in your cart' mod='blockcart'} -
+							<p class="cart-desc"><span class="ajax_cart_quantity">{$cart_qties}</span> {l s='articulo(s) en su carrito' mod='blockcart'} -
 								<span class="ajax_cart_total">
 				    				{if $cart_qties > 0}
 				    					{if $priceDisplay == 1}

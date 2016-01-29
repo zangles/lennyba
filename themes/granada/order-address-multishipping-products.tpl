@@ -28,7 +28,7 @@
 	<table id="cart_summary" class="table table-bordered multishipping-cart">
 		<thead>
 			<tr>
-				<th class="cart_product first_item table-title">{l s='Product'}</th>
+				<th class="cart_product first_item table-title">{l s='Producto'}</th>
 				<th class="cart_description item table-title">{l s='Description'}</th>
 				<th class="cart_ref item table-title">{l s='Ref.'}</th>
                 <th class="cart_avail item table-title">{l s='Avail.'}</th>

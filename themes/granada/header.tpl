@@ -190,7 +190,7 @@
 						   {/if}
 					   </div>
 
-					   <div class="col-sm-9">
+					   <div class="col-sm-10">
 						   {if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
 					   </div>
 

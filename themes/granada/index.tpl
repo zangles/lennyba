@@ -124,11 +124,11 @@
 			<div class="row" style="margin-top: 100px;">
 				<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
 					<!-- Indicators -->
-					<ol class="carousel-indicators">
-						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-					</ol>
+					{*<ol class="carousel-indicators">*}
+						{*<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>*}
+						{*<li data-target="#carousel-example-generic" data-slide-to="1"></li>*}
+						{*<li data-target="#carousel-example-generic" data-slide-to="2"></li>*}
+					{*</ol>*}
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">

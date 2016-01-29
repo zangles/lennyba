@@ -81,9 +81,9 @@
 							{foreach $delivery_option_list as $id_address => $option_list}
 								<p class="carrier_title">
 									{if isset($address_collection[$id_address])}
-										{l s='Choose a shipping option for this address:'} {$address_collection[$id_address]->alias}
+										{l s='Seleccione una opción de envio para esta dirección:'} {$address_collection[$id_address]->alias}
 									{else}
-										{l s='Choose a shipping option'}
+										{l s='Seleccione una opción de envio'}
 									{/if}
 								</p>
 								<div class="delivery_options">
@@ -141,7 +141,7 @@
 																		{convertPrice price=$option.total_price_without_tax}
 																	{/if}
 																{else}
-																	{l s='Free'}
+																	{l s='Gratis'}
 																{/if}
 															</div>
 														</td>
@@ -348,11 +348,11 @@
 						{/if}
 					{/if}
 					{if $conditions AND $cms_id}
-						<p class="carrier_title">{l s='Terms of service'}</p>
+						<p class="carrier_title">{l s='Terminos del servicio'}</p>
 						<p class="checkbox">
 							<input type="checkbox" name="cgv" id="cgv" value="1" {if $checkedTOS}checked="checked"{/if} />
-							<label for="cgv" class="form-label">{l s='I agree to the terms of service and will adhere to them unconditionally.'}</label>
-							<a href="{$link_conditions|escape:'html':'UTF-8'}" class="iframe" rel="nofollow">{l s='(Read the Terms of Service)'}</a>
+							<label for="cgv" class="form-label">{l s='Estoy de acuerdo con los terminos y condiciones.'}</label>
+							<a href="{$link_conditions|escape:'html':'UTF-8'}" class="iframe" rel="nofollow">{l s='(Leer terminos y condiciones)'}</a>
 						</p>
 					{/if}
 					
@@ -382,26 +382,26 @@
 							<input type="hidden" name="back" value="{$back}" />
 							{if !$is_guest}
 								{if $back}
-									<a href="{$link->getPageLink('order', true, NULL, "step=1&back={$back}&multi-shipping={$multi_shipping}")|escape:'html':'UTF-8'}" title="{l s='Previous'}" class="button-exclusive btn btn-default button_111_hover">
+									<a href="{$link->getPageLink('order', true, NULL, "step=1&back={$back}&multi-shipping={$multi_shipping}")|escape:'html':'UTF-8'}" title="{l s='Previous'}" class="button-exclusive btn btn-default ">
 										<i class="icon-chevron-left"></i>
-										{l s='Continue shopping'}
+										{l s='Continuar comprando'}
 									</a>
 								{else}
-									<a href="{$link->getPageLink('order', true, NULL, "step=1&multi-shipping={$multi_shipping}")|escape:'html':'UTF-8'}" title="{l s='Previous'}" class="button-exclusive btn btn-default button_111_hover">
+									<a href="{$link->getPageLink('order', true, NULL, "step=1&multi-shipping={$multi_shipping}")|escape:'html':'UTF-8'}" title="{l s='Previous'}" class="button-exclusive btn btn-default ">
 										<i class="icon-chevron-left"></i>
-										{l s='Continue shopping'}
+										{l s='Continuar comprando'}
 									</a>
 								{/if}
 							{else}
-								<a href="{$link->getPageLink('order', true, NULL, "multi-shipping={$multi_shipping}")|escape:'html':'UTF-8'}" title="{l s='Previous'}" class="button-exclusive btn btn-default button_111_hover">
+								<a href="{$link->getPageLink('order', true, NULL, "multi-shipping={$multi_shipping}")|escape:'html':'UTF-8'}" title="{l s='Previous'}" class="button-exclusive btn btn-default ">
 									<i class="icon-chevron-left"></i>
-									{l s='Continue shopping'}
+									{l s='Continuar comprando'}
 								</a>
 							{/if}
 							{if isset($virtual_cart) && $virtual_cart || (isset($delivery_option_list) && !empty($delivery_option_list))}
-								<button type="submit" name="processCarrier" class="button btn btn-default standard-checkout button-medium button_111_hover">
+								<button type="submit" name="processCarrier" class="button btn btn-default standard-checkout button-medium">
 									<span>
-										{l s='Proceed to checkout'}
+										{l s='Procesar pedido'}
 										<i class="icon-chevron-right right"></i>
 									</span>
 								</button>
